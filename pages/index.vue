@@ -29,7 +29,7 @@
                   <div class="banner-img">
                     <img
                       class="img-fluid"
-                      src="/assets/images/wandago-feature.webp"
+                      src="/assets/images/campingtoiletten/campingtoilette-trobolo-wandago.webp"
                       alt=""
                     />
                   </div>
@@ -623,15 +623,15 @@
               <div class="single-exclusive-slider">
                 <img
                   class="img-fluid"
-                  src="/assets/images/img/product/e-p1.png"
+                  src="/assets/images/campingtoiletten/campingtoilette-trobolo-wandago.webp"
                   alt=""
                 />
                 <div class="product-details">
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>199,00 EUR</h6>
+                    <!-- <h6 class="l-through">$210.00</h6> -->
                   </div>
-                  <h4>addidas New Hammer sole for Sports person</h4>
+                  <h4>TROBOLO WandaGO Campingtoilette</h4>
                   <div
                     class="
                       add-bag
@@ -641,7 +641,7 @@
                     "
                   >
                     <a class="add-btn" href=""><span class="ti-bag"></span></a>
-                    <span class="add-text text-uppercase">Add to Bag</span>
+                    <span class="add-text text-uppercase">Mehr erfahren</span>
                   </div>
                 </div>
               </div>
