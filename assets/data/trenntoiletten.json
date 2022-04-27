@@ -400,7 +400,7 @@
     {
         "sku": "T2XX1370",
         "name": "TROBOLO\u00ae TinyBl\u0153m",
-        "category": "",
+        "category": "Trenntoilette",
         "material": "",
         "size": "",
         "weight": "",
@@ -631,7 +631,7 @@
     {
         "sku": "U6AXX1360",
         "name": "Adapter-System Filtersieb",
-        "category": "",
+        "category": "Weiteres",
         "material": "",
         "size": "",
         "weight": "",
@@ -652,7 +652,7 @@
     {
         "sku": "U6WXX1359",
         "name": "Trenntoiletten Einsatz (wei\u00df)",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -673,7 +673,7 @@
     {
         "sku": "STWXX1376",
         "name": "Trenntoiletten Einsatz (wei\u00df) &amp; Toilettensitz",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -694,7 +694,7 @@
     {
         "sku": "SFXX1382",
         "name": "Farbset 1 Liter",
-        "category": "",
+        "category": "Farbe",
         "material": "",
         "size": "",
         "weight": "",
@@ -715,7 +715,7 @@
     {
         "sku": "TKXX1402",
         "name": "Toilettensitz BilaBl\u0153m &amp; IndiBl\u0153m",
-        "category": "",
+        "category": "Toilettensitz",
         "material": "",
         "size": "",
         "weight": "",
@@ -736,7 +736,7 @@
     {
         "sku": "BS1XX1404",
         "name": "DIY Set",
-        "category": "",
+        "category": "DIY",
         "material": "",
         "size": "",
         "weight": "",
@@ -757,7 +757,7 @@
     {
         "sku": "TIXX1343",
         "name": "Toilettensitz",
-        "category": "",
+        "category": "Toilettensitz",
         "material": "",
         "size": "",
         "weight": "",

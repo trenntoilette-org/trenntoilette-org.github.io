@@ -34,68 +34,23 @@
             <ul class="main-categories">
               <li
                 class="main-nav-list"
-                v-for="(category, index) in categories"
+                v-for="(category, index) in categories.filter(
+                  (category) => !category.subCategories
+                )"
                 :key="index"
               >
-                <a href="/shop/"
+                <nuxt-link :to="`/kategorie/${category.key}/`"
                   ><span class="lnr lnr-arrow-right"></span>{{ category.name
-                  }}<span class="number">(53)</span></a
+                  }}<span class="number">(53)</span></nuxt-link
                 >
               </li>
-              <li class="main-nav-list">
-                <a href="/shop/"
-                  ><span class="lnr lnr-arrow-right"></span>Trenntoiletten für's
-                  Haus<span class="number">(53)</span></a
-                >
-              </li>
-              <li class="main-nav-list">
-                <a href="/shop/"
-                  ><span class="lnr lnr-arrow-right"></span>Gartentoiletten<span
-                    class="number"
-                    >(53)</span
-                  ></a
-                >
-              </li>
-              <li class="main-nav-list">
-                <a href="/shop/"
-                  ><span class="lnr lnr-arrow-right"></span
-                  >Campingtoiletten<span class="number">(53)</span></a
-                >
-              </li>
-              <!-- <li class="main-nav-list">
-                <a
-                  data-toggle="collapse"
-                  href="#fruitsVegetable"
-                  aria-expanded="false"
-                  aria-controls="fruitsVegetable"
-                  ><span class="lnr lnr-arrow-right"></span>Trenntoiletten<span
-                    class="number"
-                    >(53)</span
-                  ></a
-                >
-                <ul
-                  class="collapse"
-                  id="fruitsVegetable"
-                  data-toggle="collapse"
-                  aria-expanded="false"
-                  aria-controls="fruitsVegetable"
-                >
-                  <li class="main-nav-list child">
-                    <a href="#">Haus <span class="number">(13)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Gartentoiletten <span class="number">(09)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Campingtoiletten<span class="number">(17)</span></a
-                    >
-                  </li>
-                </ul>
-              </li> -->
-              <li class="main-nav-list">
+              <li
+                class="main-nav-list"
+                v-for="(category, index) in categories.filter(
+                  (category) => category.subCategories
+                )"
+                :key="index"
+              >
                 <a
                   data-toggle="collapse"
                   href="#meatFish"
@@ -113,68 +68,14 @@
                   aria-expanded="false"
                   aria-controls="meatFish"
                 >
-                  <li class="main-nav-list child">
-                    <a href="#">Trenneinsatz<span class="number">(13)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Toilettensitz<span class="number">(13)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Beutel / Inlays<span class="number">(09)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Abluftsystem<span class="number">(17)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Einstreu<span class="number">(01)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Komposter<span class="number">(11)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Flüssigkeitsbehälter<span class="number">(11)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Einstreu-Behälter<span class="number">(11)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Desinfektionsspender<span class="number">(11)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Beleuchtung<span class="number">(11)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Naturöl<span class="number">(11)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Reinigungsset<span class="number">(11)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#"
-                      >Kanister-Verschluss<span class="number">(11)</span></a
-                    >
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Eimer<span class="number">(11)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="#">Weiteres<span class="number">(11)</span></a>
-                  </li>
-                  <li class="main-nav-list child">
-                    <a href="/shop/"
-                      >Streich-Farbset<span class="number">(53)</span></a
+                  <li
+                    class="main-nav-list child"
+                    v-for="(subCategory, index) in category.subCategories"
+                    :key="index"
+                  >
+                    <nuxt-link :to="`/kategorie/${subCategory.key}`"
+                      >{{ subCategory.name
+                      }}<span class="number">(13)</span></nuxt-link
                     >
                   </li>
                 </ul>

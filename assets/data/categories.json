@@ -21,5 +21,66 @@
             "title": "Gartentoilette günstig kaufen",
             "metaDescription": "Alle Gartentoiletten im Überblick auf Trenntoilette.org."
         }
+    },
+    {
+        "name": "Zubehör",
+        "key": "Zubehör",
+        "subCategories": [{
+                "name": "Trenneinsatz",
+                "key": "Trenneinsatz"
+            },
+            {
+                "name": "Toilettensitz",
+                "key": "Toilettensitz"
+            },
+            {
+                "name": "Beutel / Inlays",
+                "key": "Beutel"
+            },
+            {
+                "name": "Abluftsystem",
+                "key": "Abluftsystem"
+            }, {
+                "name": "Einstreu",
+                "key": "Einstreu"
+            }, {
+                "name": "Komposter",
+                "key": "Komposter"
+            }, {
+                "name": "Flüssigkeitsbehälter",
+                "key": "Flüssigkeitsbehälter"
+            }, {
+                "name": "Einstreu Behälter",
+                "key": "Einstreu Behälter"
+            }, {
+                "name": "Desinfektionsspender",
+                "key": "Desinfektionsspender"
+            }, {
+                "name": "Beleuchtung",
+                "key": "Beleuchtung"
+            }, {
+                "name": "Naturöl",
+                "key": "Naturöl"
+            }, {
+                "name": "Reinigungsset",
+                "key": "Reinigungsset"
+            }, {
+                "name": "Kanister-Verschluss",
+                "key": "Kanister-Verschluss"
+            }, {
+                "name": "Eimer",
+                "key": "Eimer"
+            }, {
+                "name": "Weiteres",
+                "key": "Weiteres"
+            }, {
+                "name": "Farbsets",
+                "key": "Farbsets"
+            }
+        ]
+    },
+    {
+        "name": "Trenntoilette selber bauen",
+        "key": "DIY"
     }
 ]
