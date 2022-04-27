@@ -13,7 +13,7 @@
           "
         >
           <div class="col-first">
-            <h1>Trenntoiletten Shop</h1>
+            <h1>Campingtoiletten</h1>
             <!-- <nav class="d-flex align-items-center">
               <a href="index.html"
                 >Home<span class="lnr lnr-arrow-right"></span
@@ -657,7 +657,7 @@ export default {
   name: "shop",
   data() {
     return {
-      products: trenntoiletten.find((x) => x.category == "Campingtoilette"),
+      products: trenntoiletten.filter((x) => x.category == "Campingtoilette"),
     };
   },
 };

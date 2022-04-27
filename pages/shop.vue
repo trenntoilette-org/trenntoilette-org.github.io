@@ -32,6 +32,16 @@
           <div class="sidebar-categories">
             <div class="head">Kategorien</div>
             <ul class="main-categories">
+              <li
+                class="main-nav-list"
+                v-for="(category, index) in categories"
+                :key="index"
+              >
+                <a href="/shop/"
+                  ><span class="lnr lnr-arrow-right"></span>{{ category.name
+                  }}<span class="number">(53)</span></a
+                >
+              </li>
               <li class="main-nav-list">
                 <a href="/shop/"
                   ><span class="lnr lnr-arrow-right"></span>Trenntoiletten für's
@@ -650,12 +660,14 @@
 
 <script>
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
+import categories from "~/assets/data/categories.json";
 
 export default {
   name: "shop",
   data() {
     return {
       products: trenntoiletten,
+      categories,
     };
   },
 };
