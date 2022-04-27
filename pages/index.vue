@@ -260,10 +260,13 @@
                     <!-- <h6 class="l-through">$210.00</h6> -->
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <nuxt-link
+                      :to="`/product/${product.sku}/`"
+                      class="social-info"
+                    >
                       <span class="ti-bag"></span>
                       <p class="hover-text">Bestellen</p>
-                    </a>
+                    </nuxt-link>
                     <!-- <a href="" class="social-info">
                       <span class="lnr lnr-heart"></span>
                       <p class="hover-text">Mehr erfahren</p>
@@ -872,7 +875,12 @@
 </template>
 
 <script>
-import products from "~/assets/data/products.json";
+// import products from "~/assets/data/products.json";
+import trenntoilette from "~/assets/data/trenntoiletten.json";
+
+const products = trenntoilette.filter(
+  (product) => product.published == true && product.featured == true
+);
 
 export default {
   name: "IndexPage",

@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg navbar-light main_box">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand logo_h" href="index.html"
+            <a class="navbar-brand logo_h" href="/"
               ><img src="/assets/images/logo.png" alt=""
             /></a>
             <button
@@ -28,7 +28,7 @@
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item submenu dropdown">
                   <a
@@ -42,7 +42,7 @@
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="category.html">Shop Category</a>
+                      <a class="nav-link" href="/shop/">Shop</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="single-product.html"
@@ -72,20 +72,25 @@
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    >Blog</a
+                    >Trenntoiletten</a
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
+                      <a class="nav-link" href="blog.html">Haus</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="single-blog.html"
-                        >Blog Details</a
+                      <a class="nav-link" href="/campingtoiletten/"
+                        >Campingtoiletten</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/gartentoiletten/"
+                        >Gartentoiletten</a
                       >
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item submenu dropdown">
+                <!-- <li class="nav-item submenu dropdown">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
@@ -106,9 +111,9 @@
                       <a class="nav-link" href="elements.html">Elements</a>
                     </li>
                   </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="/kontakt/">Kontakt</a>
                 </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">

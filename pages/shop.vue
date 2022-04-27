@@ -108,6 +108,11 @@
                   </li>
                   <li class="main-nav-list child">
                     <a href="#"
+                      >Toilettensitz<span class="number">(13)</span></a
+                    >
+                  </li>
+                  <li class="main-nav-list child">
+                    <a href="#"
                       >Beutel / Inlays<span class="number">(09)</span></a
                     >
                   </li>
@@ -157,20 +162,17 @@
                   <li class="main-nav-list child">
                     <a href="#">Weiteres<span class="number">(11)</span></a>
                   </li>
+                  <li class="main-nav-list child">
+                    <a href="/shop/"
+                      >Streich-Farbset<span class="number">(53)</span></a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="main-nav-list">
                 <a href="/shop/"
                   ><span class="lnr lnr-arrow-right"></span>Trenntoilette selber
                   bauen<span class="number">(53)</span></a
-                >
-              </li>
-              <li class="main-nav-list">
-                <a href="/shop/"
-                  ><span class="lnr lnr-arrow-right"></span>Streich-Farbset<span
-                    class="number"
-                    >(53)</span
-                  ></a
                 >
               </li>
             </ul>
@@ -403,7 +405,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r1.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r1.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -415,7 +417,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r2.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r2.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -427,7 +429,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r3.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r3.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -439,7 +441,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r5.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r5.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -451,7 +453,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r6.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r6.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -463,7 +465,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r7.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r7.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -475,7 +477,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r9.jpg" alt="" /></a>
+                  <a href="#"><img src="img/r9.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -487,9 +489,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="single-related-product d-flex">
-                  <a href="#"
-                    ><img src="/assets/images/img/r10.jpg" alt=""
-                  /></a>
+                  <a href="#"><img src="img/r10.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -501,9 +501,7 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="single-related-product d-flex">
-                  <a href="#"
-                    ><img src="/assets/images/img/r11.jpg" alt=""
-                  /></a>
+                  <a href="#"><img src="img/r11.jpg" alt="" /></a>
                   <div class="desc">
                     <a href="#" class="title">Black lace Heels</a>
                     <div class="price">
@@ -520,7 +518,7 @@
               <a href="#" target="_blank">
                 <img
                   class="img-fluid d-block mx-auto"
-                  src="/assets/images/img/category/c5.jpg"
+                  src="img/category/c5.jpg"
                   alt=""
                 />
               </a>
@@ -657,7 +655,7 @@ export default {
   name: "shop",
   data() {
     return {
-      products: trenntoiletten.find((x) => x.category == "Campingtoilette"),
+      products: trenntoiletten,
     };
   },
 };
