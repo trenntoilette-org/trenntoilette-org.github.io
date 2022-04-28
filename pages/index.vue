@@ -853,9 +853,11 @@
 </template>
 
 <script>
-// import products from "~/assets/data/products.json";
 import trenntoilette from "~/assets/data/trenntoiletten.json";
+import config from "~/assets/data/config.json";
 
+const pageKey = "index";
+const meta = config.meta.find((x) => x.key == pageKey);
 const products = trenntoilette.filter(
   (product) => product.published == true && product.featured == true
 );
@@ -863,6 +865,18 @@ const headerFeatures = trenntoilette.filter((x) => x.headerFeature);
 
 export default {
   name: "IndexPage",
+  title: meta.title,
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: meta.metaDescription,
+        },
+      ],
+    };
+  },
   data: () => ({
     products,
     headerFeatures,

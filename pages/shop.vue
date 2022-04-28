@@ -402,11 +402,27 @@
 
 
 <script>
+import config from "~/assets/data/config.json";
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
 import categories from "~/assets/data/categories.json";
 
+const pageKey = "shop";
+const meta = config.meta.find((x) => x.key == pageKey);
+
 export default {
   name: "shop",
+  title: meta.title,
+  head() {
+    return {
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: meta.metaDescription,
+        },
+      ],
+    };
+  },
   data() {
     return {
       products: trenntoiletten.filter((x) => x.featured),
