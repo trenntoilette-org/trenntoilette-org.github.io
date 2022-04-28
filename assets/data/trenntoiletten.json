@@ -414,9 +414,9 @@
         "price": "949",
         "reviewCount": 176,
         "shopLink": "https://trobolo.com/de/produkte/tinybloem/",
-        "featured": false,
+        "featured": true,
         "winner": false,
-        "published": false
+        "published": true
     },
     {
         "sku": "K1XX1372",
@@ -2484,9 +2484,9 @@
         "price": "2800.00",
         "reviewCount": 196,
         "shopLink": "https://www.kompotoi.ch/produkt/kompotoi-classic/",
-        "featured": false,
+        "featured": true,
         "winner": false,
-        "published": false
+        "published": true
     },
     {
         "sku": "SEP-TIN",

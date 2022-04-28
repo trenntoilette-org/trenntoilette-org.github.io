@@ -388,8 +388,8 @@
           <div class="col-lg-6 no-padding exclusive-left">
             <div class="row clock_sec clockdiv" id="clockdiv">
               <div class="col-lg-12">
-                <h1>Exclusive Hot Deal Ends Soon!</h1>
-                <p>Who are in extremely love with eco friendly system.</p>
+                <h1>Exklusive Deals enden bald!</h1>
+                <p>Wir sind verliebt in diese Trenntoiletten</p>
               </div>
               <div class="col-lg-12">
                 <div class="row clock-wrap">
@@ -412,7 +412,7 @@
                 </div>
               </div>
             </div>
-            <a href="" class="primary-btn">Shop Now</a>
+            <nuxt-link to="/shop/" class="primary-btn">Jetzt shoppen</nuxt-link>
           </div>
           <div class="col-lg-6 no-padding exclusive-right">
             <div class="active-exclusive-product-slider">
@@ -453,7 +453,9 @@
                       justify-content-center
                     "
                   >
-                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
+                    <nuxt-link class="add-btn" :to="`/product/${product.sku}/`"
+                      ><span class="ti-bag"></span
+                    ></nuxt-link>
                     <span class="add-text text-uppercase">Mehr erfahren</span>
                   </div>
                 </div>

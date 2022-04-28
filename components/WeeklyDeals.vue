@@ -50,13 +50,16 @@
           </div>
           <div class="col-lg-3">
             <div class="ctg-right">
-              <a href="#" target="_blank">
+              <nuxt-link
+                :to="`/product/${bigProduct.sku}/`"
+                :title="bigProduct.name"
+              >
                 <img
                   class="img-fluid d-block mx-auto"
-                  src="/assets/images/img/category/c5.jpg"
+                  :src="bigProduct.image"
                   alt=""
                 />
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -68,14 +71,16 @@
 
 <script>
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
-const featured = trenntoiletten.filter(
-  (product) => product.published == true && product.featured == true
-);
+const featured = trenntoiletten
+  .filter((product) => product.published == true && product.featured == true)
+  .slice(0, 6);
+const bigProduct = trenntoiletten.find((x) => x.sku == "M20XX1313");
 export default {
   name: "weeklydeals",
   data() {
     return {
       featured,
+      bigProduct,
     };
   },
 };

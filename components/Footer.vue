@@ -117,7 +117,7 @@ import config from "~/assets/data/config.json";
 const featured = trenntoiletten.filter((x) => x.featured);
 
 export default {
-  name: "footer",
+  name: "footercomponent",
   data() {
     return {
       featured,
