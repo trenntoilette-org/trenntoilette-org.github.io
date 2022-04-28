@@ -521,7 +521,11 @@
         "shopLink": "https://trobolo.com/de/produkte/wandago/",
         "featured": true,
         "winner": false,
-        "published": true
+        "published": true,
+        "headerFeature": {
+            "title": "TROBOLO WandaGO",
+            "text": "Die neue Campingtoilette von TROBOLO ist da! Bestelle dir die ultraleichte und kompakte Campingtoilette vor und erhalte einen Rabatt von 50,00 EUR!"
+        }
     },
     {
         "sku": "SMXX1338",
@@ -1050,6 +1054,10 @@
         "seo": {
             "title": "TROBOLO TeraBl\u0153m günstig online kaufen",
             "metaDescription": "Alle Preise und Informationen zur Trenntoilette TROBOLO TeraBl\u0153m. Die TeraBl\u0153m ist eine Trenntoilette für's Haus. Preiswert online kaufen."
+        },
+        "headerFeature": {
+            "title": "TROBOLO TeraBl\u0153m",
+            "text": "TROBOLO TeraBl\u0153m ist der Testsieger im Bereich Trenntoiletten für den Innenbereich."
         }
     },
     {

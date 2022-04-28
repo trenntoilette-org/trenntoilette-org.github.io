@@ -409,7 +409,7 @@ export default {
   name: "shop",
   data() {
     return {
-      products: trenntoiletten,
+      products: trenntoiletten.filter((x) => x.featured),
       categories,
     };
   },
