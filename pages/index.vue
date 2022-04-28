@@ -474,35 +474,21 @@
           <a class="col single-img" href="#">
             <img
               class="img-fluid d-block mx-auto"
-              src="/assets/images/img/brand/1.png"
+              src="/assets/images/logos/trobolo.png"
               alt=""
             />
           </a>
           <a class="col single-img" href="#">
             <img
               class="img-fluid d-block mx-auto"
-              src="/assets/images/img/brand/2.png"
+              src="/assets/images/logos/trelino.webp"
               alt=""
             />
           </a>
           <a class="col single-img" href="#">
             <img
               class="img-fluid d-block mx-auto"
-              src="/assets/images/img/brand/3.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="/assets/images/img/brand/4.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="/assets/images/img/brand/5.png"
+              src="/assets/images/logos/kildwick.png"
               alt=""
             />
           </a>
