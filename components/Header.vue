@@ -28,33 +28,40 @@
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="/">Home</a>
+                  <nuxt-link class="nav-link" to="/">Home</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/shop/">Shop</a>
+                  <nuxt-link class="nav-link" to="/shop/">Shop</nuxt-link>
                 </li>
                 <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
+                  <nuxt-link
+                    to="#"
                     class="nav-link dropdown-toggle"
                     data-toggle="dropdown"
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    >Trenntoiletten</a
+                    >Trenntoiletten</nuxt-link
+                  >
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Haus</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/campingtoiletten/"
-                        >Campingtoiletten</a
+                      <nuxt-link class="nav-link" to="/kategorie/Innenbereich/"
+                        >Haus</nuxt-link
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/gartentoiletten/"
-                        >Gartentoiletten</a
+                      <nuxt-link
+                        class="nav-link"
+                        to="/kategorie/Campingtoilette/"
+                        >Campingtoiletten</nuxt-link
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <nuxt-link
+                        class="nav-link"
+                        to="/kategorie/Gartentoilette/"
+                        >Gartentoiletten</nuxt-link
                       >
                     </li>
                   </ul>
