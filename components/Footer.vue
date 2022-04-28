@@ -60,61 +60,17 @@
             <div class="single-footer-widget mail-chimp">
               <h6 class="mb-20">Beliebte Produkte</h6>
               <ul class="instafeed d-flex flex-wrap">
-                <li>
-                  <img
-                    src="/assets/images/campingtoiletten/campingtoilette-trobolo-wandago.png"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-trobolo-terabloem.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-trobolo-kitaboem.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-trobolo-kersaboem.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-trobolo-luwebloem.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-trobolo-indiebloem.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-kompotoi-separett-weekend.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/assets/images/trenntoiletten/trockentrenntoilette-kildwick-miniloo.webp"
-                    style="width: 58px; height: 58px"
-                    alt=""
-                  />
+                <li v-for="(product, index) in featured" :key="index">
+                  <nuxt-link
+                    :to="`/product/${product.sku}/`"
+                    :title="product.name"
+                  >
+                    <img
+                      :src="product.image"
+                      style="width: 58px; height: 58px"
+                      :alt="product.name"
+                    />
+                  </nuxt-link>
                 </li>
               </ul>
             </div>
@@ -145,10 +101,28 @@
           <p class="footer-text m-0">
             Copyright &copy; 2022 Alle Rechte vorbehalten |
             <i class="fa fa-heart-o" aria-hidden="true"></i>
-            <a href="/" title="Trenntoiletten Shop">Trenntoilette.org</a>
+            <nuxt-link to="/" :title="config.siteSlogan">{{
+              config.siteName
+            }}</nuxt-link>
           </p>
         </div>
       </div>
     </footer>
   </div>
 </template>
+
+<script>
+import trenntoiletten from "~/assets/data/trenntoiletten.json";
+const featured = trenntoiletten.filter((x) => x.featured);
+import config from "~/assets/data/config.json";
+
+export default {
+  name: "footer",
+  data() {
+    return {
+      featured,
+      config,
+    };
+  },
+};
+</script>
