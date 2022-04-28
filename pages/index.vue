@@ -117,7 +117,10 @@
                     src="/assets/images/img/category/c1.jpg"
                     alt=""
                   />
-                  <nuxt-link to="/kategorie/Campingtoilette/">
+                  <nuxt-link
+                    to="/kategorie/Campingtoilette/"
+                    title="Campingtoiletten für Van, Wohnmobil und Camper"
+                  >
                     <div class="deal-details">
                       <h6 class="deal-title">Campingtoiletten</h6>
                     </div>
@@ -132,7 +135,10 @@
                     src="/assets/images/img/category/c2.jpg"
                     alt=""
                   />
-                  <nuxt-link to="/kategorie/Innenbereich/">
+                  <nuxt-link
+                    to="/kategorie/Innenbereich/"
+                    title="Trenntoileten für's Haus oder Tiny House"
+                  >
                     <div class="deal-details">
                       <h6 class="deal-title">Trenntoiletten für's Haus</h6>
                     </div>
@@ -147,7 +153,7 @@
                     src="/assets/images/img/category/c3.jpg"
                     alt=""
                   />
-                  <nuxt-link to="/shop/">
+                  <nuxt-link to="/shop/" title="Zubehör für Trenntoiletten">
                     <div class="deal-details">
                       <h6 class="deal-title">Trenntoiletten Zubehör</h6>
                     </div>
@@ -162,9 +168,12 @@
                     src="/assets/images/img/category/c4.jpg"
                     alt=""
                   />
-                  <nuxt-link to="/kategorie/Trenneinsatz/">
+                  <nuxt-link
+                    to="/kategorie/Trenneinsatz/"
+                    title="Einsatz für die Trenntoilette"
+                  >
                     <div class="deal-details">
-                      <h6 class="deal-title">Trenneinsätze</h6>
+                      <h6 class="deal-title">Trenntoilete Einsatz</h6>
                     </div>
                   </nuxt-link>
                 </div>
@@ -179,7 +188,10 @@
                 src="/assets/images/img/category/c5.jpg"
                 alt=""
               />
-              <nuxt-link to="/kategorie/Gartentoilette/">
+              <nuxt-link
+                to="/kategorie/Gartentoilette/"
+                title="Gartentoiletten"
+              >
                 <div class="deal-details">
                   <h6 class="deal-title">Gartentoiletten</h6>
                 </div>

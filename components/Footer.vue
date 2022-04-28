@@ -7,8 +7,7 @@
             <div class="single-footer-widget">
               <h6>Über uns</h6>
               <p>
-                Trenntoilette.org ist der Online Shop für Trenntoiletten im
-                Bereich Haus, Garten, Van, Wohnmobil und Camping.
+                {{ config.siteDescription }}
               </p>
             </div>
           </div>
@@ -113,8 +112,9 @@
 
 <script>
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
-const featured = trenntoiletten.filter((x) => x.featured);
 import config from "~/assets/data/config.json";
+
+const featured = trenntoiletten.filter((x) => x.featured);
 
 export default {
   name: "footer",
