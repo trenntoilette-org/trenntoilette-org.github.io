@@ -117,15 +117,11 @@
                     src="/assets/images/img/category/c1.jpg"
                     alt=""
                   />
-                  <a
-                    href="img/category/c1.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
+                  <nuxt-link to="/kategorie/Campingtoilette/">
                     <div class="deal-details">
                       <h6 class="deal-title">Campingtoiletten</h6>
                     </div>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
@@ -136,15 +132,11 @@
                     src="/assets/images/img/category/c2.jpg"
                     alt=""
                   />
-                  <a
-                    href="img/category/c2.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
+                  <nuxt-link to="/kategorie/Innenbereich/">
                     <div class="deal-details">
                       <h6 class="deal-title">Trenntoiletten für's Haus</h6>
                     </div>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4">
@@ -155,15 +147,11 @@
                     src="/assets/images/img/category/c3.jpg"
                     alt=""
                   />
-                  <a
-                    href="img/category/c3.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
+                  <nuxt-link to="/shop/">
                     <div class="deal-details">
                       <h6 class="deal-title">Trenntoiletten Zubehör</h6>
                     </div>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
               <div class="col-lg-8 col-md-8">
@@ -174,15 +162,11 @@
                     src="/assets/images/img/category/c4.jpg"
                     alt=""
                   />
-                  <a
-                    href="img/category/c4.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
+                  <nuxt-link to="/kategorie/Trenneinsatz/">
                     <div class="deal-details">
                       <h6 class="deal-title">Trenneinsätze</h6>
                     </div>
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -195,11 +179,11 @@
                 src="/assets/images/img/category/c5.jpg"
                 alt=""
               />
-              <a href="img/category/c5.jpg" class="img-pop-up" target="_blank">
+              <nuxt-link to="/kategorie/Gartentoilette/">
                 <div class="deal-details">
                   <h6 class="deal-title">Gartentoiletten</h6>
                 </div>
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -215,11 +199,8 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-title">
-                <h1>Top Seller</h1>
-                <p>
-                  Folgend findest du die beliebtesten und am meisten gekauften
-                  Trenntoiletten.
-                </p>
+                <h1>Trenntoiletten für's Haus</h1>
+                <p>Die meistverkauften Trenntoiletten</p>
               </div>
             </div>
           </div>
@@ -227,6 +208,75 @@
             <div
               class="col-lg-3 col-md-6"
               v-for="(product, index) in products"
+              :key="index"
+            >
+              <div class="single-product">
+                <nuxt-link
+                  :to="`/product/${product.sku}/`"
+                  :title="product.name"
+                >
+                  <img
+                    class="img-fluid"
+                    :src="product.image"
+                    :alt="product.name"
+                  />
+                </nuxt-link>
+                <div class="product-details">
+                  <h6>
+                    <nuxt-link
+                      class="removeLinkAttr"
+                      :to="`/product/${product.sku}/`"
+                      :title="product.name"
+                      >{{ product.name }}</nuxt-link
+                    >
+                  </h6>
+                  <div class="price">
+                    <h6>{{ product.price }} €</h6>
+                    <!-- <h6 class="l-through">$210.00</h6> -->
+                  </div>
+                  <div class="prd-bottom">
+                    <nuxt-link
+                      :to="`/product/${product.sku}/`"
+                      :title="product.name"
+                      class="social-info"
+                    >
+                      <span class="ti-bag"></span>
+                      <p class="hover-text">Bestellen</p>
+                    </nuxt-link>
+                    <!-- <a href="" class="social-info">
+                      <span class="lnr lnr-heart"></span>
+                      <p class="hover-text">Mehr erfahren</p>
+                    </a>
+                    <a href="" class="social-info">
+                      <span class="lnr lnr-sync"></span>
+                      <p class="hover-text">compare</p>
+                    </a> -->
+                    <!-- <a href="" class="social-info">
+                      <span class="lnr lnr-move"></span>
+                      <p class="hover-text">Mehr erfahren</p>
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- single product slide -->
+      <div class="single-product-slider">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <div class="section-title">
+                <h1>Campingtoiletten</h1>
+                <p>Die meistverkauften Campingtoiletten</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6"
+              v-for="(product, index) in campingtoiletten"
               :key="index"
             >
               <div class="single-product">
@@ -270,290 +320,44 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-title">
-                <h1>Coming Products</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <h1>Gartentoiletten</h1>
+                <p>Die meistverkauften Gartentoiletten</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
+            <div
+              class="col-lg-3 col-md-6"
+              v-for="(product, index) in gartentoiletten"
+              :key="index"
+            >
               <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p6.jpg"
-                  alt=""
-                />
+                <img class="img-fluid" :src="product.image" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                  <h6>{{ product.name }}</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>{{ product.price }}</h6>
+                    <!-- <h6 class="l-through">$210.00</h6> -->
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <nuxt-link
+                      :to="`/product/${product.sku}/`"
+                      class="social-info"
+                    >
                       <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
+                      <p class="hover-text">Bestellen</p>
+                    </nuxt-link>
+                    <!-- <a href="" class="social-info">
                       <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
+                      <p class="hover-text">Mehr erfahren</p>
                     </a>
                     <a href="" class="social-info">
                       <span class="lnr lnr-sync"></span>
                       <p class="hover-text">compare</p>
-                    </a>
+                    </a> -->
                     <a href="" class="social-info">
                       <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p8.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p3.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p5.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p1.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p4.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p1.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/p8.jpg"
-                  alt=""
-                />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
+                      <p class="hover-text">Mehr erfahren</p>
                     </a>
                   </div>
                 </div>
@@ -601,18 +405,34 @@
           <div class="col-lg-6 no-padding exclusive-right">
             <div class="active-exclusive-product-slider">
               <!-- single exclusive carousel -->
-              <div class="single-exclusive-slider">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/campingtoiletten/campingtoilette-trobolo-wandago.webp"
-                  alt=""
-                />
+              <div
+                v-for="(product, index) in headerFeatures"
+                :key="index"
+                class="single-exclusive-slider"
+              >
+                <nuxt-link
+                  :to="`/product/${product.sku}/`"
+                  :title="product.name"
+                >
+                  <img
+                    class="img-fluid"
+                    :src="product.image"
+                    :alt="product.name"
+                  />
+                </nuxt-link>
                 <div class="product-details">
                   <div class="price">
-                    <h6>199,00 EUR</h6>
+                    <h6>{{ product.price }} €</h6>
                     <!-- <h6 class="l-through">$210.00</h6> -->
                   </div>
-                  <h4>TROBOLO WandaGO Campingtoilette</h4>
+                  <h4>
+                    <nuxt-link
+                      class="removeLinkAttr"
+                      :to="`/product/${product.sku}/`"
+                      :title="product.name"
+                      >{{ product.name }}</nuxt-link
+                    >
+                  </h4>
                   <div
                     class="
                       add-bag
@@ -623,32 +443,6 @@
                   >
                     <a class="add-btn" href=""><span class="ti-bag"></span></a>
                     <span class="add-text text-uppercase">Mehr erfahren</span>
-                  </div>
-                </div>
-              </div>
-              <!-- single exclusive carousel -->
-              <div class="single-exclusive-slider">
-                <img
-                  class="img-fluid"
-                  src="/assets/images/img/product/e-p1.png"
-                  alt=""
-                />
-                <div class="product-details">
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <h4>addidas New Hammer sole for Sports person</h4>
-                  <div
-                    class="
-                      add-bag
-                      d-flex
-                      align-items-center
-                      justify-content-center
-                    "
-                  >
-                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
-                    <span class="add-text text-uppercase">Add to Bag</span>
                   </div>
                 </div>
               </div>
@@ -703,165 +497,26 @@
     </section>
     <!-- End brand Area -->
 
-    <!-- Start related-product Area -->
-    <section class="related-product-area section_gap_bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="section-title">
-              <h1>Deals of the Week</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-9">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r1.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r2.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r3.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r5.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r6.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r7.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="/assets/images/img/r9.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"
-                    ><img src="/assets/images/img/r10.jpg" alt=""
-                  /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"
-                    ><img src="/assets/images/img/r11.jpg" alt=""
-                  /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="ctg-right">
-              <a href="#" target="_blank">
-                <img
-                  class="img-fluid d-block mx-auto"
-                  src="/assets/images/img/category/c5.jpg"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End related-product Area -->
+    <WeeklyDeals />
   </div>
 </template>
 
 <script>
-import trenntoilette from "~/assets/data/trenntoiletten.json";
+import trenntoiletten from "~/assets/data/trenntoiletten.json";
 import config from "~/assets/data/config.json";
 
 const pageKey = "index";
 const meta = config.meta.find((x) => x.key == pageKey);
-const products = trenntoilette.filter(
+const products = trenntoiletten.filter(
   (product) => product.published == true && product.featured == true
 );
-const headerFeatures = trenntoilette.filter((x) => x.headerFeature);
+const campingtoiletten = trenntoiletten.filter(
+  (x) => x.category == "Campingtoilette" && x.published
+);
+const gartentoiletten = trenntoiletten.filter(
+  (x) => x.category == "Gartentoilette" && x.published
+);
+const headerFeatures = trenntoiletten.filter((x) => x.headerFeature);
 
 export default {
   name: "IndexPage",
@@ -880,6 +535,15 @@ export default {
   data: () => ({
     products,
     headerFeatures,
+    campingtoiletten,
+    gartentoiletten,
   }),
 };
 </script>
+
+<style scoped>
+.removeLinkAttr {
+  text-decoration: none;
+  color: grey;
+}
+</style>

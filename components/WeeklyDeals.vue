@@ -1,0 +1,82 @@
+<template>
+  <div>
+    <!-- Start related-product Area -->
+    <section class="related-product-area section_gap_bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-title">
+              <h1>Deals der Woche</h1>
+              <p>
+                Die besten Trenntoiletten und Zubehör Deals der Woche. Wir
+                durchsuchen das Netz ständig nach dem bestem Preis und bieten
+                daher eine Best-Preis-Garantie
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div
+                v-for="(product, index) in featured"
+                :key="index"
+                class="col-lg-4 col-md-4 col-sm-6 mb-20"
+              >
+                <div class="single-related-product d-flex">
+                  <nuxt-link
+                    :to="`/product/${product.sku}/`"
+                    :title="product.name"
+                    ><img
+                      style="width: 70px; height: auto"
+                      :src="product.image"
+                      :alt="product.name"
+                  /></nuxt-link>
+                  <div class="desc">
+                    <nuxt-link
+                      :to="`/product/${product.sku}/`"
+                      :title="product.name"
+                      class="title"
+                      >{{ product.name }}</nuxt-link
+                    >
+                    <div class="price">
+                      <h6>{{ product.price }}</h6>
+                      <!-- <h6 class="l-through">$210.00</h6> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ctg-right">
+              <a href="#" target="_blank">
+                <img
+                  class="img-fluid d-block mx-auto"
+                  src="/assets/images/img/category/c5.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End related-product Area -->
+  </div>
+</template>
+
+<script>
+import trenntoiletten from "~/assets/data/trenntoiletten.json";
+const featured = trenntoiletten.filter(
+  (product) => product.published == true && product.featured == true
+);
+export default {
+  name: "weeklydeals",
+  data() {
+    return {
+      featured,
+    };
+  },
+};
+</script>
