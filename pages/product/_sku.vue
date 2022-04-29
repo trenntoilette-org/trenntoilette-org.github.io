@@ -39,7 +39,7 @@
 						<h3>{{ product.name }}</h3>
 						<h2>{{ product.price }} €</h2>
 						<ul class="list">
-							<li><a class="active" href="#"><span>Category</span> : {{ product.category }}</a></li>
+							<li><nuxt-link class="active" :to="`/kategorie/${product.category}/`"><span>Category</span> : {{ product.category }}</nuxt-link></li>
 							<li><a href="#"><span>Verfügbarkeit</span> : Auf Lager</a></li>
 						</ul>
 						<p>{{ product.description}}</p>
@@ -53,8 +53,8 @@
 						</div>
 						<div class="card_area d-flex align-items-center">
 							<a class="primary-btn" :href="product.shopLink" target="_blank">Bestellen</a>
-							<a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a>
-							<a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>
+							<!-- <a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a> -->
+							<!-- <a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a> -->
 						</div>
 					</div>
 				</div>

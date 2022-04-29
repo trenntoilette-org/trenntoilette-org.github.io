@@ -269,10 +269,9 @@ export default {
   components: { WeeklyDeals },
   name: "shop",
   async asyncData({ route }) {
-    const category = route.params.category;
-    console.log(category);
+    const hersteller = route.params.hersteller;
     return {
-      products: trenntoiletten.filter((x) => x.category == category),
+      products: trenntoiletten.filter((x) => x.brand == hersteller),
       categories,
     };
   },

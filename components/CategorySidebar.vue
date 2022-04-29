@@ -60,12 +60,18 @@
         <form action="#">
           <ul>
             <li class="filter-list">
-              <input
-                class="pixel-radio"
-                type="radio"
-                id="apple"
-                name="brand"
-              /><label for="apple">TROBOLO<span>(29)</span></label>
+              <nuxt-link
+                :to="`/hersteller/TROBOLO/`"
+                title="Trenntoiletten von TROBOLO"
+                class="removeLinkAttr"
+              >
+                <input
+                  class="pixel-radio"
+                  type="radio"
+                  id="apple"
+                  name="brand"
+                /><label for="apple">TROBOLO<span>(29)</span></label>
+              </nuxt-link>
             </li>
             <li class="filter-list">
               <input

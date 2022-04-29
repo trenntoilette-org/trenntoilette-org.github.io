@@ -36,7 +36,11 @@
                       class="add-btn"
                       href=""
                     >
-                      <img class="img-fluid" :src="product.image" alt="" />
+                      <img
+                        class="img-fluid"
+                        :src="product.image"
+                        :alt="product.name"
+                      />
                     </nuxt-link>
                   </div>
                 </div>
@@ -540,10 +544,3 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
-.removeLinkAttr {
-  text-decoration: none;
-  color: grey;
-}
-</style>
