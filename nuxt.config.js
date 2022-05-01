@@ -67,7 +67,7 @@ export default {
 
     image: {
         presets: {
-            productThumbnail: {
+            default: {
                 modifiers: {
                     format: 'webp'
                 }

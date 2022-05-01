@@ -34,7 +34,7 @@
                     <nuxt-link
                       :to="`/product/${product.sku}/`"
                       class="add-btn"
-                      href=""
+                      :title="product.name"
                     >
                       <img
                         class="img-fluid"
@@ -61,7 +61,10 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img src="/assets/images/img/features/f-icon1.png" alt="" />
+                <img
+                  src="/assets/images/img/features/f-icon1.png"
+                  alt="Kein Wasser notwendig"
+                />
               </div>
               <h6>Kein Wasser</h6>
               <p>Eine Trenntoilete benötigt kein Wasser</p>
@@ -71,7 +74,10 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img src="/assets/images/img/features/f-icon2.png" alt="" />
+                <img
+                  src="/assets/images/img/features/f-icon2.png"
+                  alt="Keine Chemie notwendig"
+                />
               </div>
               <h6>Keine Chemie</h6>
               <p>Trenntoiletten kommen komplett ohne Chemie aus</p>
@@ -81,7 +87,10 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img src="/assets/images/img/features/f-icon3.png" alt="" />
+                <img
+                  src="/assets/images/img/features/f-icon3.png"
+                  alt="Geruchsfrei"
+                />
               </div>
               <h6>Geruchsfrei</h6>
               <p>
@@ -94,7 +103,10 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img src="/assets/images/img/features/f-icon4.png" alt="" />
+                <img
+                  src="/assets/images/img/features/f-icon4.png"
+                  alt="Überall einsetzbar"
+                />
               </div>
               <h6>Überall einsetzbar</h6>
               <p>
@@ -116,7 +128,8 @@
               <div class="col-lg-8 col-md-8">
                 <div class="single-deal">
                   <div class="overlay"></div>
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c1.jpg"
                     alt="Campingtoiletten"
@@ -134,7 +147,8 @@
               <div class="col-lg-4 col-md-4">
                 <div class="single-deal">
                   <div class="overlay"></div>
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c2.jpg"
                     alt="Trenntoiletten für's Haus"
@@ -152,7 +166,8 @@
               <div class="col-lg-4 col-md-4">
                 <div class="single-deal">
                   <div class="overlay"></div>
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c3.jpg"
                     alt="Zubehör für Trenntoiletten"
@@ -167,7 +182,8 @@
               <div class="col-lg-8 col-md-8">
                 <div class="single-deal">
                   <div class="overlay"></div>
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c4.jpg"
                     alt="Einsatz für die Trenntoilette"
@@ -187,7 +203,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="single-deal">
               <div class="overlay"></div>
-              <img
+              <nuxt-img
+                preset="default"
                 class="img-fluid w-100"
                 src="/assets/images/img/category/c5.jpg"
                 alt="Gartentoilette"
@@ -231,7 +248,8 @@
                   :to="`/product/${product.sku}/`"
                   :title="product.name"
                 >
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid"
                     :src="`${config.imageFolder + product.localThumb}`"
                     :alt="product.name"
@@ -296,7 +314,8 @@
               :key="index"
             >
               <div class="single-product">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   :src="`${config.imageFolder + product.localThumb}`"
                   alt=""
@@ -352,10 +371,11 @@
               :key="index"
             >
               <div class="single-product">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   :src="`${config.imageFolder + product.localThumb}`"
-                  alt=""
+                  :alt="product.name"
                 />
                 <div class="product-details">
                   <h6 v-html="product.name"></h6>
@@ -438,7 +458,8 @@
                   :to="`/product/${product.sku}/`"
                   :title="product.name"
                 >
-                  <img
+                  <nuxt-img
+                    preset="default"
                     class="img-fluid"
                     :src="`${config.imageFolder + product.localThumb}`"
                     :alt="product.name"
@@ -487,21 +508,24 @@
       <div class="container">
         <div class="row">
           <a class="col single-img" href="#">
-            <img
+            <nuxt-img
+              preset="default"
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/trobolo.png"
               alt="Trenntoiletten von TROBOLO"
             />
           </a>
           <a class="col single-img" href="#">
-            <img
+            <nuxt-img
+              preset="default"
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/trelino.webp"
               alt="Trenntoiletten von Trelino"
             />
           </a>
           <a class="col single-img" href="#">
-            <img
+            <nuxt-img
+              preset="default"
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/kildwick.png"
               alt="Trenntoiletten von Kildwick"
