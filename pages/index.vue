@@ -22,7 +22,7 @@
                       <nuxt-link
                         :to="`/product/${product.sku}/`"
                         class="add-btn"
-                        href=""
+                        :title="product.name"
                         ><span class="lnr lnr-cross"></span
                       ></nuxt-link>
                       <span class="add-text text-uppercase">Mehr erfahren</span>
