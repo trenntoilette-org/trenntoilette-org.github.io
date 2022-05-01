@@ -70,24 +70,36 @@
                   type="radio"
                   id="apple"
                   name="brand"
-                /><label for="apple">TROBOLO<span>(29)</span></label>
+                /><label for="TROBOLO">TROBOLO<span>(29)</span></label>
               </nuxt-link>
             </li>
             <li class="filter-list">
-              <input
-                class="pixel-radio"
-                type="radio"
-                id="asus"
-                name="brand"
-              /><label for="asus">Kompotoi<span>(29)</span></label>
+              <nuxt-link
+                :to="`/hersteller/Kompotoi/`"
+                title="Trenntoiletten von Kompotoi"
+                class="removeLinkAttr"
+              >
+                <input
+                  class="pixel-radio"
+                  type="radio"
+                  id="asus"
+                  name="brand"
+                /><label for="Kompotoi">Kompotoi<span>(29)</span></label>
+              </nuxt-link>
             </li>
             <li class="filter-list">
-              <input
-                class="pixel-radio"
-                type="radio"
-                id="gionee"
-                name="brand"
-              /><label for="gionee">Trelino<span>(19)</span></label>
+              <nuxt-link
+                :to="`/hersteller/MeineTrenntoilette/`"
+                title="Trenntoiletten von Trelino"
+                class="removeLinkAttr"
+              >
+                <input
+                  class="pixel-radio"
+                  type="radio"
+                  id="gionee"
+                  name="brand"
+                /><label for="Trelino">Trelino<span>(19)</span></label>
+              </nuxt-link>
             </li>
           </ul>
         </form>
