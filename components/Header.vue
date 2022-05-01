@@ -87,11 +87,11 @@
                     </li>
                   </ul>
                 </li> -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="/kontakt/">Kontakt</a>
-                </li>
+                </li> -->
               </ul>
-              <ul class="nav navbar-nav navbar-right">
+              <!-- <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
                   <a href="#" class="cart"><span class="ti-bag"></span></a>
                 </li>
@@ -100,7 +100,7 @@
                     <span class="lnr lnr-magnifier" id="search"></span>
                   </button>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </nav>

@@ -67,7 +67,7 @@
                 />
               </div>
               <h6>Kein Wasser</h6>
-              <p>Eine Trenntoilete benötigt kein Wasser</p>
+              <p>Eine Trenntoilette benötigt kein Wasser</p>
             </div>
           </div>
           <!-- single features -->
@@ -193,7 +193,7 @@
                     title="Einsatz für die Trenntoilette"
                   >
                     <div class="deal-details">
-                      <h6 class="deal-title">Trenntoilete Einsatz</h6>
+                      <h6 class="deal-title">Trenntoilette Einsatz</h6>
                     </div>
                   </nuxt-link>
                 </div>
