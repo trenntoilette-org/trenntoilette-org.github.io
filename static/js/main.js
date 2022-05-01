@@ -51,7 +51,7 @@ $(document).ready(function() {
         items: 1,
         autoplay: false,
         autoplayTimeout: 5000,
-        loop: true,
+        loop: false,
         nav: true,
         navText: ["<img src='/assets/images/img/banner/prev.png'>", "<img src='/assets/images/img/banner/next.png'>"],
         dots: false
