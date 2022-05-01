@@ -40,7 +40,7 @@
                       v-html="product.name"
                     ></nuxt-link>
                     <div class="price">
-                      <h6>{{ product.price }}</h6>
+                      <h6>{{ parseFloat(product.price).toFixed(2) }}</h6>
                       <!-- <h6 class="l-through">$210.00</h6> -->
                     </div>
                   </div>

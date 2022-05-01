@@ -100,7 +100,9 @@
             ></i>
           </li>
         </ul>
-        <p class="text-center mb-0">{{ product.price }} €</p>
+        <p class="text-center mb-0">
+          {{ parseFloat(product.price).toFixed(2) }} €
+        </p>
       </div>
     </div>
   </div>

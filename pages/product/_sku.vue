@@ -37,7 +37,7 @@
 				<div class="col-lg-5 offset-lg-1">
 					<div class="s_product_text">
 						<h3 v-html="product.name"></h3>
-						<h2>{{ product.price }} €</h2>
+						<h2>{{ parseFloat(product.price).toFixed(2) }} €</h2>
 						<ul class="list">
 							<li><nuxt-link class="active" :to="`/kategorie/${product.category}/`"><span>Category</span> : {{ product.category }}</nuxt-link></li>
 							<li><a href="#"><span>Verfügbarkeit</span> : Auf Lager</a></li>

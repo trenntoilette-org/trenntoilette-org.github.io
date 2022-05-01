@@ -323,7 +323,7 @@
                   <div class="product-details">
                     <h6>{{ product.name }}</h6>
                     <div class="price">
-                      <h6>{{ product.price }} €</h6>
+                      <h6>{{ parseFloat(product.price).toFixed(2) }} €</h6>
                       <!-- <h6 class="l-through">$210.00</h6> -->
                     </div>
                     <div class="prd-bottom">
