@@ -32,7 +32,7 @@
         <CategorySidebar />
         <div class="col-xl-9 col-lg-8 col-md-7">
           <!-- Start Filter Bar -->
-          <div class="filter-bar d-flex flex-wrap align-items-center">
+          <!-- <div class="filter-bar d-flex flex-wrap align-items-center">
             <div class="sorting">
               <select>
                 <option value="1">Default sorting</option>
@@ -62,7 +62,7 @@
                 ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
               ></a>
             </div>
-          </div>
+          </div> -->
           <!-- End Filter Bar -->
 
           <!-- Start Best Seller -->
@@ -73,44 +73,14 @@
                 :key="index"
                 class="col-lg-4 col-md-6"
               >
-                <div class="single-product">
-                  <img class="img-fluid" :src="product.image" alt="" />
-                  <div class="product-details">
-                    <h6 v-html="product.name"></h6>
-                    <div class="price">
-                      <h6>{{ parseFloat(product.price).toFixed(2) }} €</h6>
-                      <!-- <h6 class="l-through">$210.00</h6> -->
-                    </div>
-                    <div class="prd-bottom">
-                      <nuxt-link
-                        :to="`/product/${product.sku}/`"
-                        class="social-info"
-                      >
-                        <span class="ti-bag"></span>
-                        <p class="hover-text">add to bag</p>
-                      </nuxt-link>
-                      <a href="" class="social-info">
-                        <span class="lnr lnr-heart"></span>
-                        <p class="hover-text">Wishlist</p>
-                      </a>
-                      <a href="" class="social-info">
-                        <span class="lnr lnr-sync"></span>
-                        <p class="hover-text">compare</p>
-                      </a>
-                      <a href="" class="social-info">
-                        <span class="lnr lnr-move"></span>
-                        <p class="hover-text">view more</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <SingleProduct :product="product" />
               </div>
             </div>
           </section>
           <!-- End Best Seller -->
 
           <!-- Start Filter Bar -->
-          <div class="filter-bar d-flex flex-wrap align-items-center">
+          <!-- <div class="filter-bar d-flex flex-wrap align-items-center">
             <div class="sorting mr-auto">
               <select>
                 <option value="1">Show 12</option>
@@ -133,7 +103,7 @@
                 ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
               ></a>
             </div>
-          </div>
+          </div> -->
           <!-- End Filter Bar -->
         </div>
       </div>
@@ -214,7 +184,7 @@
                     <div
                       class="quantity-container d-flex align-items-center mt-15"
                     >
-                      Quantity:
+                      Anzahl:
                       <input
                         type="text"
                         class="quantity-amount ml-15"

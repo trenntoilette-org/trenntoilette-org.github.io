@@ -530,7 +530,7 @@
     {
         "brand": "TROBOLO",
         "sku": "M25C30XX1395",
-        "name": "TROBOLO\u00ae KitaB\u0153m &amp; Komposter",
+        "name": "TROBOLO\u00ae KitaB\u0153m & Komposter",
         "category": "Gartentoilette",
         "material": "",
         "size": "",
@@ -538,7 +538,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "TROBOLO\u00ae KitaB\u0153m &amp; Komposter",
+        "linkTitle": "TROBOLO\u00ae KitaB\u0153m & Komposter",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2021/05/TROBOLO_KitaBoem-1200x675.jpg",
@@ -581,7 +581,7 @@
     {
         "brand": "TROBOLO",
         "sku": "SMXX1338",
-        "name": "Einstreu &amp; kompostierbare Inlays",
+        "name": "Einstreu & kompostierbare Inlays",
         "category": "",
         "material": "",
         "size": "",
@@ -589,7 +589,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "Einstreu &amp; kompostierbare Inlays",
+        "linkTitle": "Einstreu & kompostierbare Inlays",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Litter__Compostable_inlays-1200x675.jpg",
@@ -620,9 +620,9 @@
         "price": 789,
         "reviewCount": 326,
         "shopLink": "https://trobolo.com/de/produkte/lunabloem/",
-        "featured": false,
-        "winner": false,
-        "published": false
+        "featured": true,
+        "winner": true,
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -742,7 +742,7 @@
     {
         "brand": "TROBOLO",
         "sku": "STWXX1376",
-        "name": "Trenntoiletten Einsatz (wei\u00df) &amp; Toilettensitz",
+        "name": "Trenntoiletten Einsatz (wei\u00df) & Toilettensitz",
         "category": "",
         "material": "",
         "size": "",
@@ -750,7 +750,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "Trenntoiletten Einsatz (wei\u00df) &amp; Toilettensitz",
+        "linkTitle": "Trenntoiletten Einsatz (wei\u00df) & Toilettensitz",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Urine-diverting_toilets_insert_white__toilet_-seat_960x640-1200x675.jpg",
@@ -788,7 +788,7 @@
     {
         "brand": "TROBOLO",
         "sku": "TKXX1402",
-        "name": "Toilettensitz BilaBl\u0153m &amp; IndiBl\u0153m",
+        "name": "Toilettensitz BilaBl\u0153m & IndiBl\u0153m",
         "category": "",
         "material": "",
         "size": "",
@@ -796,7 +796,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "Toilettensitz BilaBl\u0153m &amp; IndiBl\u0153m",
+        "linkTitle": "Toilettensitz BilaBl\u0153m & IndiBl\u0153m",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2021/08/Toilet_Seat_BilaBloem_IndiBloem-1-1200x675.jpg",
@@ -995,7 +995,7 @@
     {
         "brand": "TROBOLO",
         "sku": "STGXX1375",
-        "name": "Trenntoiletten Einsatz (grau) &amp; Toilettensitz",
+        "name": "Trenntoiletten Einsatz (grau) & Toilettensitz",
         "category": "",
         "material": "",
         "size": "",
@@ -1003,7 +1003,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "Trenntoiletten Einsatz (grau) &amp; Toilettensitz",
+        "linkTitle": "Trenntoiletten Einsatz (grau) & Toilettensitz",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Urine-diverting_toilets_insert_grey__toilet_-seat-1200x675.jpg",
@@ -1087,7 +1087,7 @@
     {
         "brand": "TROBOLO",
         "sku": "M20C30XX1331",
-        "name": "TROBOLO\u00ae KersaB\u0153m &amp; Komposter",
+        "name": "TROBOLO\u00ae KersaB\u0153m & Komposter",
         "category": "Gartentoilette",
         "material": "",
         "size": "",
@@ -1095,7 +1095,7 @@
         "payload": "",
         "function": "",
         "manufacturerLink": "",
-        "linkTitle": "TROBOLO\u00ae KersaB\u0153m &amp; Komposter",
+        "linkTitle": "TROBOLO\u00ae KersaB\u0153m & Komposter",
         "linkTo": "",
         "stars": 5,
         "image": "https://trobolo.com/wp-content/uploads/2020/12/TROBOLO_KersaBoem_Composter_960x640-1200x675.jpg",
@@ -1591,9 +1591,9 @@
         "price": 812.43,
         "reviewCount": 204,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-l-trenntoilette-aus-birken-holz-mit-hpl-veredelung-anthrazit",
-        "featured": true,
-        "winner": true,
-        "published": true
+        "featured": false,
+        "winner": false,
+        "published": false
     },
     {
         "brand": "MeineTrenntoilette",

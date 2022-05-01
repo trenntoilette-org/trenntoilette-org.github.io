@@ -604,7 +604,7 @@
                     <div
                       class="quantity-container d-flex align-items-center mt-15"
                     >
-                      Quantity:
+                      Anzahl:
                       <input
                         type="text"
                         class="quantity-amount ml-15"

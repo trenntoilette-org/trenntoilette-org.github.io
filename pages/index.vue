@@ -119,7 +119,7 @@
                   <img
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c1.jpg"
-                    alt=""
+                    alt="Campingtoiletten"
                   />
                   <nuxt-link
                     to="/kategorie/Campingtoilette/"
@@ -137,7 +137,7 @@
                   <img
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c2.jpg"
-                    alt=""
+                    alt="Trenntoiletten für's Haus"
                   />
                   <nuxt-link
                     to="/kategorie/Innenbereich/"
@@ -155,7 +155,7 @@
                   <img
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c3.jpg"
-                    alt=""
+                    alt="Zubehör für Trenntoiletten"
                   />
                   <nuxt-link to="/shop/" title="Zubehör für Trenntoiletten">
                     <div class="deal-details">
@@ -170,7 +170,7 @@
                   <img
                     class="img-fluid w-100"
                     src="/assets/images/img/category/c4.jpg"
-                    alt=""
+                    alt="Einsatz für die Trenntoilette"
                   />
                   <nuxt-link
                     to="/kategorie/Trenneinsatz/"
@@ -190,7 +190,7 @@
               <img
                 class="img-fluid w-100"
                 src="/assets/images/img/category/c5.jpg"
-                alt=""
+                alt="Gartentoilette"
               />
               <nuxt-link
                 to="/kategorie/Gartentoilette/"
@@ -407,19 +407,19 @@
                 <div class="row clock-wrap">
                   <div class="col clockinner1 clockinner">
                     <h1 class="days">150</h1>
-                    <span class="smalltext">Days</span>
+                    <span class="smalltext">Tage</span>
                   </div>
                   <div class="col clockinner clockinner1">
                     <h1 class="hours">23</h1>
-                    <span class="smalltext">Hours</span>
+                    <span class="smalltext">Stunden</span>
                   </div>
                   <div class="col clockinner clockinner1">
                     <h1 class="minutes">47</h1>
-                    <span class="smalltext">Mins</span>
+                    <span class="smalltext">Minuten</span>
                   </div>
                   <div class="col clockinner clockinner1">
                     <h1 class="seconds">59</h1>
-                    <span class="smalltext">Secs</span>
+                    <span class="smalltext">Sekunden</span>
                   </div>
                 </div>
               </div>
@@ -465,7 +465,10 @@
                       justify-content-center
                     "
                   >
-                    <nuxt-link class="add-btn" :to="`/product/${product.sku}/`"
+                    <nuxt-link
+                      class="add-btn"
+                      :to="`/product/${product.sku}/`"
+                      :title="product.name"
                       ><span class="ti-bag"></span
                     ></nuxt-link>
                     <span class="add-text text-uppercase">Mehr erfahren</span>
@@ -487,21 +490,21 @@
             <img
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/trobolo.png"
-              alt=""
+              alt="Trenntoiletten von TROBOLO"
             />
           </a>
           <a class="col single-img" href="#">
             <img
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/trelino.webp"
-              alt=""
+              alt="Trenntoiletten von Trelino"
             />
           </a>
           <a class="col single-img" href="#">
             <img
               class="img-fluid d-block mx-auto"
               src="/assets/images/logos/kildwick.png"
-              alt=""
+              alt="Trenntoiletten von Kildwick"
             />
           </a>
         </div>

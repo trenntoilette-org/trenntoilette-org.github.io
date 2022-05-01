@@ -1,10 +1,12 @@
+import config from "./assets/data/config.json"
+
 export default {
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'Trenntoiletten Shop',
+        title: config.siteSlogan,
         htmlAttrs: {
             lang: 'de'
         },
@@ -59,7 +61,33 @@ export default {
     components: true,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: [],
+    buildModules: [
+        '@nuxt/image'
+    ],
+
+    image: {
+        presets: {
+            productThumbnail: {
+                modifiers: {
+                    format: 'webp'
+                }
+            },
+            footerThumbnail: {
+                modifiers: {
+                    format: 'webp',
+                    width: 58,
+                    height: 58
+                }
+            },
+            seventyFourty: {
+                modifiers: {
+                    format: 'webp',
+                    width: 70,
+                    height: 40
+                }
+            }
+        }
+    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [

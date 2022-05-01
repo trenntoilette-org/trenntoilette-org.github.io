@@ -27,8 +27,8 @@
                   <nuxt-link
                     :to="`/product/${product.sku}/`"
                     :title="product.name"
-                    ><img
-                      style="width: 70px; height: auto"
+                    ><nuxt-img
+                      preset="seventyFourty"
                       :src="`${config.imageFolder + product.localThumb}`"
                       :alt="product.name"
                   /></nuxt-link>
@@ -40,7 +40,7 @@
                       v-html="product.name"
                     ></nuxt-link>
                     <div class="price">
-                      <h6>{{ parseFloat(product.price).toFixed(2) }}</h6>
+                      <h6>{{ parseFloat(product.price).toFixed(2) }} €</h6>
                       <!-- <h6 class="l-through">$210.00</h6> -->
                     </div>
                   </div>
@@ -57,7 +57,7 @@
                 <img
                   class="img-fluid d-block mx-auto"
                   :src="bigProduct.image"
-                  alt=""
+                  :alt="bigProduct.name"
                 />
               </nuxt-link>
             </div>

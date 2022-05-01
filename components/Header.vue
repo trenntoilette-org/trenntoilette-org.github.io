@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-lg navbar-light main_box">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand logo_h" href="/"
+            <a class="navbar-brand logo_h" href="/" :title="config.siteSlogan"
               ><img src="/assets/images/logo.png" alt=""
             /></a>
             <button
@@ -42,7 +42,6 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                     >Trenntoiletten</nuxt-link
-                  >
                   >
                   <ul class="dropdown-menu">
                     <li class="nav-item">
@@ -127,3 +126,16 @@
     </header>
   </div>
 </template>
+
+<script>
+import config from "~/assets/data/config.json";
+
+export default {
+  name: "HeaderComponent",
+  data() {
+    return {
+      config,
+    };
+  },
+};
+</script>

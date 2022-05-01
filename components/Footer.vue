@@ -64,9 +64,9 @@
                     :to="`/product/${product.sku}/`"
                     :title="product.name"
                   >
-                    <img
-                      :src="product.image"
-                      style="width: 58px; height: 58px"
+                    <nuxt-img
+                      preset="footerThumbnail"
+                      :src="`/assets/images/products/${product.localThumb}`"
                       :alt="product.name"
                     />
                   </nuxt-link>
