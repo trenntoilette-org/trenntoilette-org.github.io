@@ -37,8 +37,8 @@
                       :to="`/product/${product.sku}/`"
                       :title="product.name"
                       class="title"
-                      >{{ product.name }}</nuxt-link
-                    >
+                      v-html="product.name"
+                    ></nuxt-link>
                     <div class="price">
                       <h6>{{ product.price }}</h6>
                       <!-- <h6 class="l-through">$210.00</h6> -->

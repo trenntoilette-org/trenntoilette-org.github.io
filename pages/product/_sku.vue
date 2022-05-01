@@ -36,7 +36,7 @@
 				</div>
 				<div class="col-lg-5 offset-lg-1">
 					<div class="s_product_text">
-						<h3>{{ product.name }}</h3>
+						<h3 v-html="product.name"></h3>
 						<h2>{{ product.price }} €</h2>
 						<ul class="list">
 							<li><nuxt-link class="active" :to="`/kategorie/${product.category}/`"><span>Category</span> : {{ product.category }}</nuxt-link></li>

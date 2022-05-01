@@ -243,8 +243,8 @@
                       class="removeLinkAttr"
                       :to="`/product/${product.sku}/`"
                       :title="product.name"
-                      >{{ product.name }}</nuxt-link
-                    >
+                      v-html="product.name"
+                    ></nuxt-link>
                   </h6>
                   <div class="price">
                     <h6>{{ product.price }} €</h6>
@@ -302,7 +302,7 @@
                   alt=""
                 />
                 <div class="product-details">
-                  <h6>{{ product.name }}</h6>
+                  <h6 v-html="product.name">}</h6>
                   <div class="price">
                     <h6>{{ product.price }}</h6>
                     <!-- <h6 class="l-through">$210.00</h6> -->
@@ -358,7 +358,7 @@
                   alt=""
                 />
                 <div class="product-details">
-                  <h6>{{ product.name }}</h6>
+                  <h6 v-html="product.name"></h6>
                   <div class="price">
                     <h6>{{ product.price }}</h6>
                     <!-- <h6 class="l-through">$210.00</h6> -->
@@ -454,8 +454,8 @@
                       class="removeLinkAttr"
                       :to="`/product/${product.sku}/`"
                       :title="product.name"
-                      >{{ product.name }}</nuxt-link
-                    >
+                      v-html="product.name"
+                    ></nuxt-link>
                   </h4>
                   <div
                     class="
