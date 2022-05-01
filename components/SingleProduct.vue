@@ -1,7 +1,12 @@
 <template>
   <div class="single-product">
     <nuxt-link :to="`/product/${product.sku}/`" :title="product.name">
-      <img class="img-fluid" :src="product.image" alt="" />
+      <nuxt-img
+        preset="default"
+        class="img-fluid"
+        :src="product.image"
+        :alt="product.name"
+      />
     </nuxt-link>
     <div class="product-details">
       <h6 v-html="product.name">}</h6>

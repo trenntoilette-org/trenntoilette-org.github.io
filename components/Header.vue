@@ -5,9 +5,12 @@
         <nav class="navbar navbar-expand-lg navbar-light main_box">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand logo_h" href="/" :title="config.siteSlogan"
-              ><img src="/assets/images/logo.png" alt=""
-            /></a>
+            <nuxt-link
+              class="navbar-brand logo_h"
+              to="/"
+              :title="config.siteSlogan"
+              ><nuxt-img src="/assets/images/logo.png" :alt="config.siteSlogan"
+            /></nuxt-link>
             <button
               class="navbar-toggler"
               type="button"

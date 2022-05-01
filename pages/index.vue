@@ -36,7 +36,8 @@
                       class="add-btn"
                       :title="product.name"
                     >
-                      <img
+                      <nuxt-img
+                        preset="default"
                         class="img-fluid"
                         :src="`${config.imageFolder + product.localThumb}`"
                         :alt="product.name"
@@ -61,7 +62,8 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img
+                <nuxt-img
+                  preset="default"
                   src="/assets/images/img/features/f-icon1.png"
                   alt="Kein Wasser notwendig"
                 />
@@ -74,7 +76,8 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img
+                <nuxt-img
+                  preset="default"
                   src="/assets/images/img/features/f-icon2.png"
                   alt="Keine Chemie notwendig"
                 />
@@ -87,7 +90,8 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img
+                <nuxt-img
+                  preset="default"
                   src="/assets/images/img/features/f-icon3.png"
                   alt="Geruchsfrei"
                 />
@@ -103,7 +107,8 @@
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-features">
               <div class="f-icon">
-                <img
+                <nuxt-img
+                  preset="default"
                   src="/assets/images/img/features/f-icon4.png"
                   alt="Überall einsetzbar"
                 />

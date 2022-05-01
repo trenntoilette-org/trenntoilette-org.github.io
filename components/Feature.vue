@@ -25,7 +25,8 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img
+              <nuxt-img
+                preset="default"
                 class="img-fluid"
                 src="/images/products/trenntoilette-trobolo-terabloem.webp"
                 alt=""
@@ -79,7 +80,8 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img
+              <nuxt-img
+                preset="default"
                 class="img-fluid"
                 src="/images/products/trenntoilette-trobolo-terabloem.webp"
                 alt=""
@@ -104,7 +106,8 @@
         <div class="container">
           <div class="row p-5">
             <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-              <img
+              <nuxt-img
+                preset="default"
                 class="img-fluid"
                 src="/images/products/trenntoilette-trobolo-terabloem.webp"
                 alt=""
