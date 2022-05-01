@@ -38,7 +38,7 @@
                     >
                       <img
                         class="img-fluid"
-                        :src="product.image"
+                        :src="`${config.imageFolder + product.localThumb}`"
                         :alt="product.name"
                       />
                     </nuxt-link>
@@ -233,7 +233,7 @@
                 >
                   <img
                     class="img-fluid"
-                    :src="product.image"
+                    :src="`${config.imageFolder + product.localThumb}`"
                     :alt="product.name"
                   />
                 </nuxt-link>
@@ -296,7 +296,11 @@
               :key="index"
             >
               <div class="single-product">
-                <img class="img-fluid" :src="product.image" alt="" />
+                <img
+                  class="img-fluid"
+                  :src="`${config.imageFolder + product.localThumb}`"
+                  alt=""
+                />
                 <div class="product-details">
                   <h6>{{ product.name }}</h6>
                   <div class="price">
@@ -348,7 +352,11 @@
               :key="index"
             >
               <div class="single-product">
-                <img class="img-fluid" :src="product.image" alt="" />
+                <img
+                  class="img-fluid"
+                  :src="`${config.imageFolder + product.localThumb}`"
+                  alt=""
+                />
                 <div class="product-details">
                   <h6>{{ product.name }}</h6>
                   <div class="price">
@@ -432,7 +440,7 @@
                 >
                   <img
                     class="img-fluid"
-                    :src="product.image"
+                    :src="`${config.imageFolder + product.localThumb}`"
                     :alt="product.name"
                   />
                 </nuxt-link>
@@ -537,6 +545,7 @@ export default {
     };
   },
   data: () => ({
+    config,
     products,
     headerFeatures,
     campingtoiletten,

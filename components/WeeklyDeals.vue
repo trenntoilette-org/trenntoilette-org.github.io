@@ -29,7 +29,7 @@
                     :title="product.name"
                     ><img
                       style="width: 70px; height: auto"
-                      :src="product.image"
+                      :src="`${config.imageFolder + product.localThumb}`"
                       :alt="product.name"
                   /></nuxt-link>
                   <div class="desc">
@@ -71,14 +71,18 @@
 
 <script>
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
+import config from "~/assets/data/config.json";
+
 const featured = trenntoiletten
   .filter((product) => product.published == true && product.featured == true)
   .slice(0, 6);
 const bigProduct = trenntoiletten.find((x) => x.sku == "M20XX1313");
+
 export default {
   name: "weeklydeals",
   data() {
     return {
+      config,
       featured,
       bigProduct,
     };

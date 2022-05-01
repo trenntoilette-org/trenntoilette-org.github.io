@@ -49,9 +49,9 @@ $(document).ready(function() {
     ==================================*/
     $(".active-banner-slider").owlCarousel({
         items: 1,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
-        loop: false,
+        loop: true,
         nav: true,
         navText: ["<img src='/assets/images/img/banner/prev.png'>", "<img src='/assets/images/img/banner/next.png'>"],
         dots: false
