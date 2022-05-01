@@ -323,7 +323,7 @@
                   preset="default"
                   class="img-fluid"
                   :src="`${config.imageFolder + product.localThumb}`"
-                  alt=""
+                  :alt="product.name"
                 />
                 <div class="product-details">
                   <h6 v-html="product.name">}</h6>

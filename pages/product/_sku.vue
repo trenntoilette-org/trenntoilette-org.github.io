@@ -24,7 +24,7 @@
 				<div class="col-lg-6">
 					<div class="s_Product_carousel">
 						<div class="single-prd-item">
-							<nuxt-img preset="default" class="img-fluid" :src="`${config.imageFolder + product.localThumb}`" :alt="product.name">
+							<nuxt-img preset="default" class="img-fluid" :src="`${config.imageFolder + product.localThumb}`" :alt="product.name" />
 						</div>
 						<!-- <div class="single-prd-item">
 							<img class="img-fluid" :src="product.image" alt="">
@@ -181,7 +181,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-1.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-1.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -196,7 +196,7 @@
 								<div class="review_item reply">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-2.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-2.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -211,7 +211,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-3.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-3.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -290,7 +290,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-1.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-1.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -308,7 +308,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-2.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-2.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
@@ -326,7 +326,7 @@
 								<div class="review_item">
 									<div class="media">
 										<div class="d-flex">
-											<nuxt-img preset="default" src="/assets/images/img/product/review-3.png">
+											<nuxt-img preset="default" src="/assets/images/img/product/review-3.png" />
 										</div>
 										<div class="media-body">
 											<h4>Blake Ruiz</h4>
