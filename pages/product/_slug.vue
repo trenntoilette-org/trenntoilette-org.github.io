@@ -510,9 +510,9 @@ export default {
     };
   },
   async asyncData({ route }) {
-    const sku = route.params.sku;
+    const slug = route.params.slug;
     return {
-      product: trenntoiletten.find((x) => x.sku == route.params.sku),
+      product: trenntoiletten.find((x) => x.slug == route.params.slug),
       config,
     };
   },

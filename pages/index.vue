@@ -20,7 +20,7 @@
                     </p>
                     <div class="add-bag d-flex align-items-center">
                       <nuxt-link
-                        :to="`/product/${product.sku}/`"
+                        :to="`/product/${product.slug}/`"
                         class="add-btn"
                         :title="product.name"
                         ><span class="lnr lnr-cross"></span
@@ -32,7 +32,7 @@
                 <div class="col-lg-7">
                   <div class="banner-img">
                     <nuxt-link
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       class="add-btn"
                       :title="product.name"
                     >
@@ -250,7 +250,7 @@
             >
               <div class="single-product">
                 <nuxt-link
-                  :to="`/product/${product.sku}/`"
+                  :to="`/product/${product.slug}/`"
                   :title="product.name"
                 >
                   <nuxt-img
@@ -264,7 +264,7 @@
                   <h6>
                     <nuxt-link
                       class="removeLinkAttr"
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       :title="product.name"
                       v-html="product.name"
                     ></nuxt-link>
@@ -275,7 +275,7 @@
                   </div>
                   <div class="prd-bottom">
                     <nuxt-link
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       :title="product.name"
                       class="social-info"
                     >
@@ -333,7 +333,7 @@
                   </div>
                   <div class="prd-bottom">
                     <nuxt-link
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       class="social-info"
                     >
                       <span class="ti-bag"></span>
@@ -390,7 +390,7 @@
                   </div>
                   <div class="prd-bottom">
                     <nuxt-link
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       class="social-info"
                     >
                       <span class="ti-bag"></span>
@@ -460,7 +460,7 @@
                 class="single-exclusive-slider"
               >
                 <nuxt-link
-                  :to="`/product/${product.sku}/`"
+                  :to="`/product/${product.slug}/`"
                   :title="product.name"
                 >
                   <nuxt-img
@@ -478,7 +478,7 @@
                   <h4>
                     <nuxt-link
                       class="removeLinkAttr"
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       :title="product.name"
                       v-html="product.name"
                     ></nuxt-link>
@@ -493,7 +493,7 @@
                   >
                     <nuxt-link
                       class="add-btn"
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       :title="product.name"
                       ><span class="ti-bag"></span
                     ></nuxt-link>
@@ -551,6 +551,7 @@ const gartentoiletten = trenntoiletten.filter(
   (x) => x.category == "Gartentoilette" && x.published
 );
 const headerFeatures = trenntoiletten.filter((x) => x.headerFeature);
+console.log(headerFeatures)
 
 export default {
   name: "IndexPage",

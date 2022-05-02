@@ -61,7 +61,7 @@
               <ul class="instafeed d-flex flex-wrap">
                 <li v-for="(product, index) in featured" :key="index">
                   <nuxt-link
-                    :to="`/product/${product.sku}/`"
+                    :to="`/product/${product.slug}/`"
                     :title="product.name"
                   >
                     <nuxt-img

@@ -25,7 +25,7 @@
               >
                 <div class="single-related-product d-flex">
                   <nuxt-link
-                    :to="`/product/${product.sku}/`"
+                    :to="`/product/${product.slug}/`"
                     :title="product.name"
                     ><nuxt-img
                       preset="seventyFourty"
@@ -34,7 +34,7 @@
                   /></nuxt-link>
                   <div class="desc">
                     <nuxt-link
-                      :to="`/product/${product.sku}/`"
+                      :to="`/product/${product.slug}/`"
                       :title="product.name"
                       class="title"
                       v-html="product.name"
@@ -51,7 +51,7 @@
           <div class="col-lg-3">
             <div class="ctg-right">
               <nuxt-link
-                :to="`/product/${bigProduct.sku}/`"
+                :to="`/product/${bigProduct.slug}/`"
                 :title="bigProduct.name"
               >
                 <nuxt-img

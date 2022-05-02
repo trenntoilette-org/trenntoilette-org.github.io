@@ -1,6 +1,6 @@
 <template>
   <div class="single-product">
-    <nuxt-link :to="`/product/${product.sku}/`" :title="product.name">
+    <nuxt-link :to="`/product/${product.slug}/`" :title="product.name">
       <nuxt-img
         preset="default"
         class="img-fluid"
@@ -15,7 +15,7 @@
         <!-- <h6 class="l-through">$210.00</h6> -->
       </div>
       <div class="prd-bottom">
-        <nuxt-link :to="`/product/${product.sku}/`" class="social-info">
+        <nuxt-link :to="`/product/${product.slug}/`" class="social-info">
           <span class="ti-bag"></span>
           <p class="hover-text">Bestellen</p>
         </nuxt-link>
