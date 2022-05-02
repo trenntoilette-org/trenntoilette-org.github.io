@@ -551,7 +551,6 @@ const gartentoiletten = trenntoiletten.filter(
   (x) => x.category == "Gartentoilette" && x.published
 );
 const headerFeatures = trenntoiletten.filter((x) => x.headerFeature);
-console.log(headerFeatures)
 
 export default {
   name: "IndexPage",
