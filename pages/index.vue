@@ -512,30 +512,19 @@
     <section class="brand-area section_gap">
       <div class="container">
         <div class="row">
-          <a class="col single-img" href="#">
+          <nuxt-link
+            v-for="(brand, index) in brands"
+            :key="index"
+            class="col single-img"
+            :to="`/hersteller/${brand.name}`"
+          >
             <nuxt-img
               preset="default"
               class="img-fluid d-block mx-auto"
-              src="/assets/images/logos/trobolo.png"
-              alt="Trenntoiletten von TROBOLO"
+              :src="`/assets/images/logos/${brand.logo}`"
+              :alt="brand.title"
             />
-          </a>
-          <a class="col single-img" href="#">
-            <nuxt-img
-              preset="default"
-              class="img-fluid d-block mx-auto"
-              src="/assets/images/logos/trelino.webp"
-              alt="Trenntoiletten von Trelino"
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <nuxt-img
-              preset="default"
-              class="img-fluid d-block mx-auto"
-              src="/assets/images/logos/kildwick.png"
-              alt="Trenntoiletten von Kildwick"
-            />
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -547,6 +536,7 @@
 
 <script>
 import trenntoiletten from "~/assets/data/trenntoiletten.json";
+import brands from "~/assets/data/brands.json";
 import config from "~/assets/data/config.json";
 
 const pageKey = "index";
@@ -582,6 +572,7 @@ export default {
     headerFeatures,
     campingtoiletten,
     gartentoiletten,
+    brands,
   }),
 };
 </script>

@@ -94,6 +94,10 @@ export default {
         '@nuxtjs/sitemap'
     ],
 
+    sitemap: {
+        'hostname': 'https://www.trenntoilette.org/'
+    },
+
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
 
