@@ -575,7 +575,15 @@
         "headerFeature": {
             "title": "TROBOLO WandaGO",
             "text": "Die neue, ultraleichte und kompatke Campingtoilette von TROBOLO. Jetzt vorbestellen und 50,00 EUR sparen!"
-        }
+        },
+        "seo": {
+            "seoText": "<p>TROBOLO WandaGO ist die geilste Campingtoilette die es gibt</p>"
+        },
+        "specifications": [
+            { "Höhe": "212 mm" },
+            { "Breite": "324 mm" },
+            { "Länge": "323 mm" }
+        ]
     },
     {
         "brand": "TROBOLO",
