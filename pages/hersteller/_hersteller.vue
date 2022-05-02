@@ -13,7 +13,7 @@
           "
         >
           <div class="col-first">
-            <h1>Trenntoiletten Shop</h1>
+            <h1>{{ hersteller }}</h1>
             <!-- <nav class="d-flex align-items-center">
               <a href="index.html"
                 >Home<span class="lnr lnr-arrow-right"></span
@@ -243,6 +243,7 @@ export default {
     return {
       products: trenntoiletten.filter((x) => x.brand == hersteller),
       categories,
+      hersteller,
     };
   },
 };

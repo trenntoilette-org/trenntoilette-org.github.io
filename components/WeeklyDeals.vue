@@ -54,9 +54,10 @@
                 :to="`/product/${bigProduct.sku}/`"
                 :title="bigProduct.name"
               >
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid d-block mx-auto"
-                  :src="bigProduct.image"
+                  :src="`${config.imageFolder + bigProduct.localThumb}`"
                   :alt="bigProduct.name"
                 />
               </nuxt-link>

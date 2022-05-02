@@ -4,7 +4,7 @@
       <nuxt-img
         preset="default"
         class="img-fluid"
-        :src="product.image"
+        :src="`${config.imageFolder + product.localThumb}`"
         :alt="product.name"
       />
     </nuxt-link>
@@ -37,10 +37,16 @@
 </template>
 
 <script>
+import config from "~/assets/data/config.json";
 export default {
   name: "singleproduct",
   props: {
     product: Object,
+  },
+  data() {
+    return {
+      config,
+    };
   },
 };
 </script>
