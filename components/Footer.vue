@@ -1,126 +1,158 @@
 <template>
   <div>
-    <footer class="footer-area section_gap">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Über uns</h6>
-              <p>
-                {{ config.siteDescription }}
-              </p>
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Schnellzugriff</h4>
+            <a class="btn btn-link" href="">Über Uns</a>
+            <a class="btn btn-link" href="">Kontakt</a>
+            <a class="btn btn-link" href="">Datenschutz</a>
+            <a class="btn btn-link" href="">AGBs</a>
+            <a class="btn btn-link" href="">FAQs & Hilfe</a>
+          </div>
+          <div class="col-lg-3 col-md-6" id="kontakt">
+            <h4 class="text-white mb-3">Kontakt</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i
+              >{{ config.companyAddress }}
+            </p>
+            <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>{{ config.email }}
+            </p>
+            <div class="d-flex pt-2">
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://twitter.com/Trockentrennto1"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://github.com/trenntoilette-net/trockentrenntoilette-net.github.io"
+                ><i class="fab fa-github"></i
+              ></a>
+              <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Newsletter</h6>
-              <p>Bleib immer auf dem neusten Stand!</p>
-              <div class="" id="mc_embed_signup">
-                <form
-                  target="_blank"
-                  novalidate="true"
-                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                  method="get"
-                  class="form-inline"
-                >
-                  <div class="d-flex flex-row">
-                    <input
-                      class="form-control"
-                      name="EMAIL"
-                      placeholder="Email"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Email '"
-                      required=""
-                      type="email"
-                    />
-
-                    <button class="click-btn btn btn-default">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                    </button>
-                    <div style="position: absolute; left: -5000px">
-                      <input
-                        name="b_36c4fd991d266f23781ded980_aefe40901a"
-                        tabindex="-1"
-                        value=""
-                        type="text"
-                      />
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
-                  </div>
-                  <div class="info"></div>
-                </form>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallerie</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-terabloem.webp"
+                  alt="TROBOLO TeraBlœm"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-kersaboem.webp"
+                  alt="TROBOLO KersaBœm"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-indiebloem.webp"
+                  alt="TROBOLO IndieBlœm"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trelino-trelino-l.webp"
+                  alt="Trelino L"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-kildwick-miniloo.webp"
+                  alt="Kildwick MiniLoo"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-kitaboem.webp"
+                  alt="TROBOLO KitaBœm"
+                />
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget mail-chimp">
-              <h6 class="mb-20">Beliebte Produkte</h6>
-              <ul class="instafeed d-flex flex-wrap">
-                <li v-for="(product, index) in featured" :key="index">
-                  <nuxt-link
-                    :to="`/product/${product.slug}/`"
-                    :title="product.name"
-                  >
-                    <nuxt-img
-                      preset="footerThumbnail"
-                      :src="`/assets/images/products/${product.localThumb}`"
-                      :alt="product.name"
-                    />
-                  </nuxt-link>
-                </li>
-              </ul>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Newsletter</h4>
+            <p>
+              Abonnieren Sie unseren Newsletter um über neue Testberichte und
+              Angebote informiert zu werden.
+            </p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Ihre Email"
+              />
+              <button
+                type="button"
+                class="
+                  btn btn-primary
+                  py-2
+                  position-absolute
+                  top-0
+                  end-0
+                  mt-2
+                  me-2
+                "
+              >
+                Mitmachen
+              </button>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Folge uns</h6>
-              <p>Besuch uns auch auf:</p>
-              <div class="footer-social d-flex align-items-center">
-                <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href="#"><i class="fa fa-github"></i></a> -->
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
-                <!-- <a href="#"><i class="fa fa-behance"></i></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            footer-bottom
-            d-flex
-            justify-content-center
-            align-items-center
-            flex-wrap
-          "
-        >
-          <p class="footer-text m-0">
-            Copyright &copy; 2022 Alle Rechte vorbehalten |
-            <i class="fa fa-heart-o" aria-hidden="true"></i>
-            <nuxt-link to="/" :title="config.siteSlogan">{{
-              config.siteName
-            }}</nuxt-link>
-          </p>
         </div>
       </div>
-    </footer>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <nuxt-link class="border-bottom" to="/" :title="config.title">{{
+                config.domain
+              }}</nuxt-link>
+              - Alle Rechte vorbehalten.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <nuxt-link to="/" :title="config.seo.mainKeyword"
+                  >Home</nuxt-link
+                >
+                <a href="#testsieger">Testsieger</a>
+                <a href="#hilfe">Hilfe</a>
+                <a href="#faq">FAQs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
   </div>
 </template>
 
 <script>
-import trenntoiletten from "~/assets/data/trenntoiletten.json";
 import config from "~/assets/data/config.json";
 
-const featured = trenntoiletten.filter((x) => x.featured);
-
 export default {
-  name: "footercomponent",
+  name: "footerComponent",
   data() {
     return {
-      featured,
       config,
     };
   },

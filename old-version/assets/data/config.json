@@ -1,0 +1,18 @@
+{
+    "domain": "trenntoilette.org",
+    "siteName": "Trenntoilette.org",
+    "siteSlogan": "Trenntoiletten, Zubehör und Bausätze",
+    "siteDescription": "Trenntoilette.org ist der Online Shop für Trenntoiletten im Bereich Haus, Garten, Van, Wohnmobil und Camping.",
+    "meta": [{
+            "key": "index",
+            "title": "Trenntoiletten, Zubehör und Bausätze | Shop",
+            "metaDescription": "Trenntoiletten Shop. Die besten Produkte und Preise für Trenntoiletten, Campingtoiletten, Gartentoiletten und Zubehör. Getestete Produkte mit Best-Preis-Garantie."
+        },
+        {
+            "key": "shop",
+            "title": "Alle Artikel im Überblick | Trenntoiletten-Shop",
+            "metaDescription": "Online Shop für Trenntoiletten, Gartentoiletten, Campingtoiletten und Zubehör. Der beste Preis im Netz. Ausgewählte Markenprodukte und Best-Preis-Garantie."
+        }
+    ],
+    "imageFolder": "/assets/images/products/"
+}

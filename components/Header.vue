@@ -1,132 +1,81 @@
 <template>
   <div>
-    <header class="header_area sticky-header">
-      <div class="main_menu">
-        <nav class="navbar navbar-expand-lg navbar-light main_box">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- Navbar Start -->
+    <nav
+      class="
+        navbar navbar-expand-lg
+        bg-white
+        navbar-light
+        shadow
+        sticky-top
+        p-0
+      "
+    >
+      <nuxt-link
+        to="/"
+        :title="config.title"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <h2 class="m-0 text-primary" style="font-size: 18px">
+          <i class="fa fa-toilet me-3"></i>{{ config.logoText }}
+        </h2>
+      </nuxt-link>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <!-- single link -->
+          <div v-for="(link, index) in navigationLinks" :key="index">
             <nuxt-link
-              class="navbar-brand logo_h"
-              to="/"
-              :title="config.siteSlogan"
-              ><nuxt-img src="/assets/images/logo.png" :alt="config.siteSlogan"
-            /></nuxt-link>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              :to="link.linkTo"
+              :title="link.linkTitle"
+              class="nav-item nav-link"
+              >{{ link.title }}</nuxt-link
             >
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse offset"
-              id="navbarSupportedContent"
+          </div>
+
+          <!-- end single link -->
+
+          <!-- subLinks -->
+          <div
+            class="nav-item dropdown"
+            v-for="(link, index) in subLinks"
+            :key="index"
+          >
+            <nuxt-link
+              to="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >{{ link.title }}</nuxt-link
             >
-              <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item active">
-                  <nuxt-link class="nav-link" to="/">Home</nuxt-link>
-                </li>
-                <li class="nav-item">
-                  <nuxt-link class="nav-link" to="/shop/">Shop</nuxt-link>
-                </li>
-                <li class="nav-item submenu dropdown">
-                  <nuxt-link
-                    to="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Trenntoiletten</nuxt-link
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <nuxt-link class="nav-link" to="/kategorie/Innenbereich/"
-                        >Haus</nuxt-link
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <nuxt-link
-                        class="nav-link"
-                        to="/kategorie/Campingtoilette/"
-                        >Campingtoiletten</nuxt-link
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <nuxt-link
-                        class="nav-link"
-                        to="/kategorie/Gartentoilette/"
-                        >Gartentoiletten</nuxt-link
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <!-- <li class="nav-item submenu dropdown">
-                  <a
-                    href="#"
-                    class="nav-link dropdown-toggle"
-                    data-toggle="dropdown"
-                    role="button"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    >Pages</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="tracking.html">Tracking</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="elements.html">Elements</a>
-                    </li>
-                  </ul>
-                </li> -->
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="/kontakt/">Kontakt</a>
-                </li> -->
-              </ul>
-              <!-- <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                  <a href="#" class="cart"><span class="ti-bag"></span></a>
-                </li>
-                <li class="nav-item">
-                  <button class="search">
-                    <span class="lnr lnr-magnifier" id="search"></span>
-                  </button>
-                </li>
-              </ul> -->
+            <div class="dropdown-menu fade-down m-0">
+              <div v-for="(subLink, index) in link.subLinks" :key="index">
+                <nuxt-link
+                  :to="subLink.linkTo"
+                  :title="subLink.linkTitle"
+                  class="dropdown-item"
+                  >{{ subLink.title }}</nuxt-link
+                >
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
-      <div class="search_input" id="search_input_box">
-        <div class="container">
-          <form class="d-flex justify-content-between">
-            <input
-              type="text"
-              class="form-control"
-              id="search_input"
-              placeholder="Search Here"
-            />
-            <button type="submit" class="btn"></button>
-            <span
-              class="lnr lnr-cross"
-              id="close_search"
-              title="Close Search"
-            ></span>
-          </form>
+
+          <!-- end subLinks -->
         </div>
+        <a
+          href="/#testsieger"
+          class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+          >Testsieger<i class="fa fa-arrow-right ms-3"></i
+        ></a>
       </div>
-    </header>
+    </nav>
+    <!-- Navbar End -->
   </div>
 </template>
 
@@ -134,11 +83,27 @@
 import config from "~/assets/data/config.json";
 
 export default {
-  name: "HeaderComponent",
+  name: "headerComponent",
   data() {
     return {
       config,
+      navigationLinks: config.navigationLinks.filter(
+        (x) => !x.subLinks && x.publish
+      ),
+      subLinks: config.navigationLinks.filter((x) => x.subLinks && x.publish),
     };
   },
 };
 </script>
+
+<style>
+.nuxt-link-active {
+  font-weight: bold;
+  color: #06bbcc;
+}
+
+.nuxt-link-exact-active {
+  font-weight: bold;
+  color: #06bbcc;
+}
+</style>

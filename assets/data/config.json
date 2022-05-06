@@ -1,18 +1,106 @@
 {
     "domain": "trenntoilette.org",
-    "siteName": "Trenntoilette.org",
-    "siteSlogan": "Trenntoiletten, Zubehör und Bausätze",
-    "siteDescription": "Trenntoilette.org ist der Online Shop für Trenntoiletten im Bereich Haus, Garten, Van, Wohnmobil und Camping.",
-    "meta": [{
-            "key": "index",
-            "title": "Trenntoiletten, Zubehör und Bausätze | Shop",
-            "metaDescription": "Trenntoiletten Shop. Die besten Produkte und Preise für Trenntoiletten, Campingtoiletten, Gartentoiletten und Zubehör. Getestete Produkte mit Best-Preis-Garantie."
+    "email": "trenntoilette-org@protonmail.com",
+    "logoText": "Trenntoilette.org",
+    "title": "Trenntoiletten Shop",
+    "companyAddress": "Steinbrink 28 30966 Hemmingen, Deutschland",
+    "seo": {
+        "featureText": "<p class=\"mb-4\">In unserem Shop findest du alle Trenntoiletten von namhaften Herstellern. Unser Sortiment reicht von Trenntoiletten für's Haus, bis zu zu Gartentoiletten und Campingtoiletten.</p><p class=\"mb-4\">Durch unsere Preissuchmaschine können wir unseren Kunden eine Best-Preis-Garantie bieten. Bei Fragen helfen wir Ihnen auch gerne persönlich, damit Sie die passende Trenntoilete finden.</p>",
+        "mainKeyword": "Trenntoilette",
+        "index": {
+            "title": "Campingtoilette günstig kaufen | Shop",
+            "metaDescription": "Günstige Campingtoiletten online kaufen. Ultraleichte und kompakte Toiletten",
+            "robots": "index, follow"
+        }
+    },
+    "categories": [{
+            "key": "campingtoilette",
+            "name": "Campingtoiletten",
+            "productCategory": "Campingtoilette",
+            "seo": {
+                "title": "Campingtoiletten günstig kaufen",
+                "metaDescription": "Auf Campingtoilette.shop findest du die richtige Campingtoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
+                "robots": "index, follow"
+            }
         },
         {
-            "key": "shop",
-            "title": "Alle Artikel im Überblick | Trenntoiletten-Shop",
-            "metaDescription": "Online Shop für Trenntoiletten, Gartentoiletten, Campingtoiletten und Zubehör. Der beste Preis im Netz. Ausgewählte Markenprodukte und Best-Preis-Garantie."
+            "key": "gartentoilette",
+            "name": "Gartentoiletten",
+            "productCategory": "Gartentoilette",
+            "seo": {
+                "title": "Gartentoiletten günstig kaufen",
+                "metaDescription": "Auf Campingtoilette.shop findest du die richtige Gartentoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
+                "robots": "index, follow"
+            }
+        },
+        {
+            "key": "innenbereich",
+            "name": "Innenbereich",
+            "productCategory": "Innenbereich",
+            "seo": {
+                "title": "Testsieger: Trenntoiletten für den Innenbereich",
+                "metaDescription": "Auf campingtoilette.shop findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen."
+            }
         }
     ],
-    "imageFolder": "/assets/images/products/"
+    "navigationLinks": [{
+            "title": "Home",
+            "linkTo": "/",
+            "linkTitle": "Campingtoiletten",
+            "publish": true
+        }, {
+            "title": "Hersteller",
+            "linkTo": "#hersteller",
+            "linkTitle": "Hersteller von Campingtoiletten",
+            "publish": true
+        },
+        {
+            "title": "Einsatzgebiete",
+            "publish": true,
+            "subLinks": [{
+                    "title": "Innenbereich",
+                    "linkTo": "/kategorie/innenbereich/",
+                    "linkTitle": "Trenntoiletten für den Innenbereich",
+                    "publish": true
+                },
+                {
+                    "title": "Gartentoilette",
+                    "linkTo": "/kategorie/gartentoilette/",
+                    "linkTitle": "Gartentoiletten",
+                    "publish": true
+
+                },
+                {
+                    "title": "Campingtoilette",
+                    "linkTo": "/kategorie/campingtoilette/",
+                    "linkTitle": "Campingtoiletten",
+                    "publish": true
+                }
+            ]
+        },
+        {
+            "title": "Zubehör",
+            "publish": true,
+            "subLinks": [{
+                    "title": "Einstreu",
+                    "linkTo": "/kategorie/einstreu/",
+                    "linkTitle": "Einstreu für die Campingtoilette",
+                    "publish": true
+                },
+                {
+                    "title": "Trenneinsatz",
+                    "linkTo": "/kategorie/trenneinsatz/",
+                    "linkTitle": "Trenneinsatz für die Trenntoilete",
+                    "publish": true
+
+                }
+            ]
+        },
+        {
+            "title": "Kontakt",
+            "linkTitle": "Kontakt aufnehmen",
+            "linkTo": "#kontakt",
+            "publish": false
+        }
+    ]
 }
