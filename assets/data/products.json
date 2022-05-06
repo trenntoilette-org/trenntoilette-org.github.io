@@ -572,7 +572,22 @@
         "shopLink": "https://trobolo.com/de/produkte/wandago/",
         "featured": true,
         "published": true,
-        "winner": true
+        "winner": true,
+        "description": "Die WandaGO Campingtoilette von TROBOLO ist eine ultraleichte und kompakte Campingtoilette.",
+        "seo": {
+            "title": "Campingtoilette WandaGO von TROBOLO kaufen",
+            "description": "Die WandaGO Campingtoilette von TROBOLO ist eine ultraleichte und kompakte Campingtoilette.",
+            "robots": "index, follow"
+        },
+        "specifications": [
+            { "Hersteller": "TROBOLO" },
+            { "Material": "Erlenmehrschichtholz" },
+            { "Maße": "Höhe 313 - Tiefe 382 - Breite 341 mm" },
+            { "Gewicht": "4,7 kg" },
+            { "Traglast": "150 kg" },
+            { "Einsatzgebiet": "Campingtoilete" },
+            { "Funktion": "Trennsystem" }
+        ]
     },
     {
         "brand": "TROBOLO",

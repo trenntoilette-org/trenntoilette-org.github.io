@@ -2,7 +2,7 @@
   <div>
     <div class="course-item bg-light">
       <div class="position-relative overflow-hidden">
-        <NuxtLink :to="product.linkTo" :title="product.linkTitle">
+        <NuxtLink :to="`/produkt/${product.slug}/`" :title="product.linkTitle">
           <img class="img-fluid" :src="product.image" :alt="product.name" />
         </NuxtLink>
         <div
@@ -17,7 +17,7 @@
           "
         >
           <NuxtLink
-            :to="product.linkTo"
+            :to="`/produkt/${product.slug}/`"
             class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
             style="border-radius: 30px 0 0 30px"
             :title="product.linkTitle"

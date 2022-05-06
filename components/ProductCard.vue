@@ -3,6 +3,22 @@
     <div class="sidebar-widget schedule-widget mt-5">
       <h5 class="mb-4">{{ product.name }}</h5>
       <ul class="list-unstyled">
+        <div v-if="product.specifications">
+          <li
+            class="d-flex justify-content-between align-items-center"
+            v-for="(spec, index) in product.specifications"
+            :key="index"
+          >
+            <span>{{ Object.keys(spec)[0] }}</span>
+            <span
+              ><NuxtLink :to="product.manufacturerLink">{{
+                Object.values(spec)[0]
+              }}</NuxtLink></span
+            >
+            <hr />
+          </li>
+        </div>
+
         <li class="d-flex justify-content-between align-items-center">
           <span>Hersteller</span>
           <span

@@ -75,10 +75,29 @@ export default {
         gzip: true
     },
 
-    // @nuxt/image
     image: {
-        // Generate images to `/_nuxt/image/file.png`
-        staticFilename: '[publicPath]/images/[name][ext]'
+        staticFilename: '[publicPath]/images/[name][ext]',
+        presets: {
+            default: {
+                modifiers: {
+                    format: 'webp'
+                }
+            },
+            footerThumbnail: {
+                modifiers: {
+                    format: 'webp',
+                    width: 58,
+                    height: 58
+                }
+            },
+            seventyFourty: {
+                modifiers: {
+                    format: 'webp',
+                    width: 70,
+                    height: 40
+                }
+            }
+        }
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
