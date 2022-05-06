@@ -26,8 +26,6 @@
 import config from "~/assets/data/config.json";
 import products from "~/assets/data/products.json";
 
-console.log(products.filter((x) => x.featured && x.winner && x.published));
-
 export default {
   name: "testsieger",
   data() {

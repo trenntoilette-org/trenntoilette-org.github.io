@@ -1,12 +1,14 @@
 {
     "domain": "trenntoilette.org",
+    "hostname": "https://www.trenntoilette.org",
     "email": "trenntoilette-org@protonmail.com",
     "logoText": "Trenntoilette.org",
     "title": "Trenntoiletten Shop",
     "companyAddress": "Steinbrink 28 30966 Hemmingen, Deutschland",
     "seo": {
-        "featureText": "<p class=\"mb-4\">In unserem Shop findest du alle Trenntoiletten von namhaften Herstellern. Unser Sortiment reicht von Trenntoiletten für's Haus, bis zu zu Gartentoiletten und Campingtoiletten.</p><p class=\"mb-4\">Durch unsere Preissuchmaschine können wir unseren Kunden eine Best-Preis-Garantie bieten. Bei Fragen helfen wir Ihnen auch gerne persönlich, damit Sie die passende Trenntoilete finden.</p>",
         "mainKeyword": "Trenntoilette",
+        "htmlLang": "de",
+        "featureText": "<p class=\"mb-4\">In unserem Shop findest du alle Trenntoiletten von namhaften Herstellern. Unser Sortiment reicht von Trenntoiletten für's Haus, bis zu zu Gartentoiletten und Campingtoiletten.</p><p class=\"mb-4\">Durch unsere Preissuchmaschine können wir unseren Kunden eine Best-Preis-Garantie bieten. Bei Fragen helfen wir Ihnen auch gerne persönlich, damit Sie die passende Trenntoilete finden.</p>",
         "index": {
             "title": "Campingtoilette günstig kaufen | Shop",
             "metaDescription": "Günstige Campingtoiletten online kaufen. Ultraleichte und kompakte Toiletten",
