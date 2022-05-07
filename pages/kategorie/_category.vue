@@ -26,7 +26,9 @@ export default {
     const categoryData = config.categories.find((x) => x.key === category);
 
     return {
-      title: categoryData.name + "- Testsieger und Produkte",
+      title: categoryData.seo
+        ? categoryData.seo.title
+        : categoryData.name + "- Testsieger und Produkte",
       meta: [
         {
           hid: "description",

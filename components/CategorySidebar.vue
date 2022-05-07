@@ -28,6 +28,7 @@
             class="nav-item"
           >
             <nuxt-link
+              :title="category.seo ? category.seo.title : category.name"
               :to="
                 category.type === 'manufacturer'
                   ? `/hersteller/${category.key}/`
