@@ -36,7 +36,11 @@ export default {
           content:
             categoryData.seo && categoryData.seo.metaDescription
               ? categoryData.seo.metaDescription
-              : "todo meta desc",
+              : "Kaufe " +
+                categoryData.name +
+                " günstig online in unserem Shop. Best-Preis-Garantie. " +
+                categoryData.name +
+                " Markenprodukte und Zubehör.",
         },
         {
           hid: "robots",

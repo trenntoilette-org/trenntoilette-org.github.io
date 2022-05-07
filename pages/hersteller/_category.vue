@@ -24,7 +24,7 @@ export default {
   head() {
     const category = this.category;
     const categoryData = config.categories.find((x) => x.key === category);
-    console.log(categoryData);
+
     return {
       title:
         categoryData.seo && categoryData.seo.title
