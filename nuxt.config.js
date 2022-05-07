@@ -83,6 +83,13 @@ export default {
                     format: 'webp'
                 }
             },
+            productThumbnail: {
+                modifiers: {
+                    format: 'webp',
+                    width: 407,
+                    height: 229
+                }
+            },
             footerThumbnail: {
                 modifiers: {
                     format: 'webp',

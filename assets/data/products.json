@@ -19,7 +19,7 @@
         "reviewCount": 162,
         "shopLink": "https://trobolo.com/de/produkte/konfigurator/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -42,7 +42,7 @@
         "reviewCount": 157,
         "shopLink": "https://trobolo.com/de/produkte/kinder-toilettenhocker/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -65,7 +65,7 @@
         "reviewCount": 225,
         "shopLink": "https://trobolo.com/de/produkte/toilettensitz-mit-deckel/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -88,7 +88,7 @@
         "reviewCount": 40,
         "shopLink": "https://trobolo.com/de/produkte/sitzkissen/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -111,7 +111,7 @@
         "reviewCount": 79,
         "shopLink": "https://trobolo.com/de/produkte/feststoffbehaelter-11l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -134,7 +134,7 @@
         "reviewCount": 61,
         "shopLink": "https://trobolo.com/de/produkte/thermokomposter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -157,7 +157,7 @@
         "reviewCount": 371,
         "shopLink": "https://trobolo.com/de/produkte/komposter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -203,7 +203,7 @@
         "reviewCount": 47,
         "shopLink": "https://trobolo.com/de/produkte/flussigkeitsbehalter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -226,7 +226,7 @@
         "reviewCount": 281,
         "shopLink": "https://trobolo.com/de/produkte/naturoel-set/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -249,7 +249,7 @@
         "reviewCount": 184,
         "shopLink": "https://trobolo.com/de/produkte/desinfektionsspender/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -272,13 +272,13 @@
         "reviewCount": 384,
         "shopLink": "https://trobolo.com/de/produkte/lampe/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
         "sku": "U6GXX1358",
         "name": "Trenntoiletten Einsatz (grau)",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -295,7 +295,7 @@
         "reviewCount": 20,
         "shopLink": "https://trobolo.com/de/produkte/trenntoilette-einsatz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -318,7 +318,7 @@
         "reviewCount": 264,
         "shopLink": "https://trobolo.com/de/produkte/reinigungsset/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -341,7 +341,7 @@
         "reviewCount": 170,
         "shopLink": "https://trobolo.com/de/produkte/kompostierbare-inlays/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -364,7 +364,7 @@
         "reviewCount": 135,
         "shopLink": "https://trobolo.com/de/produkte/feststoffbehalter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -387,7 +387,7 @@
         "reviewCount": 380,
         "shopLink": "https://trobolo.com/de/produkte/kindersitz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -410,7 +410,7 @@
         "reviewCount": 323,
         "shopLink": "https://trobolo.com/de/produkte/zinkeimer-set/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -433,7 +433,7 @@
         "reviewCount": 331,
         "shopLink": "https://trobolo.com/de/produkte/kersaboem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -456,7 +456,7 @@
         "reviewCount": 321,
         "shopLink": "https://trobolo.com/de/produkte/tinybloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -479,7 +479,7 @@
         "reviewCount": 340,
         "shopLink": "https://trobolo.com/de/produkte/indibloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -502,7 +502,7 @@
         "reviewCount": 335,
         "shopLink": "https://trobolo.com/de/produkte/bilabloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -525,7 +525,7 @@
         "reviewCount": 378,
         "shopLink": "https://trobolo.com/de/produkte/ninobloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -548,7 +548,7 @@
         "reviewCount": 394,
         "shopLink": "https://trobolo.com/de/produkte/kitaboem-komposter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -608,7 +608,7 @@
         "reviewCount": 315,
         "shopLink": "https://trobolo.com/de/produkte/einstreu-kompostierbare-inlays/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -631,7 +631,7 @@
         "reviewCount": 166,
         "shopLink": "https://trobolo.com/de/produkte/lunabloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -654,7 +654,7 @@
         "reviewCount": 170,
         "shopLink": "https://trobolo.com/de/produkte/trobolo-ausschwapp-stopp/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -677,7 +677,7 @@
         "reviewCount": 217,
         "shopLink": "https://trobolo.com/de/produkte/kunststoff-inlays/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -700,7 +700,7 @@
         "reviewCount": 297,
         "shopLink": "https://trobolo.com/de/produkte/luwebloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -723,13 +723,13 @@
         "reviewCount": 210,
         "shopLink": "https://trobolo.com/de/produkte/adapter-system-filtersieb/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
         "sku": "U6WXX1359",
         "name": "Trenntoiletten Einsatz (wei\u00df)",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -746,13 +746,13 @@
         "reviewCount": 26,
         "shopLink": "https://trobolo.com/de/produkte/trobolo-trenntoiletten-einsatz-weiss/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
         "sku": "STWXX1376",
         "name": "Trenntoiletten Einsatz (wei\u00df) &amp; Toilettensitz",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -769,7 +769,7 @@
         "reviewCount": 189,
         "shopLink": "https://trobolo.com/de/produkte/set-trenntoiletten-einsatz-weiss-toilettensitz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -792,7 +792,7 @@
         "reviewCount": 32,
         "shopLink": "https://trobolo.com/de/produkte/farbset/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -815,7 +815,7 @@
         "reviewCount": 310,
         "shopLink": "https://trobolo.com/de/produkte/toilettensitz-bilabloem-indibloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -838,7 +838,7 @@
         "reviewCount": 114,
         "shopLink": "https://trobolo.com/de/produkte/diy-set/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -861,7 +861,7 @@
         "reviewCount": 289,
         "shopLink": "https://trobolo.com/de/produkte/toilettensitz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -884,7 +884,7 @@
         "reviewCount": 338,
         "shopLink": "https://trobolo.com/de/produkte/adapter-system-schlauchanschluss-filtersieb/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -907,7 +907,7 @@
         "reviewCount": 226,
         "shopLink": "https://trobolo.com/de/produkte/adapter-system-schlauch-filtersieb/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -930,7 +930,7 @@
         "reviewCount": 48,
         "shopLink": "https://trobolo.com/de/produkte/diy-komplettset/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -953,7 +953,7 @@
         "reviewCount": 8,
         "shopLink": "https://trobolo.com/de/produkte/elektrisches-abluftsystem-inkl-abluftleitung-set/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -976,7 +976,7 @@
         "reviewCount": 304,
         "shopLink": "https://trobolo.com/de/produkte/diy-set-mit-urinableitung/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -999,13 +999,13 @@
         "reviewCount": 396,
         "shopLink": "https://trobolo.com/de/produkte/abluftrohr-set/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
         "sku": "STGXX1375",
         "name": "Trenntoiletten Einsatz (grau) &amp; Toilettensitz",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1022,7 +1022,7 @@
         "reviewCount": 37,
         "shopLink": "https://trobolo.com/de/produkte/set-trenntoiletten-einsatz-grau-toilettensitz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1045,7 +1045,7 @@
         "reviewCount": 49,
         "shopLink": "https://trobolo.com/de/produkte/diy-komplettset-mit-urinableitung/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1068,7 +1068,7 @@
         "reviewCount": 243,
         "shopLink": "https://trobolo.com/de/produkte/farbset-2-liter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1091,7 +1091,7 @@
         "reviewCount": 294,
         "shopLink": "https://trobolo.com/de/produkte/elektrisches-abluftsystem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1114,7 +1114,7 @@
         "reviewCount": 231,
         "shopLink": "https://trobolo.com/de/produkte/kersaboem-komposter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1137,7 +1137,7 @@
         "reviewCount": 246,
         "shopLink": "https://trobolo.com/de/produkte/kitaboem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -1160,7 +1160,7 @@
         "reviewCount": 335,
         "shopLink": "https://trobolo.com/de/produkte/terabloem/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1183,13 +1183,13 @@
         "reviewCount": 369,
         "shopLink": "https://www.meinetrenntoilette.de/products/natureshead-trenntoilette-komposttoilette-1",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T3-01013",
         "name": "Stopfen f\u00fcr Trelino\u00ae Trenntoilette und Trenneinsatz",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1206,7 +1206,7 @@
         "reviewCount": 18,
         "shopLink": "https://www.meinetrenntoilette.de/products/stopfen-fuer-trelino-trenntoilette-und-trenneinsatz",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1229,7 +1229,7 @@
         "reviewCount": 314,
         "shopLink": "https://www.meinetrenntoilette.de/products/kompostierbare-30-liter-faekalienbeutel-fuer-die-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1252,7 +1252,7 @@
         "reviewCount": 18,
         "shopLink": "https://www.meinetrenntoilette.de/products/goldeimer-kackpulver-20-liter",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1275,13 +1275,13 @@
         "reviewCount": 170,
         "shopLink": "https://www.meinetrenntoilette.de/products/biolan-streu-35-liter-fuer-trenntoiletten",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T2-02122",
         "name": "Trelino\u00ae \u2022 Trenneinsatz XL f\u00fcr die Trenntoilette inkl. Stopfen",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1298,13 +1298,13 @@
         "reviewCount": 124,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-trenneinsatz-xl-anthrazit-fuer-die-trenntoilette-inkl-stopfen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T2-02121",
         "name": "Trelino\u00ae \u2022 Trenneinsatz XL f\u00fcr die Trenntoilette inkl. Stopfen",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1321,13 +1321,13 @@
         "reviewCount": 355,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-trenntoiletten-einsatz-xl-mit-stopfen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T2-04001",
         "name": "Trelino\u00ae \u2022 Trenneinsatz mit Toilettenbrille SoftClose und TakeOff",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1344,13 +1344,13 @@
         "reviewCount": 103,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-trenneinsatz-mit-toilettenbrille-softclose-und-takeoff",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T2-02102",
         "name": "Trelino\u00ae \u2022 Trenneinsatz f\u00fcr Trenntoiletten inkl. Stopfen",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1367,7 +1367,7 @@
         "reviewCount": 260,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-trenneinsatz-anthrazit-fuer-die-trenntoilette-inkl-stopfen-1",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1390,7 +1390,7 @@
         "reviewCount": 43,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-l-mobile-trenntoilette-fuer-wohnmobil-und-kastenwagen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1413,7 +1413,7 @@
         "reviewCount": 106,
         "shopLink": "https://www.meinetrenntoilette.de/products/goldeimer-basic-zubehoer-set-fuer-die-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1436,7 +1436,7 @@
         "reviewCount": 21,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-mobile-trenntoilette-fuer-van-bulli-und-kastenwagen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1459,7 +1459,7 @@
         "reviewCount": 31,
         "shopLink": "https://www.meinetrenntoilette.de/products/deckel-fuer-urinkanister-mit-membranverschluss",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1482,7 +1482,7 @@
         "reviewCount": 181,
         "shopLink": "https://www.meinetrenntoilette.de/products/premium-zubehor-set-fur-die-trenntoiletten",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1505,7 +1505,7 @@
         "reviewCount": 382,
         "shopLink": "https://www.meinetrenntoilette.de/products/urinkanister-fuer-trenntoilette-inkl-deckel-10-liter",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1528,7 +1528,7 @@
         "reviewCount": 182,
         "shopLink": "https://www.meinetrenntoilette.de/products/12-v-luefter-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1551,7 +1551,7 @@
         "reviewCount": 113,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-luefter-zubehoer-set-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1574,7 +1574,7 @@
         "reviewCount": 83,
         "shopLink": "https://www.meinetrenntoilette.de/products/kompostierbare-10-liter-faekalienbeutel-fuer-die-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1597,13 +1597,13 @@
         "reviewCount": 250,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-l-trenntoilette-aus-birken-holz-mit-hpl-veredelung-anthrazit",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T2-02101",
         "name": "Trelino\u00ae \u2022 Trenneinsatz f\u00fcr die Trenntoilette inkl. Stopfen",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -1620,7 +1620,7 @@
         "reviewCount": 370,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-trenneinsatz-fuer-die-trenntoilette-inkl-stopfen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1643,7 +1643,7 @@
         "reviewCount": 23,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-duftblocker-streu",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1666,7 +1666,7 @@
         "reviewCount": 90,
         "shopLink": "https://www.meinetrenntoilette.de/products/urinkanister-fur-trenntoilette-inkl-deckel-10%E2%84%93-in-blau",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1689,7 +1689,7 @@
         "reviewCount": 25,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-socken-shit-matters",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1712,7 +1712,7 @@
         "reviewCount": 60,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-toilettenbrille-mit-softclose",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1735,7 +1735,7 @@
         "reviewCount": 182,
         "shopLink": "https://www.meinetrenntoilette.de/products/biolan-simplett-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1758,7 +1758,7 @@
         "reviewCount": 292,
         "shopLink": "https://www.meinetrenntoilette.de/products/toilettenpapier-das-toiletten-baut",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1781,7 +1781,7 @@
         "reviewCount": 160,
         "shopLink": "https://www.meinetrenntoilette.de/products/urinkanister-fuer-trenntoilette-3-5-liter-kompakt",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1804,7 +1804,7 @@
         "reviewCount": 106,
         "shopLink": "https://www.meinetrenntoilette.de/products/ueberwurfring-schlauch-100-mm",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1827,7 +1827,7 @@
         "reviewCount": 305,
         "shopLink": "https://www.meinetrenntoilette.de/products/urinflasche-fuer-trenntoilette-4-4-liter",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1850,7 +1850,7 @@
         "reviewCount": 228,
         "shopLink": "https://www.meinetrenntoilette.de/products/ueberwurfring-mit-schlauchdurchfuehrung-fuer-den-urinkanister",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1873,7 +1873,7 @@
         "reviewCount": 135,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-rescue-mobile-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1896,7 +1896,7 @@
         "reviewCount": 146,
         "shopLink": "https://www.meinetrenntoilette.de/products/feststoffbehaelter-mit-deckel-in-den-groessen-10-oder-16-liter",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1919,7 +1919,7 @@
         "reviewCount": 369,
         "shopLink": "https://www.meinetrenntoilette.de/products/sb1-selbstbau-set-fuer-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1942,7 +1942,7 @@
         "reviewCount": 357,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-privy-501-trenneinsatz-ohne-toilettensitz",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1965,7 +1965,7 @@
         "reviewCount": 399,
         "shopLink": "https://www.meinetrenntoilette.de/products/sb8-selbstbau-set-fuer-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1988,7 +1988,7 @@
         "reviewCount": 132,
         "shopLink": "https://www.meinetrenntoilette.de/products/sb3-selbstbau-set-fuer-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2011,7 +2011,7 @@
         "reviewCount": 379,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-selbstbau-set-fur-trenntoiletten-sb-1",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2034,7 +2034,7 @@
         "reviewCount": 277,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-m-trenntoilette-aus-birken-holz-mit-hpl-veredelung-anthrazit",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2057,7 +2057,7 @@
         "reviewCount": 341,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-privy-503-trenneinsatz",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2080,7 +2080,7 @@
         "reviewCount": 47,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-privy-400-trenneinsatz",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2103,7 +2103,7 @@
         "reviewCount": 92,
         "shopLink": "https://www.meinetrenntoilette.de/products/sb-xxs-selbstbau-set-fur-extra-kleine-trenntoiletten",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2126,13 +2126,13 @@
         "reviewCount": 113,
         "shopLink": "https://www.meinetrenntoilette.de/products/lokus%C2%AE-flatus-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
         "sku": "T3-11101",
         "name": "Separett Kindersitz Trenneinsatz f\u00fcr Trenntoilette",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -2149,7 +2149,7 @@
         "reviewCount": 9,
         "shopLink": "https://www.meinetrenntoilette.de/products/kindersitz-trenneinsatz-fuer-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2172,7 +2172,7 @@
         "reviewCount": 257,
         "shopLink": "https://www.meinetrenntoilette.de/products/selbstbau-set-xs-fuer-kleine-trenntoiletten",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2195,7 +2195,7 @@
         "reviewCount": 75,
         "shopLink": "https://www.meinetrenntoilette.de/products/feststoffbehalter-mit-deckel-weiss-6l",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2218,7 +2218,7 @@
         "reviewCount": 113,
         "shopLink": "https://www.meinetrenntoilette.de/products/4-liter-streubehaelter-fuer-trelino-retro-design-vw-bus-sommer",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2241,7 +2241,7 @@
         "reviewCount": 37,
         "shopLink": "https://www.meinetrenntoilette.de/products/3-liter-streubehaelter-fuer-trelino",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2264,7 +2264,7 @@
         "reviewCount": 239,
         "shopLink": "https://www.meinetrenntoilette.de/products/kokosziegel-humusziegel-fuer-die-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2287,7 +2287,7 @@
         "reviewCount": 2,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-tiny-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2310,7 +2310,7 @@
         "reviewCount": 50,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-l-rund-trenntoilette-aus-holz-mit-hpl-veredelung-in-weiss",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2333,7 +2333,7 @@
         "reviewCount": 83,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-m-formschoene-trenntoilette-fuer-womo-und-kastenwagen",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2356,7 +2356,7 @@
         "reviewCount": 380,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-m-trenntoilette-aus-holz-mit-hpl-veredelung",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2378,7 +2378,7 @@
         "reviewCount": 231,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-duftblocker-streu-1",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2401,7 +2401,7 @@
         "reviewCount": 71,
         "shopLink": "https://www.meinetrenntoilette.de/products/5%E2%84%93-urinkanister-fur-trenntoilette-inkl-deckel-in-blau",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2424,7 +2424,7 @@
         "reviewCount": 324,
         "shopLink": "https://www.meinetrenntoilette.de/products/trennto-holz-trenntoilette-vom-schreiner",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2447,7 +2447,7 @@
         "reviewCount": 231,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-villa-9010-9000-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2470,7 +2470,7 @@
         "reviewCount": 359,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino%C2%AE-membranverschluss-2er-set",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2493,7 +2493,7 @@
         "reviewCount": 232,
         "shopLink": "https://www.meinetrenntoilette.de/products/5-liter-urinkanister-fuer-trentoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2516,7 +2516,7 @@
         "reviewCount": 350,
         "shopLink": "https://www.meinetrenntoilette.de/products/deckel-fuer-urinkanister-10l",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2539,7 +2539,7 @@
         "reviewCount": 79,
         "shopLink": "https://www.meinetrenntoilette.de/products/schraubring-mit-kappe-dn100-urinkanister",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2562,7 +2562,7 @@
         "reviewCount": 287,
         "shopLink": "https://www.meinetrenntoilette.de/products/flacher-urinkanister-trenntoilette-19l-schwarz",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2585,7 +2585,7 @@
         "reviewCount": 184,
         "shopLink": "https://www.meinetrenntoilette.de/products/absorbervlies-von-separett",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2608,7 +2608,7 @@
         "reviewCount": 209,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-faekalienbeutel-15-l-20-stk",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2631,7 +2631,7 @@
         "reviewCount": 367,
         "shopLink": "https://www.meinetrenntoilette.de/products/separett-tiny-trenntoilette",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2654,7 +2654,7 @@
         "reviewCount": 269,
         "shopLink": "https://www.meinetrenntoilette.de/products/effektive-mikroorganismen-von-goldeimer",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "MeineTrenntoilette",
@@ -2677,7 +2677,7 @@
         "reviewCount": 212,
         "shopLink": "https://www.meinetrenntoilette.de/products/goldeimer-klopapier",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2700,7 +2700,7 @@
         "reviewCount": 327,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-eco-komposttoilette/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2723,7 +2723,7 @@
         "reviewCount": 120,
         "shopLink": "https://www.kompotoi.ch/produkt/kompotoi-classic/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2746,7 +2746,7 @@
         "reviewCount": 49,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-tiny/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2769,7 +2769,7 @@
         "reviewCount": 116,
         "shopLink": "https://www.kompotoi.ch/produkt/lecopot-le-block/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2792,7 +2792,7 @@
         "reviewCount": 113,
         "shopLink": "https://www.kompotoi.ch/produkt/ecodomeo/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2815,7 +2815,7 @@
         "reviewCount": 256,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-trockenklo-premium/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2838,7 +2838,7 @@
         "reviewCount": 333,
         "shopLink": "https://www.kompotoi.ch/produkt/kompotoi-barrierefrei/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2861,7 +2861,7 @@
         "reviewCount": 106,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-simplett/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2884,7 +2884,7 @@
         "reviewCount": 156,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-trockenklo-camper/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2907,7 +2907,7 @@
         "reviewCount": 20,
         "shopLink": "https://www.kompotoi.ch/produkt/bedienungsanleitung-fuer-trockentoiletten/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2930,7 +2930,7 @@
         "reviewCount": 160,
         "shopLink": "https://www.kompotoi.ch/produkt/pissoirecke/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2953,13 +2953,13 @@
         "reviewCount": 1,
         "shopLink": "https://www.kompotoi.ch/produkt/pipinette-2/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
         "sku": "SEP-PRI-500",
         "name": "Separett Privy 500 Trenneinsatz aus Styropor",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -2976,7 +2976,7 @@
         "reviewCount": 128,
         "shopLink": "https://www.kompotoi.ch/produkt/urintrenneinsatz-separett-privy-500/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -2999,7 +2999,7 @@
         "reviewCount": 195,
         "shopLink": "https://www.kompotoi.ch/produkt/em-diolin-luftikus-harmonie/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3022,13 +3022,13 @@
         "reviewCount": 316,
         "shopLink": "https://www.kompotoi.ch/produkt/bionika-terra-preta-kohle-kompoststarter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
         "sku": "SEP-PRI-501",
         "name": "Separett Privy 501 Trenneinsatz aus Polypropylen",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -3045,7 +3045,7 @@
         "reviewCount": 397,
         "shopLink": "https://www.kompotoi.ch/produkt/urintrenneinsatz-separett-privy-501/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3068,7 +3068,7 @@
         "reviewCount": 233,
         "shopLink": "https://www.kompotoi.ch/produkt/lecopot-toilettenbrille/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3091,7 +3091,7 @@
         "reviewCount": 207,
         "shopLink": "https://www.kompotoi.ch/produkt/em%c2%b7reiniger-zitronengras-1l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3114,7 +3114,7 @@
         "reviewCount": 371,
         "shopLink": "https://www.kompotoi.ch/produkt/toilettenpapier-jumbo-rollen/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3137,7 +3137,7 @@
         "reviewCount": 290,
         "shopLink": "https://www.kompotoi.ch/produkt/wechseleimer-21l-fuer-lecopot-toiletten/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3160,7 +3160,7 @@
         "reviewCount": 103,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-bio-drain-ablaufreinigertabs/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3183,7 +3183,7 @@
         "reviewCount": 22,
         "shopLink": "https://www.kompotoi.ch/produkt/pibella/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3206,7 +3206,7 @@
         "reviewCount": 233,
         "shopLink": "https://www.kompotoi.ch/produkt/desinfektionsmittel-5l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3229,7 +3229,7 @@
         "reviewCount": 288,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-pehvakka-thermositz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3252,7 +3252,7 @@
         "reviewCount": 155,
         "shopLink": "https://www.kompotoi.ch/produkt/toilettensitz-aus-bambus/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3275,7 +3275,7 @@
         "reviewCount": 316,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-wc-papierbox/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3298,7 +3298,7 @@
         "reviewCount": 370,
         "shopLink": "https://www.kompotoi.ch/produkt/freelax-urinierhilfe/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3321,7 +3321,7 @@
         "reviewCount": 80,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-abluftventilator-12v/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3344,7 +3344,7 @@
         "reviewCount": 74,
         "shopLink": "https://www.kompotoi.ch/produkt/spruehflasche/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3367,7 +3367,7 @@
         "reviewCount": 142,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-toilettenpapier/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3390,7 +3390,7 @@
         "reviewCount": 349,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-klocker/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3413,7 +3413,7 @@
         "reviewCount": 350,
         "shopLink": "https://www.kompotoi.ch/produkt/terra-preta-bokashi/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3436,7 +3436,7 @@
         "reviewCount": 90,
         "shopLink": "https://www.kompotoi.ch/produkt/wurmkiste-aus-holz-2/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3459,7 +3459,7 @@
         "reviewCount": 21,
         "shopLink": "https://www.kompotoi.ch/produkt/worm-up-home-wurmkomposter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3482,7 +3482,7 @@
         "reviewCount": 321,
         "shopLink": "https://www.kompotoi.ch/produkt/kompostwuermer/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3505,7 +3505,7 @@
         "reviewCount": 326,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-komposter-220-eco/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3528,7 +3528,7 @@
         "reviewCount": 173,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-komposter-550/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3551,7 +3551,7 @@
         "reviewCount": 24,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-thermokomposter-light/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3574,7 +3574,7 @@
         "reviewCount": 64,
         "shopLink": "https://www.kompotoi.ch/produkt/die-hungrige-wurmtonne-hungry-bin/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3597,7 +3597,7 @@
         "reviewCount": 195,
         "shopLink": "https://www.kompotoi.ch/produkt/aurin-urinduenger/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3620,7 +3620,7 @@
         "reviewCount": 21,
         "shopLink": "https://www.kompotoi.ch/produkt/bio-lit-ultrafein/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3643,7 +3643,7 @@
         "reviewCount": 91,
         "shopLink": "https://www.kompotoi.ch/produkt/em-keramik-pipes-500g/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3666,7 +3666,7 @@
         "reviewCount": 382,
         "shopLink": "https://www.kompotoi.ch/produkt/em-boden-fit/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3689,7 +3689,7 @@
         "reviewCount": 0,
         "shopLink": "https://www.kompotoi.ch/produkt/kompostierbare-hygienebeutel-30l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3712,7 +3712,7 @@
         "reviewCount": 183,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-ejektortank-50l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3735,7 +3735,7 @@
         "reviewCount": 301,
         "shopLink": "https://www.kompotoi.ch/produkt/hobelspaene-19kg/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3758,13 +3758,13 @@
         "reviewCount": 264,
         "shopLink": "https://www.kompotoi.ch/produkt/cacarusel/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
         "sku": "SEP-PRI-503",
         "name": "Separett Privy 503 Trenneinsatz mit Holzsitz",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -3781,7 +3781,7 @@
         "reviewCount": 340,
         "shopLink": "https://www.kompotoi.ch/produkt/urintrenneinsatz-separett-privy-503/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3804,7 +3804,7 @@
         "reviewCount": 186,
         "shopLink": "https://www.kompotoi.ch/produkt/lecopot-klo-hocker/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3827,7 +3827,7 @@
         "reviewCount": 91,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-normale-seife/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3850,7 +3850,7 @@
         "reviewCount": 376,
         "shopLink": "https://www.kompotoi.ch/produkt/boxerschurz-festival/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3873,13 +3873,13 @@
         "reviewCount": 140,
         "shopLink": "https://www.kompotoi.ch/produkt/zitronen-seife/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
         "sku": "SAB-UTR-FLO",
         "name": "Trenneinsatz aus Porzellan \"Floran\"",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -3896,7 +3896,7 @@
         "reviewCount": 312,
         "shopLink": "https://www.kompotoi.ch/produkt/trenneinsatz-aus-porzellan-floran/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3919,13 +3919,13 @@
         "reviewCount": 158,
         "shopLink": "https://www.kompotoi.ch/produkt/fettabscheider-klein/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
         "sku": "SAB-UTR-MAR",
         "name": "Trenneinsatz aus Porzellan \"Marcel\"",
-        "category": "",
+        "category": "Trenneinsatz",
         "material": "",
         "size": "",
         "weight": "",
@@ -3942,7 +3942,7 @@
         "reviewCount": 264,
         "shopLink": "https://www.kompotoi.ch/produkt/trenneinsatz-aus-porzellan-marcel/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3965,7 +3965,7 @@
         "reviewCount": 216,
         "shopLink": "https://www.kompotoi.ch/produkt/swilet-die-biowindel/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -3988,7 +3988,7 @@
         "reviewCount": 70,
         "shopLink": "https://www.kompotoi.ch/produkt/urinkanister-9-5-l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4011,7 +4011,7 @@
         "reviewCount": 368,
         "shopLink": "https://www.kompotoi.ch/produkt/eimer-100l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4034,7 +4034,7 @@
         "reviewCount": 255,
         "shopLink": "https://www.kompotoi.ch/produkt/humus-ziegel-kokosfaser/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4057,7 +4057,7 @@
         "reviewCount": 12,
         "shopLink": "https://www.kompotoi.ch/produkt/feststoff-sammelbehaelter-mit-deckel-16l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4080,7 +4080,7 @@
         "reviewCount": 92,
         "shopLink": "https://www.kompotoi.ch/produkt/schild-toilette/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4103,7 +4103,7 @@
         "reviewCount": 192,
         "shopLink": "https://www.kompotoi.ch/produkt/kontiki-s-pyrolyseofen-standard/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4126,7 +4126,7 @@
         "reviewCount": 158,
         "shopLink": "https://www.kompotoi.ch/produkt/xs-kontiki-grillrost-mit-mondeinlegeplatte/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4149,7 +4149,7 @@
         "reviewCount": 215,
         "shopLink": "https://www.kompotoi.ch/produkt/kontiki-pyrolyseofen-xs/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4172,7 +4172,7 @@
         "reviewCount": 260,
         "shopLink": "https://www.kompotoi.ch/produkt/pyrolysekocher-petit-feu/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4195,7 +4195,7 @@
         "reviewCount": 30,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-ts/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4218,7 +4218,7 @@
         "reviewCount": 243,
         "shopLink": "https://www.kompotoi.ch/produkt/clivus-multrum/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4241,7 +4241,7 @@
         "reviewCount": 147,
         "shopLink": "https://www.kompotoi.ch/produkt/waldgold-einstreu/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4264,7 +4264,7 @@
         "reviewCount": 336,
         "shopLink": "https://www.kompotoi.ch/produkt/kompotoi-handwaschbecken/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4287,7 +4287,7 @@
         "reviewCount": 161,
         "shopLink": "https://www.kompotoi.ch/produkt/kompotoi-pissoir/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4310,7 +4310,7 @@
         "reviewCount": 148,
         "shopLink": "https://www.kompotoi.ch/produkt/goldeimer-trockenklo-basic/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4333,7 +4333,7 @@
         "reviewCount": 382,
         "shopLink": "https://www.kompotoi.ch/produkt/bio-toi/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4356,7 +4356,7 @@
         "reviewCount": 32,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-villa-9000/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4379,7 +4379,7 @@
         "reviewCount": 199,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-villa-9010/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4402,7 +4402,7 @@
         "reviewCount": 271,
         "shopLink": "https://www.kompotoi.ch/produkt/kazuba/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4425,7 +4425,7 @@
         "reviewCount": 140,
         "shopLink": "https://www.kompotoi.ch/produkt/lecopot-le-coccinelle/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4448,7 +4448,7 @@
         "reviewCount": 75,
         "shopLink": "https://www.kompotoi.ch/produkt/pikku-green-toilet/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4471,7 +4471,7 @@
         "reviewCount": 55,
         "shopLink": "https://www.kompotoi.ch/produkt/bausatz-ttc-mineral-2/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4494,7 +4494,7 @@
         "reviewCount": 57,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-rescue-camping-25/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4517,7 +4517,7 @@
         "reviewCount": 91,
         "shopLink": "https://www.kompotoi.ch/produkt/airhead/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4540,7 +4540,7 @@
         "reviewCount": 322,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-populett-200/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4563,7 +4563,7 @@
         "reviewCount": 264,
         "shopLink": "https://www.kompotoi.ch/produkt/laufen-save/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4586,7 +4586,7 @@
         "reviewCount": 199,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-weekend/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4609,7 +4609,7 @@
         "reviewCount": 129,
         "shopLink": "https://www.kompotoi.ch/produkt/separett-sanitoa/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4632,7 +4632,7 @@
         "reviewCount": 31,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-grauwasserfilter-light/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4655,7 +4655,7 @@
         "reviewCount": 0,
         "shopLink": "https://www.kompotoi.ch/produkt/filtermatte-biolan-grauwasserfilter/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4678,7 +4678,7 @@
         "reviewCount": 107,
         "shopLink": "https://www.kompotoi.ch/produkt/lecopot-la-libellule/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4701,7 +4701,7 @@
         "reviewCount": 251,
         "shopLink": "https://www.kompotoi.ch/produkt/kompostierbare-hygienebeutel-145l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4724,7 +4724,7 @@
         "reviewCount": 339,
         "shopLink": "https://www.kompotoi.ch/produkt/in-vario-bausatz/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4747,7 +4747,7 @@
         "reviewCount": 118,
         "shopLink": "https://www.kompotoi.ch/produkt/einstreuschaufel-kompotoi/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4770,7 +4770,7 @@
         "reviewCount": 67,
         "shopLink": "https://www.kompotoi.ch/produkt/urintank-130-l/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4793,7 +4793,7 @@
         "reviewCount": 221,
         "shopLink": "https://www.kompotoi.ch/produkt/urinal-pissoir-edelstahl/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "Kompotoi",
@@ -4816,6 +4816,6 @@
         "reviewCount": 290,
         "shopLink": "https://www.kompotoi.ch/produkt/biolan-windventilator/",
         "featured": false,
-        "published": false
+        "published": true
     }
 ]

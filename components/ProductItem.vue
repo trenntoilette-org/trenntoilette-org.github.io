@@ -3,7 +3,11 @@
     <div class="course-item bg-light">
       <div class="position-relative overflow-hidden">
         <NuxtLink :to="`/produkt/${product.slug}/`" :title="product.linkTitle">
-          <img class="img-fluid" :src="product.image" />
+          <nuxt-img
+            preset="productThumbnail"
+            class="img-fluid"
+            :src="`${config.imageFolder}/${product.localThumb}`"
+          />
         </NuxtLink>
         <div
           class="
@@ -71,10 +75,16 @@
 </template>
 
 <script>
+import config from "~/assets/data/config.json";
 export default {
   name: "productitem",
   props: {
     product: Object,
+  },
+  data() {
+    return {
+      config,
+    };
   },
 };
 </script>
