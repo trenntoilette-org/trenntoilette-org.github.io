@@ -182,9 +182,10 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.product.seo
-            ? this.product.seo.metaDescription
-            : `${this.product.name} online kaufen auf Trenntoilette.org. Alle wichtigen Informationen zu ${this.product.name}`,
+          content:
+            this.product.seo && this.product.seo.metaDescription
+              ? this.product.seo.metaDescription
+              : `${this.product.name} online kaufen auf Trenntoilette.org. Alle wichtigen Informationen zu ${this.product.name}`,
         },
         {
           hid: "robots",
