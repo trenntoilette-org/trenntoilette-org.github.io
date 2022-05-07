@@ -12,13 +12,15 @@
         <div class="row g-5">
           <div class="col-lg-8 fadeInUp" style="min-height: 400px">
             <h2 class="mb-4">{{ product.name }}</h2>
-            <div v-for="(text, index) in product.seo.texts" :key="index">
-              <h5 class="mb-3 mt-5">
-                {{ text.title }}
-              </h5>
-              <p class="mb-4">
-                {{ text.text }}
-              </p>
+            <div v-if="product.seo && product.seo.texts">
+              <div v-for="(text, index) in product.seo.texts" :key="index">
+                <h5 class="mb-3 mt-5">
+                  {{ text.title }}
+                </h5>
+                <p class="mb-4">
+                  {{ text.text }}
+                </p>
+              </div>
             </div>
 
             <div class="row gy-2 gx-4 mb-5 mt-5">
