@@ -53,9 +53,11 @@
       <div class="d-flex border-top">
         <small class="flex-fill text-center border-end py-2"
           ><i class="fa fa-toilet text-primary me-2"></i
-          ><NuxtLink :to="product.manufacturerLink" :title="product.brand">{{
-            product.brand
-          }}</NuxtLink></small
+          ><NuxtLink
+            :to="`/hersteller/${product.brand.toLowerCase()}/`"
+            :title="product.brand"
+            >{{ product.brand }}</NuxtLink
+          ></small
         >
         <small class="flex-fill text-center border-end py-2"
           ><i class="fa text-primary me-2"></i

@@ -42,7 +42,8 @@
             "productCategory": "Innenbereich",
             "seo": {
                 "title": "Testsieger: Trenntoiletten für den Innenbereich",
-                "metaDescription": "Auf campingtoilette.shop findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen."
+                "metaDescription": "Auf campingtoilette.shop findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen.",
+                "robots": "index, follow"
             }
         },
         {
@@ -51,7 +52,8 @@
             "productCategory": "Einstreu",
             "seo": {
                 "title": "Testsieger: Einstreu für Trenntoiletten",
-                "metaDescription": "Das beste Einstreu für deine Trenntoilette."
+                "metaDescription": "Das beste Einstreu für deine Trenntoilette.",
+                "robots": "index, follow"
             }
         },
         {
@@ -60,7 +62,8 @@
             "productCategory": "Einstreu",
             "seo": {
                 "title": "Testsieger: Einstreu für Trenntoiletten",
-                "metaDescription": "Das beste Einstreu für deine Trenntoilette."
+                "metaDescription": "Das beste Einstreu für deine Trenntoilette.",
+                "robots": "index, follow"
             }
         },
         {
@@ -69,7 +72,18 @@
             "productCategory": "Trenneinsatz",
             "seo": {
                 "title": "Testsieger: Trenneinsatz für Trenntoiletten",
-                "metaDescription": "Trenneinsatz für deine Trenntoilette."
+                "metaDescription": "Trenneinsatz für deine Trenntoilette.",
+                "robots": "index, follow"
+            }
+        },
+        {
+            "key": "trobolo",
+            "name": "TROBOLO",
+            "productCategory": "TROBOLO",
+            "seo": {
+                "title": "Trenntoiletten von TROBOLO",
+                "metaDescription": "Trenntoiletten von TROBOLO günstig kaufen",
+                "robots": "index, follow"
             }
         }
     ],

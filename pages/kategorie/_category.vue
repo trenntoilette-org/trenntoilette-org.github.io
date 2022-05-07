@@ -42,16 +42,18 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: categoryData.seo
-            ? categoryData.seo.metaDescription
-            : "todo meta desc",
+          content:
+            categoryData.seo && categoryData.seo.metaDescription
+              ? categoryData.seo.metaDescription
+              : "todo meta desc",
         },
         {
           hid: "robots",
           name: "robots",
-          content: categoryData.seo
-            ? categoryData.seo.robots
-            : "noindex, follow",
+          content:
+            categoryData.seo && categoryData.seo.robots
+              ? categoryData.seo.robots
+              : "noindex, follow",
         },
       ],
     };
