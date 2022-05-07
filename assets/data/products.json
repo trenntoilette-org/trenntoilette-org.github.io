@@ -577,7 +577,32 @@
         "seo": {
             "title": "Campingtoilette WandaGO von TROBOLO kaufen",
             "description": "Die WandaGO Campingtoilette von TROBOLO ist eine ultraleichte und kompakte Campingtoilette.",
-            "robots": "index, follow"
+            "robots": "index, follow",
+            "texts": [{
+                    "title": "Komfort",
+                    "text": "In unserem Test mussten wir letztlich keine Abstriche bei der Komfortabilität und dem Komfort einer herkömmlichen Toilette machen. Das Sitzgefühl war sehr gut und teils sogar angenehmer und natürlicher als wie bei einer Toilette aus Keramik."
+                },
+                {
+                    "title": "Eckdaten",
+                    "text": "Die Trockentrenntoilette hat ein Gewicht von 12,7 kg, ist 497 mm hoch, 470 mm tief und 330 mm breit. Die Sitzhöhe beträgt 477 mm. Die Traglast der TeraBloem beträgt 200 kg. Somit kann die Trockentrenntoilette ohne Einbuße auch von größeren Menschen genutzt werden. Für die Nutzung ist kein Wasser oder Chemie notwendig. Die Ausscheidungen können bei Bedarf kompostiert werden, damit sie im Anschluss als Nährstoff der Natur zurückgeführt werden kann."
+                },
+                {
+                    "title": "Funktionsweise, Material und Geruchsentwicklung",
+                    "text": "Die TROBOLO TeraBlœm funktionert durch ein Trennsystem. Die Ausscheidungen landen durch den Trenneinsatz in ihrem zugehörigen Feststoff- oder Urinbehälter. Dieses führt zu einer geringen Geruchsentwicklung, da erst bei Berührung der beiden Ausscheidungen unangenehme Gerüche entstehen. Weiterhin befindet sich in dem Teil des festen Festbehälter's Einstreu aus einer Mischung von Kiefernholz und Erle, welches im übrigen angenehmen Holzduft verbreitet. Das Material der TeraBlœm ist ein aus FSC-zertifiziertem, 15 mm dickem Erlen Mehrschichtholz handgefertigt und hat sich als sehr stabil erwiesen. TROBOLO liefert die Trockentrenntoilette mit einer bereits behandelten Oberfläche. Sie ist somit optimal für eine weitere Behandlung oder Veredelung vorbeireitet. Das verwendete Material des Trennsystems ist aus Kunststoff und hat eine Oberflächenversiegelung. In unserem Test erwies dieser sich als sehr strapazierfähig."
+                },
+                {
+                    "title": "Nachhaltigkeit",
+                    "text": "Die verwendeten Materialien, insbesondere das verwendete Holz, sind FSC-zertifiziert. Die FSC verfolgt dem ehrgeizigen Anspruch die Wälder auf der ganzen Welt für die kommenden Generation zu erhalten. Wir begrüßen die umweltfreundliche Vorgehensweise und Unternehmensphilosophie TROBOLO's und vergeben an dieser Stelle eine Bestnote."
+                },
+                {
+                    "title": "Zubehör",
+                    "text": "Als optionales Zubehör bietet TROBOLO ein natürliches oder elektrisches Abluftsystem. Dieser besitzt einen flexiblen USB Anschluss und kann per 12V, 24V oder 230V betrieben werden."
+                },
+                {
+                    "title": "Fazit",
+                    "text": "Zu erwähnen sei, das die TeraBlœm Trockentrenntoilette von TROBOLO, als vorgefertigter Bausatz geliefert wird. Es muss also selbst Hand angelegt werden, ein großes handwerkliches Können oder Wissen war dafür aber zugegebenermaßen nicht notwendig. Im Gegenteil, die Zusammensetzung erwies sich als sehr einfach. Zumindest haben wir so aber das Gefühl, wir hätten unseren Trockentrenntoilette selbst gebaut. Aufgrund der Funktionalität, dem hohen Komfort, der Nachhaltigkeit des Produktes, der Einfachheit der Entleerung sowie der Hygiene, vergeben wir der TeraBlœm von TROBOLO eine Bestnote."
+                }
+            ]
         },
         "specifications": [
             { "Material": "Erlenmehrschichtholz" },

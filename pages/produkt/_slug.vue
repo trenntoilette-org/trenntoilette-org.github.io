@@ -11,6 +11,16 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-8 fadeInUp" style="min-height: 400px">
+            <h2 class="mb-4">{{ product.name }}</h2>
+            <div v-for="(text, index) in product.seo.texts" :key="index">
+              <h5 class="mb-3 mt-5">
+                {{ text.title }}
+              </h5>
+              <p class="mb-4">
+                {{ text.text }}
+              </p>
+            </div>
+
             <h2 class="mb-4">Testbericht</h2>
             <p class="mb-4">
               Die TROBOLO TeraBlœm ist eine autarke Trockentrenntoilette für den
