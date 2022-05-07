@@ -163,7 +163,7 @@
         "brand": "TROBOLO",
         "sku": "ESXX1325",
         "name": "Einstreu",
-        "category": "",
+        "category": "Einstreu",
         "material": "",
         "size": "",
         "weight": "",
@@ -180,7 +180,7 @@
         "reviewCount": 11,
         "shopLink": "https://trobolo.com/de/produkte/einstreu/",
         "featured": false,
-        "published": false
+        "published": true
     },
     {
         "brand": "TROBOLO",
@@ -584,7 +584,6 @@
             { "Maße": "Höhe 313 - Tiefe 382 - Breite 341 mm" },
             { "Gewicht": "4,7 kg" },
             { "Traglast": "150 kg" },
-            { "Einsatzgebiet": "Campingtoilette" },
             { "Funktion": "Trennsystem" }
         ]
     },

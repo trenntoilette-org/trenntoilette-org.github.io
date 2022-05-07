@@ -42,7 +42,9 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: categoryData.seo ? categoryData.seo.metaDescription : "bla",
+          content: categoryData.seo
+            ? categoryData.seo.metaDescription
+            : "todo meta desc",
         },
         {
           hid: "robots",
@@ -56,8 +58,15 @@ export default {
   },
   data() {
     const category = this.$route.params.category;
+
+    console.log(
+      products.filter(
+        (x) => x.category.toLowerCase() === category && x.published
+      )
+    );
+
     const filteredProducts = products.filter(
-      (x) => x.category.toLowerCase() === category
+      (x) => x.category.toLowerCase() === category && x.published
     );
     return {
       filteredProducts,

@@ -3,7 +3,7 @@
     <div class="course-item bg-light">
       <div class="position-relative overflow-hidden">
         <NuxtLink :to="`/produkt/${product.slug}/`" :title="product.linkTitle">
-          <img class="img-fluid" :src="product.image" :alt="product.name" />
+          <img class="img-fluid" :src="product.image" />
         </NuxtLink>
         <div
           class="
@@ -48,7 +48,7 @@
           ></small>
           <small>({{ product.reviewCount }})</small>
         </div>
-        <h5 class="mb-4">{{ product.name }}</h5>
+        <h5 class="mb-4"></h5>
       </div>
       <div class="d-flex border-top">
         <small class="flex-fill text-center border-end py-2"

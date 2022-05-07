@@ -44,6 +44,33 @@
                 "title": "Testsieger: Trenntoiletten für den Innenbereich",
                 "metaDescription": "Auf campingtoilette.shop findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen."
             }
+        },
+        {
+            "key": "einstreu",
+            "name": "Einstreu",
+            "productCategory": "Einstreu",
+            "seo": {
+                "title": "Testsieger: Einstreu für Trenntoiletten",
+                "metaDescription": "Das beste Einstreu für deine Trenntoilette."
+            }
+        },
+        {
+            "key": "einstreu",
+            "name": "Einstreu",
+            "productCategory": "Einstreu",
+            "seo": {
+                "title": "Testsieger: Einstreu für Trenntoiletten",
+                "metaDescription": "Das beste Einstreu für deine Trenntoilette."
+            }
+        },
+        {
+            "key": "trenneinsatz",
+            "name": "Trenneinsatz",
+            "productCategory": "Trenneinsatz",
+            "seo": {
+                "title": "Testsieger: Trenneinsatz für Trenntoiletten",
+                "metaDescription": "Trenneinsatz für deine Trenntoilette."
+            }
         }
     ],
     "navigationLinks": [{
@@ -95,7 +122,6 @@
                     "linkTo": "/kategorie/trenneinsatz/",
                     "linkTitle": "Trenneinsatz für die Trenntoilete",
                     "publish": true
-
                 }
             ]
         },
