@@ -240,11 +240,10 @@ export default {
   name: "shop",
   async asyncData({ route }) {
     const category = route.params.category;
-    console.log(category);
     return {
       products: trenntoiletten.filter((x) => x.category == category),
       categories,
-      category
+      category,
     };
   },
 };

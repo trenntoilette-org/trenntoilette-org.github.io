@@ -29,7 +29,7 @@
                     :title="product.name"
                     ><nuxt-img
                       preset="seventyFourty"
-                      :src="`${config.imageFolder + product.localThumb}`"
+                      :src="`${config.imageFolder}${product.localThumb}`"
                       :alt="product.name"
                   /></nuxt-link>
                   <div class="desc">
@@ -57,7 +57,7 @@
                 <nuxt-img
                   preset="default"
                   class="img-fluid d-block mx-auto"
-                  :src="`${config.imageFolder + bigProduct.localThumb}`"
+                  :src="`${config.imageFolder}${bigProduct.localThumb}`"
                   :alt="bigProduct.name"
                 />
               </nuxt-link>

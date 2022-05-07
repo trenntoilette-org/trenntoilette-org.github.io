@@ -3,7 +3,7 @@
     <ProductHeader
       :productName="product.name"
       :textContent="product.description"
-      :productImage="`${config.imageFolder}/${product.localThumb}`"
+      :productImage="`${config.imageFolder}${product.localThumb}`"
     ></ProductHeader>
 
     <!-- About Start -->

@@ -72,6 +72,7 @@
         },
         {
             "key": "trobolo",
+            "type": "manufacturer",
             "name": "TROBOLO",
             "productCategory": "TROBOLO",
             "seo": {
@@ -82,6 +83,7 @@
         },
         {
             "key": "trelino",
+            "type": "manufacturer",
             "name": "Trelino",
             "productCategory": "Trelino",
             "seo": {
@@ -92,6 +94,7 @@
         },
         {
             "key": "kompotoi",
+            "type": "manufacturer",
             "name": "Kompotoi",
             "productCategory": "Kompotoi",
             "seo": {
@@ -106,10 +109,11 @@
             "linkTo": "/",
             "linkTitle": "Campingtoiletten",
             "publish": true
-        }, {
-            "title": "Hersteller",
-            "linkTo": "#hersteller",
-            "linkTitle": "Hersteller von Campingtoiletten",
+        },
+        {
+            "title": "Shop",
+            "linkTo": "/shop/",
+            "linkTitle": "Trenntoiletten Shop",
             "publish": true
         },
         {
@@ -152,6 +156,12 @@
                     "publish": true
                 }
             ]
+        },
+        {
+            "title": "Hersteller",
+            "linkTo": "/#hersteller",
+            "linkTitle": "Hersteller von Campingtoiletten",
+            "publish": true
         },
         {
             "title": "Kontakt",

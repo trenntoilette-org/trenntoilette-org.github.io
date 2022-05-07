@@ -2,14 +2,7 @@
   <div>
     <!-- Navbar Start -->
     <nav
-      class="
-        navbar navbar-expand-lg
-        bg-white
-        navbar-light
-        shadow
-        sticky-top
-        p-0
-      "
+      class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0"
     >
       <nuxt-link
         to="/"
@@ -95,15 +88,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.nuxt-link-active {
-  font-weight: bold;
-  color: #06bbcc;
-}
-
-.nuxt-link-exact-active {
-  font-weight: bold;
-  color: #06bbcc;
-}
-</style>

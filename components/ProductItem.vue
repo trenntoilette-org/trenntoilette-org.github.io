@@ -6,7 +6,7 @@
           <nuxt-img
             preset="productThumbnail"
             class="img-fluid"
-            :src="`${config.imageFolder}/${product.localThumb}`"
+            :src="`${config.imageFolder}${product.localThumb}`"
           />
         </NuxtLink>
         <div

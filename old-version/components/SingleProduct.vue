@@ -4,7 +4,7 @@
       <nuxt-img
         preset="default"
         class="img-fluid"
-        :src="`${config.imageFolder + product.localThumb}`"
+        :src="`${config.imageFolder}${product.localThumb}`"
         :alt="product.name"
       />
     </nuxt-link>

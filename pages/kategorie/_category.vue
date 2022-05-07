@@ -1,24 +1,13 @@
 <template>
   <div>
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center fadeInUp">
-          <div class="section-title bg-white text-center text-primary px-3 h6">
-            Testsieger
+    <div class="container-fluid py-5">
+      <div class="container-fluid">
+        <div class="row g-5">
+          <div class="col-lg-2 fadeInUp">
+            <CategorySidebar />
           </div>
-          <h1 class="mb-5">
-            {{ category[0].toUpperCase() + category.substring(1) }}
-          </h1>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div
-            v-for="product in filteredProducts"
-            :key="product"
-            class="col-lg-4 fadeInUp"
-          >
-            <ProductItem :product="product" class="mt-5" />
+          <div class="col-lg-10 fadeInUp">
+            <Products :products="filteredProducts" />
           </div>
         </div>
       </div>
@@ -60,13 +49,6 @@ export default {
   },
   data() {
     const category = this.$route.params.category;
-
-    console.log(
-      products.filter(
-        (x) => x.category.toLowerCase() === category && x.published
-      )
-    );
-
     const filteredProducts = products.filter(
       (x) => x.category.toLowerCase() === category && x.published
     );
