@@ -22,9 +22,10 @@
             "productCategory": "Campingtoilette",
             "seo": {
                 "title": "Campingtoiletten günstig kaufen",
-                "metaDescription": "Auf Campingtoilette.shop findest du die richtige Campingtoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
+                "metaDescription": "Auf trenntoilette.org findest du die richtige Campingtoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
                 "robots": "index, follow"
-            }
+            },
+            "footerLink": true
         },
         {
             "key": "gartentoilette",
@@ -32,7 +33,7 @@
             "productCategory": "Gartentoilette",
             "seo": {
                 "title": "Gartentoiletten günstig kaufen",
-                "metaDescription": "Auf Campingtoilette.shop findest du die richtige Gartentoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
+                "metaDescription": "Auf trenntoilette.org findest du die richtige Gartentoilette sowie Zubehör. Testsieger und Produkte günstig kaufen.",
                 "robots": "index, follow"
             }
         },
@@ -41,10 +42,11 @@
             "name": "Innenbereich",
             "productCategory": "Innenbereich",
             "seo": {
-                "title": "Testsieger: Trenntoiletten für den Innenbereich",
-                "metaDescription": "Auf campingtoilette.shop findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen.",
+                "title": "Trenntoiletten für's Haus",
+                "metaDescription": "Auf trenntoilette.org findest du die besten und günstigsten Trenntoiletten für den Innenbereich. Jetzt Testsieger ansehen und vergleichen.",
                 "robots": "index, follow"
-            }
+            },
+            "footerLink": true
         },
         {
             "key": "einstreu",
@@ -54,17 +56,8 @@
                 "title": "Testsieger: Einstreu für Trenntoiletten",
                 "metaDescription": "Das beste Einstreu für deine Trenntoilette.",
                 "robots": "index, follow"
-            }
-        },
-        {
-            "key": "einstreu",
-            "name": "Einstreu",
-            "productCategory": "Einstreu",
-            "seo": {
-                "title": "Testsieger: Einstreu für Trenntoiletten",
-                "metaDescription": "Das beste Einstreu für deine Trenntoilette.",
-                "robots": "index, follow"
-            }
+            },
+            "footerLink": true
         },
         {
             "key": "trenneinsatz",
@@ -74,7 +67,8 @@
                 "title": "Testsieger: Trenneinsatz für Trenntoiletten",
                 "metaDescription": "Trenneinsatz für deine Trenntoilette.",
                 "robots": "index, follow"
-            }
+            },
+            "footerLink": true
         },
         {
             "key": "trobolo",

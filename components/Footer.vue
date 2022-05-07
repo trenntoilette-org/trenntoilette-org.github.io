@@ -5,11 +5,21 @@
         <div class="row g-5">
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Schnellzugriff</h4>
-            <a class="btn btn-link" href="">Über Uns</a>
-            <a class="btn btn-link" href="">Kontakt</a>
-            <a class="btn btn-link" href="">Datenschutz</a>
+            <!-- <a class="btn btn-link" href="">Über Uns</a> -->
+            <a class="btn btn-link" href="#kontakt">Kontakt</a>
+            <!-- <a class="btn btn-link" href="">Datenschutz</a>
             <a class="btn btn-link" href="">AGBs</a>
-            <a class="btn btn-link" href="">FAQs & Hilfe</a>
+            <a class="btn btn-link" href="">FAQs & Hilfe</a> -->
+            <div v-if="footerLinks">
+              <nuxt-link
+                v-for="(category, index) in footerLinks"
+                :key="index"
+                :to="`/kategorie/${category.key}/`"
+                :title="category.seo.title"
+                class="btn btn-link"
+                >{{ category.name }}</nuxt-link
+              >
+            </div>
           </div>
           <div class="col-lg-3 col-md-6" id="kontakt">
             <h4 class="text-white mb-3">Kontakt</h4>
@@ -126,12 +136,10 @@
             </div>
             <div class="col-md-6 text-center text-md-end">
               <div class="footer-menu">
-                <nuxt-link to="/" :title="config.seo.mainKeyword"
-                  >Home</nuxt-link
-                >
+                <nuxt-link to="/" :title="config.title">Home</nuxt-link>
                 <a href="#testsieger">Testsieger</a>
-                <a href="#hilfe">Hilfe</a>
-                <a href="#faq">FAQs</a>
+                <!-- <a href="#hilfe">Hilfe</a>
+                <a href="#faq">FAQs</a> -->
               </div>
             </div>
           </div>
@@ -149,11 +157,14 @@
 <script>
 import config from "~/assets/data/config.json";
 
+const footerLinks = config.categories.filter((x) => x.footerLink);
+
 export default {
   name: "footerComponent",
   data() {
     return {
       config,
+      footerLinks,
     };
   },
 };
