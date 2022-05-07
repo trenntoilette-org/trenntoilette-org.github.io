@@ -15,9 +15,6 @@
             text-white text-decoration-none
           "
         >
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
           <span class="fs-4">Kategorien</span>
         </a>
         <hr />
@@ -36,9 +33,6 @@
               "
               class="nav-link text-white"
             >
-              <svg class="bi me-2" width="16" height="16">
-                <use xlink:href="#home"></use>
-              </svg>
               {{ category.name }}
             </nuxt-link>
           </li>
