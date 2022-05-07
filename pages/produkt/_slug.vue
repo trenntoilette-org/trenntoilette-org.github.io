@@ -175,9 +175,10 @@ export default {
   name: "product",
   head() {
     return {
-      title: this.product.seo
-        ? this.product.seo.title
-        : `${this.product.name} online kaufen`,
+      title:
+        this.product.seo && this.product.seo.title
+          ? this.product.seo.title
+          : `${this.product.name} online kaufen`,
       meta: [
         {
           hid: "description",
