@@ -6,7 +6,7 @@
         <li class="d-flex justify-content-between align-items-center">
           <span>Hersteller</span>
           <span
-            ><nuxt-link :to="`/hersteller/${product.brand}/`">{{
+            ><nuxt-link :to="`/hersteller/${product.brand.toLowerCase()}/`">{{
               product.brand
             }}</nuxt-link></span
           >
@@ -15,7 +15,9 @@
 
         <li class="d-flex justify-content-between align-items-center">
           <span>Kategorie</span>
-          <span>{{ product.category }}</span>
+          <nuxt-link :to="`/kategorie/${product.category.toLowerCase()}/`"
+            ><span>{{ product.category }}</span></nuxt-link
+          >
         </li>
         <hr />
 
