@@ -14,6 +14,11 @@
             "title": "Trenntoilette günstig kaufen | Shop",
             "metaDescription": "Günstige Trenntoiletten online kaufen. Trenntoiletten für Haus, Garten, Van und Wohnmobile.",
             "robots": "index, follow"
+        },
+        "shop": {
+            "title": "Der Trenntoiletten und Zubehör Shop",
+            "metaDescription": "Auf trenntoilette.org findest du Trenntoiletten, Gartentoiletten, Campingtoiletten sowie sämtliches Zubehör.",
+            "robots": "index, follow"
         }
     },
     "categories": [{
@@ -77,7 +82,7 @@
             "productCategory": "TROBOLO",
             "seo": {
                 "title": "Trenntoiletten von TROBOLO",
-                "metaDescription": "Trenntoiletten von TROBOLO günstig kaufen",
+                "metaDescription": "Trenntoiletten von TROBOLO günstig kaufen.",
                 "robots": "index, follow"
             }
         },
@@ -88,7 +93,7 @@
             "productCategory": "Trelino",
             "seo": {
                 "title": "Trenntoiletten von Trelino",
-                "metaDescription": "Trenntoiletten von Trelino günstig kaufen",
+                "metaDescription": "Trenntoiletten von Trelino günstig kaufen.",
                 "robots": "index, follow"
             }
         },
@@ -99,7 +104,7 @@
             "productCategory": "Kompotoi",
             "seo": {
                 "title": "Trenntoiletten von Kompotoi",
-                "metaDescription": "Trenntoiletten von Kompotoi günstig kaufen",
+                "metaDescription": "Trenntoiletten von Kompotoi günstig kaufen.",
                 "robots": "index, follow"
             }
         }

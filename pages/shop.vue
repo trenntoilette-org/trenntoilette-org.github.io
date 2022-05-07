@@ -21,6 +21,31 @@ import config from "~/assets/data/config.json";
 
 export default {
   name: "categoryComponent",
+  head() {
+    return {
+      title: config.seo.shop
+        ? config.seo.shop.title
+        : config.seo.mainKeyword + " Shop",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            config.seo.shop && config.seo.metaDescription
+              ? config.seo.metaDescription
+              : "todo meta desc",
+        },
+        {
+          hid: "robots",
+          name: "robots",
+          content:
+            config.seo && config.seo.robots
+              ? config.seo.robots
+              : "noindex, follow",
+        },
+      ],
+    };
+  },
   data() {
     return {
       products,

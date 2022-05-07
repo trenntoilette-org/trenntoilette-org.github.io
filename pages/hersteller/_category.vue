@@ -24,9 +24,12 @@ export default {
   head() {
     const category = this.category;
     const categoryData = config.categories.find((x) => x.key === category);
-
+    console.log(categoryData);
     return {
-      title: categoryData.name + "- Testsieger und Produkte",
+      title:
+        categoryData.seo && categoryData.seo.title
+          ? categoryData.seo.title
+          : "Produkte von " + categoryData.name + " günstig kaufen.",
       meta: [
         {
           hid: "description",
@@ -34,7 +37,11 @@ export default {
           content:
             categoryData.seo && categoryData.seo.metaDescription
               ? categoryData.seo.metaDescription
-              : "todo meta desc",
+              : "Kaufe Produkte von " +
+                categoryData.name +
+                " günstig online in unserem Shop. Best-Preis-Garantie. Markenprodukte und Zubehör von " +
+                categoryData.name +
+                ".",
         },
         {
           hid: "robots",
