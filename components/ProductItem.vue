@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="text-center p-4 pb-0">
-        <h3 class="mb-0">{{ product.price }} €</h3>
+        <h3 class="mb-0">{{ parseFloat(product.price).toFixed(2) }} €</h3>
         <div class="mb-3">
           <small
             v-for="star in product.stars"

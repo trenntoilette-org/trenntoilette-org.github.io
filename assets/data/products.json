@@ -580,12 +580,11 @@
             "robots": "index, follow"
         },
         "specifications": [
-            { "Hersteller": "TROBOLO" },
             { "Material": "Erlenmehrschichtholz" },
             { "Maße": "Höhe 313 - Tiefe 382 - Breite 341 mm" },
             { "Gewicht": "4,7 kg" },
             { "Traglast": "150 kg" },
-            { "Einsatzgebiet": "Campingtoilete" },
+            { "Einsatzgebiet": "Campingtoilette" },
             { "Funktion": "Trennsystem" }
         ]
     },

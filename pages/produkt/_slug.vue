@@ -142,7 +142,7 @@
               class="btn btn-primary py-3 px-5"
               target="_blank"
               rel="nofollow noopener"
-              href="https://trobolo.com/de/produkte/terabloem/"
+              :href="product.shopLink"
               >Bestellen</a
             >
           </div>
@@ -153,9 +153,9 @@
                 class="btn btn-primary py-3 px-5"
                 target="_blank"
                 rel="nofollow noopener"
-                href="https://trobolo.com/de/produkte/terabloem/"
+                :href="product.shopLink"
                 style="display: block; width: 100%"
-                >TROBOLO Online Shop</a
+                >{{ product.brand }} Online Shop</a
               >
             </div>
           </div>
@@ -201,7 +201,6 @@ export default {
   },
   async asyncData({ route }) {
     const slug = route.params.slug;
-    console.log(slug, "slug");
     return {
       product: trenntoiletten.find((x) => x.slug == route.params.slug),
       config,
