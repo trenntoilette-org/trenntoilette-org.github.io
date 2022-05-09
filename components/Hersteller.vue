@@ -114,7 +114,7 @@
             </div>
           </div>
           <div class="col-lg-5 col-md-6 zoomIn" style="min-height: 350px">
-            <a class="position-relative d-block h-100 overflow-hidden" href="">
+            <a class="position-relative d-block h-100 overflow-hidden">
               <div class="grayscaleContainer">
                 <img
                   class="img-fluid grayscale"

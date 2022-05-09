@@ -64,6 +64,17 @@
                 "metaDescription": "Trenntoiletten von MeineTrenntoilette günstig kaufen.",
                 "robots": "index, follow"
             }
+        },
+        {
+            "key": "kildwick",
+            "name": "Kildwick",
+            "productCategory": "kildwick",
+            "localThumb": "/assets/images/hersteller/kildwick.webp",
+            "seo": {
+                "title": "Trenntoiletten von kildwick",
+                "metaDescription": "Trenntoiletten von kildwick günstig kaufen.",
+                "robots": "index, follow"
+            }
         }
     ],
     "categories": [{
