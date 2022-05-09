@@ -12,7 +12,7 @@
         <div
           v-for="product in featured"
           :key="product.name"
-          class="col-lg-4 col-md-6 fadeInUp"
+          class="col-lg-4 col-md-6 col-sm-8 col-xs-12 fadeInUp"
         >
           <ProductItem :product="product" />
         </div>
