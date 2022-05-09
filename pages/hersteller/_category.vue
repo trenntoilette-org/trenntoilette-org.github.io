@@ -22,8 +22,8 @@ import config from "~/assets/data/config.json";
 export default {
   name: "categoryComponent",
   head() {
-    const category = this.category;
-    const categoryData = config.categories.find((x) => x.key === category);
+    const brand = this.category;
+    const categoryData = config.brands.find((x) => x.key === brand);
 
     return {
       title:

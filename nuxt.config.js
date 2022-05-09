@@ -90,6 +90,13 @@ export default {
                     height: 229
                 }
             },
+            productHeader: {
+                modifiers: {
+                    format: 'webp',
+                    width: 612,
+                    height: 400
+                }
+            },
             footerThumbnail: {
                 modifiers: {
                     format: 'webp',

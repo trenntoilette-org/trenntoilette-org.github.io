@@ -5,7 +5,7 @@
         class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
         style="width: 280px"
       >
-        <a
+        <!-- <a
           href="/"
           class="
             d-flex
@@ -16,8 +16,9 @@
           "
         >
           <span class="fs-4">Kategorien</span>
-        </a>
+        </a> -->
         <hr />
+        <span class="fs-4">Kategorien</span>
         <ul class="nav nav-pills flex-column mb-auto">
           <li
             v-for="(category, index) in config.categories"
@@ -38,6 +39,30 @@
           </li>
         </ul>
         <hr />
+
+        <span class="fs-4">Hersteller</span>
+
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li
+            v-for="(brand, index) in config.brands"
+            :key="index"
+            class="nav-item"
+          >
+            <nuxt-link
+              :title="brand.seo ? brand.seo.title : brand.name"
+              :to="
+                brand.type === 'manufacturer'
+                  ? `/hersteller/${brand.key}/`
+                  : `/hersteller/${brand.key}/`
+              "
+              class="nav-link text-white"
+            >
+              {{ brand.name }}
+            </nuxt-link>
+          </li>
+        </ul>
+        <hr />
+
         <!-- <div class="dropdown">
           <a
             href="#"
