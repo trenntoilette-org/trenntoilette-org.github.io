@@ -21,6 +21,51 @@
             "robots": "index, follow"
         }
     },
+    "brands": [{
+            "key": "trobolo",
+            "name": "TROBOLO",
+            "productCategory": "TROBOLO",
+            "localThumb": "/assets/images/hersteller/trobolo.webp",
+            "seo": {
+                "title": "Trenntoiletten von TROBOLO",
+                "metaDescription": "Trenntoiletten von TROBOLO günstig kaufen.",
+                "robots": "index, follow"
+            }
+        },
+        {
+            "key": "trelino",
+            "name": "Trelino",
+            "productCategory": "Trelino",
+            "localThumb": "/assets/images/hersteller/trelino.webp",
+            "seo": {
+                "title": "Trenntoiletten von Trelino",
+                "metaDescription": "Trenntoiletten von Trelino günstig kaufen.",
+                "robots": "index, follow"
+            }
+        },
+        {
+            "key": "kompotoi",
+            "name": "Kompotoi",
+            "productCategory": "Kompotoi",
+            "localThumb": "/assets/images/hersteller/kompotoi.webp",
+            "seo": {
+                "title": "Trenntoiletten von Kompotoi",
+                "metaDescription": "Trenntoiletten von Kompotoi günstig kaufen.",
+                "robots": "index, follow"
+            }
+        },
+        {
+            "key": "meinetrenntoilette",
+            "name": "Meine Trenntoilette",
+            "productCategory": "MeineTrenntoilette",
+            "localThumb": "/assets/images/hersteller/meinetrenntoilette.webp",
+            "seo": {
+                "title": "Trenntoiletten von MeineTrenntoilette",
+                "metaDescription": "Trenntoiletten von MeineTrenntoilette günstig kaufen.",
+                "robots": "index, follow"
+            }
+        }
+    ],
     "categories": [{
             "key": "campingtoilette",
             "name": "Campingtoiletten",
@@ -74,39 +119,6 @@
                 "robots": "index, follow"
             },
             "footerLink": true
-        },
-        {
-            "key": "trobolo",
-            "type": "manufacturer",
-            "name": "TROBOLO",
-            "productCategory": "TROBOLO",
-            "seo": {
-                "title": "Trenntoiletten von TROBOLO",
-                "metaDescription": "Trenntoiletten von TROBOLO günstig kaufen.",
-                "robots": "index, follow"
-            }
-        },
-        {
-            "key": "trelino",
-            "type": "manufacturer",
-            "name": "Trelino",
-            "productCategory": "Trelino",
-            "seo": {
-                "title": "Trenntoiletten von Trelino",
-                "metaDescription": "Trenntoiletten von Trelino günstig kaufen.",
-                "robots": "index, follow"
-            }
-        },
-        {
-            "key": "kompotoi",
-            "type": "manufacturer",
-            "name": "Kompotoi",
-            "productCategory": "Kompotoi",
-            "seo": {
-                "title": "Trenntoiletten von Kompotoi",
-                "metaDescription": "Trenntoiletten von Kompotoi günstig kaufen.",
-                "robots": "index, follow"
-            }
         }
     ],
     "navigationLinks": [{
