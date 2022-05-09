@@ -15,7 +15,9 @@
 
         <li class="d-flex justify-content-between align-items-center">
           <span>Kategorie</span>
-          <nuxt-link :to="`/kategorie/${product.category.toLowerCase()}/`"
+          <nuxt-link
+            :to="`/kategorie/${product.category.toLowerCase()}/`"
+            :title="category ? category.seo.title : false"
             ><span>{{ product.category }}</span></nuxt-link
           >
         </li>
@@ -56,10 +58,22 @@
 </template>
 
 <script>
+import config from "~/assets/data/config.json";
+
 export default {
   name: "productcard",
   props: {
     product: Object,
+  },
+  data() {
+    const category = config.categories.find(
+      (x) => x.key === this.product.category.toLowerCase()
+    );
+
+    return {
+      config,
+      category,
+    };
   },
 };
 </script>
