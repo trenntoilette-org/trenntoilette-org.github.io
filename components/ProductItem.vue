@@ -64,8 +64,12 @@
           ></small
         >
         <small class="flex-fill text-center border-end py-2"
-          ><i class="fa text-primary me-2"></i
-          ><NuxtLink :to="`/kategorie/${product.category.toLowerCase()}/`">
+          ><i class="fa text-primary me-2" v-if="category"></i
+          ><NuxtLink
+            v-if="product.category"
+            :to="`/kategorie/${product.category.toLowerCase()}/`"
+            :title="category ? category.seo.title : false"
+          >
             {{ product.category }}</NuxtLink
           ></small
         >
@@ -76,14 +80,19 @@
 
 <script>
 import config from "~/assets/data/config.json";
+
 export default {
   name: "productitem",
   props: {
     product: Object,
   },
   data() {
+    const category = config.categories.find(
+      (x) => x.key === this.product.category.toLowerCase()
+    );
     return {
       config,
+      category,
     };
   },
 };
