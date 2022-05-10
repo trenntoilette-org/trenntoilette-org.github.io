@@ -145,6 +145,30 @@
             "publish": true
         },
         {
+            "title": "Hersteller",
+            "publish": true,
+            "subLinks": [{
+                    "title": "TROBOLO",
+                    "linkTo": "/hersteller/trobolo/",
+                    "linkTitle": "Trenntoiletten von TROBOLO",
+                    "publish": true
+                },
+                {
+                    "title": "Trelino",
+                    "linkTo": "/hersteller/trelino/",
+                    "linkTitle": "Trenntoiletten von Trelino",
+                    "publish": true
+
+                },
+                {
+                    "title": "Kompotoi",
+                    "linkTo": "/hersteller/kompotoi/",
+                    "linkTitle": "Trenntoiletten von Kompotoi",
+                    "publish": true
+                }
+            ]
+        },
+        {
             "title": "Einsatzgebiete",
             "publish": true,
             "subLinks": [{
@@ -184,12 +208,6 @@
                     "publish": true
                 }
             ]
-        },
-        {
-            "title": "Hersteller",
-            "linkTo": "/#hersteller",
-            "linkTitle": "Hersteller von Campingtoiletten",
-            "publish": true
         },
         {
             "title": "Kontakt",
