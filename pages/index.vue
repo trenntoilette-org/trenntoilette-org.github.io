@@ -123,6 +123,8 @@
     </div>
     <!-- Vorteile End -->
 
+    <FeaturedProducts />
+
     <Hersteller />
 
     <!-- Innenbereich Start -->
@@ -334,8 +336,10 @@
 
 <script>
 import config from "~/assets/data/config.json";
+import FeaturedProducts from "../components/FeaturedProducts.vue";
 
 export default {
+  components: { FeaturedProducts },
   name: "IndexPage",
   head: {
     title: config.seo.index.title,

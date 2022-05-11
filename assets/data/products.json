@@ -156,7 +156,7 @@
         "price": "409",
         "reviewCount": 371,
         "shopLink": "https://trobolo.com/de/produkte/komposter/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -294,7 +294,7 @@
         "price": "89.9",
         "reviewCount": 20,
         "shopLink": "https://trobolo.com/de/produkte/trenntoilette-einsatz/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -432,8 +432,9 @@
         "price": 1979,
         "reviewCount": 331,
         "shopLink": "https://trobolo.com/de/produkte/kersaboem/",
-        "featured": false,
-        "published": true
+        "featured": true,
+        "published": true,
+        "winner": true
     },
     {
         "brand": "TROBOLO",
@@ -632,7 +633,7 @@
         "price": 23.9,
         "reviewCount": 315,
         "shopLink": "https://trobolo.com/de/produkte/einstreu-kompostierbare-inlays/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -885,7 +886,7 @@
         "price": "49.9",
         "reviewCount": 289,
         "shopLink": "https://trobolo.com/de/produkte/toilettensitz/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -954,7 +955,7 @@
         "price": 199.9,
         "reviewCount": 48,
         "shopLink": "https://trobolo.com/de/produkte/diy-komplettset/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -1184,8 +1185,14 @@
         "price": 429,
         "reviewCount": 335,
         "shopLink": "https://trobolo.com/de/produkte/terabloem/",
-        "featured": false,
-        "published": true
+        "featured": true,
+        "published": true,
+        "winner": true,
+        "seo": {
+            "title": "Trenntoilette TROBOLO\u00ae TeraBl\u0153m",
+            "metaDescription": "Alle Informationen zur Trenntoilette TeraBl\u0153m von TROBOLO. Funktionsweise, Reinigung, Hygiene und Einsatzmöglichkeiten.",
+            "robos": "noindex, follow"
+        }
     },
     {
         "brand": "MeineTrenntoilette",
@@ -1414,7 +1421,7 @@
         "price": 659.91,
         "reviewCount": 43,
         "shopLink": "https://www.meinetrenntoilette.de/products/trelino-l-mobile-trenntoilette-fuer-wohnmobil-und-kastenwagen",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
