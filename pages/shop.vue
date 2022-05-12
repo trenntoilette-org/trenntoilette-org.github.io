@@ -48,7 +48,7 @@ export default {
   },
   data() {
     return {
-      products,
+      products: products.slice(0, 50),
     };
   },
 };

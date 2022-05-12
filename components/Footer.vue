@@ -33,14 +33,13 @@
             </p>
             <div class="d-flex pt-2">
               <a
+                v-for="(account, index) in config.socialMediaAccounts.filter(
+                  (x) => x.published
+                )"
+                :key="index"
                 class="btn btn-outline-light btn-social"
-                href="https://twitter.com/Trockentrennto1"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-outline-light btn-social"
-                href="https://github.com/trenntoilette-net/trockentrenntoilette-net.github.io"
-                ><i class="fab fa-github"></i
+                :href="account.link"
+                ><i :class="account.iconClass"></i
               ></a>
               <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
