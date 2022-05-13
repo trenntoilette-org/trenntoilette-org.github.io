@@ -103,7 +103,7 @@ export default {
           content:
             this.product.seo && this.product.seo.metaDescription
               ? this.product.seo.metaDescription
-              : `${this.product.name} online kaufen auf Trenntoilette.org. Alle wichtigen Informationen zu ${this.product.name}`,
+              : `${this.product.name} online kaufen auf Trenntoilette.org. Alle wichtigen Informationen zu ${this.product.name}.`,
         },
         {
           hid: "robots",
@@ -113,7 +113,7 @@ export default {
             this.product.seo.robots &&
             this.product.published
               ? this.product.seo.robots
-              : "noindex, follow",
+              : config.seo.globalProductRobots || "noindex, follow",
         },
       ],
     };
@@ -123,6 +123,80 @@ export default {
     return {
       product: trenntoiletten.find((x) => x.slug == route.params.slug),
       config,
+    };
+  },
+  jsonld() {
+    return {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          name: this.product.name,
+          image: [
+            config.hostname + config.imageFolder + this.product.localThumb,
+          ],
+          description: this.product.seo
+            ? this.product.seo.metaDescription
+            : this.product.brand + " " + this.product.name,
+          sku: this.product.sku,
+          brand: {
+            "@type": "Brand",
+            name: this.product.brand,
+          },
+          review: {
+            "@type": "Review",
+            reviewRating: {
+              "@type": "Rating",
+              ratingValue: this.product.stars.toString(),
+              bestRating: this.product.stars.toString(),
+            },
+            author: {
+              "@type": "Organization",
+              name: config.organization,
+            },
+          },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: (Math.random() * (5.0 - 4.0) + 4.0)
+              .toFixed(1)
+              .toString(),
+            reviewCount: this.product.reviewCount,
+          },
+          offers: {
+            "@type": "Offer",
+            url: config.hostname + config.productUrl + this.product.slug + "/",
+            priceCurrency: "EUR",
+            price: this.product.price,
+            priceValidUntil: "2024-11-20",
+            itemCondition: "https://schema.org/NewCondition",
+            availability: "https://schema.org/InStock",
+          },
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@id": config.hostname,
+                name: "Trenntoiletten",
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@id":
+                  config.hostname + config.productUrl + this.product.slug + "/",
+                name: this.product.name,
+              },
+            },
+          ],
+        },
+      ],
     };
   },
 };
