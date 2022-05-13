@@ -85,7 +85,7 @@
             <div class="service-item text-center pt-3">
               <div class="p-4">
                 <i class="fa fa-3x fa-water text-primary mb-4"></i>
-                <h5 class="mb-3">Wasserfrei</h5>
+                <div class="mb-3 h5">Wasserfrei</div>
                 <p>
                   Eine {{ config.seo.mainKeyword }} kommt komplett ohne Wasser
                   aus
@@ -97,7 +97,7 @@
             <div class="service-item text-center pt-3">
               <div class="p-4">
                 <i class="fa fa-3x fa-sun text-primary mb-4"></i>
-                <h5 class="mb-3">Autark</h5>
+                <div class="mb-3 h5">Autark</div>
                 <p>Sie benötigen keine zusätzlichen Sanitäranschlüsse</p>
               </div>
             </div>
@@ -106,7 +106,7 @@
             <div class="service-item text-center pt-3">
               <div class="p-4">
                 <i class="fa fa-3x fa-ban text-primary mb-4"></i>
-                <h5 class="mb-3">Keine Chemie</h5>
+                <div class="mb-3 h5">Keine Chemie</div>
                 <p>Dank Trenneinsatz ist keine Chemie notwendig</p>
               </div>
             </div>
@@ -115,7 +115,7 @@
             <div class="service-item text-center pt-3">
               <div class="p-4">
                 <i class="fa fa-3x fa-recycle text-primary mb-4"></i>
-                <h5 class="mb-3">Nachhaltig</h5>
+                <div class="mb-3 h5">Nachhaltig</div>
                 <p>
                   Benutzen Sie die Ausscheidungen als nährstoffreichen Kompost
                 </p>
