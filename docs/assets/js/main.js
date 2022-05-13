@@ -1,4 +1,4 @@
-(function ($) {
+(function($) {
     "use strict";
 
     // Dropdown on mouse hover
@@ -7,16 +7,16 @@
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
 
-    $(window).on("load resize", function () {
+    $(window).on("load resize", function() {
         if (this.matchMedia("(min-width: 992px)").matches) {
             $dropdown.hover(
-                function () {
+                function() {
                     const $this = $(this);
                     $this.addClass(showClass);
                     $this.find($dropdownToggle).attr("aria-expanded", "true");
                     $this.find($dropdownMenu).addClass(showClass);
                 },
-                function () {
+                function() {
                     const $this = $(this);
                     $this.removeClass(showClass);
                     $this.find($dropdownToggle).attr("aria-expanded", "false");
@@ -30,14 +30,14 @@
 
 
     // Back to top button
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
         }
     });
-    $('.back-to-top').click(function () {
+    $('.back-to-top').click(function() {
         $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
