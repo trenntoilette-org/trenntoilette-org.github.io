@@ -6,7 +6,7 @@
         <div class="section-title bg-white text-center text-primary px-3 h6">
           {{ config.seo.mainKeyword }}
         </div>
-        <h4 class="mb-5 h2">Beliebte Produkte</h4>
+        <div class="mb-5 h2">Beliebte Produkte</div>
       </div>
       <div class="row g-4 justify-content-center">
         <div
