@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/hersteller/trelino", {data:[{_img:{"/_ipx/f_webp,s_407x229/assets/images/products/meinetrenntoilette-stopfen-fur-trelino-trenntoilette-und-trenneinsatz-t3-01013.png":"\u002F_nuxt\u002Fimages\u002Fmeinetrenntoilette-stopfen-fur-trelino-trenntoilette-und-trenneinsatz-t3-01013.webp"}}],fetch:{},mutations:void 0});

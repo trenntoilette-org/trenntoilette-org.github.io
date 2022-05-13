@@ -30,8 +30,6 @@ const products = _products.filter(
   (x) => x.featured && x.published && !x.winner
 );
 
-console.log(products);
-
 export default {
   name: "featuredProducts",
   data() {

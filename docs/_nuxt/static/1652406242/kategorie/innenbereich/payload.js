@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/kategorie/innenbereich", {data:[{_img:{"/_ipx/f_webp,s_407x229/assets/images/products/trobolo-trobolo-terablm-s5xx1392.jpg":"\u002F_nuxt\u002Fimages\u002Ftrobolo-trobolo-terablm-s5xx1392.webp"}}],fetch:{},mutations:void 0});
