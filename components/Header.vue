@@ -16,6 +16,7 @@
       <button
         type="button"
         class="navbar-toggler me-4"
+        aria-label="Hauptmenü"
         data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse"
       >
