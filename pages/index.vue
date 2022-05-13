@@ -222,19 +222,28 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="facebook"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="twitter"
+                  >
                     <i class="fab fa-twitter"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="instagram"
+                  >
                     <i class="fab fa-instagram"></i>
                   </button>
                 </div>
               </div>
               <div class="text-center p-4">
-                <h5 class="mb-0">Ringo Hülsmann</h5>
+                <div class="mb-0 h5">Ringo Hülsmann</div>
                 <small>Der "Toilettenkönig"</small>
               </div>
             </div>
@@ -254,19 +263,28 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="facebook"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="twitter"
+                  >
                     <i class="fab fa-twitter"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="instagram"
+                  >
                     <i class="fab fa-instagram"></i>
                   </button>
                 </div>
               </div>
               <div class="text-center p-4">
-                <h5 class="mb-0">Leonie Meyer</h5>
+                <div class="mb-0 h5">Leonie Meyer</div>
                 <small>Biologin</small>
               </div>
             </div>
@@ -286,19 +304,28 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="facebook"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="twitter"
+                  >
                     <i class="fab fa-twitter"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="instagram"
+                  >
                     <i class="fab fa-instagram"></i>
                   </button>
                 </div>
               </div>
               <div class="text-center p-4">
-                <h5 class="mb-0">Markus Baum</h5>
+                <div class="mb-0 h5">Markus Baum</div>
                 <small>Ökologe</small>
               </div>
             </div>
@@ -318,19 +345,28 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="facebook"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="twitter"
+                  >
                     <i class="fab fa-twitter"></i>
                   </button>
-                  <button class="btn btn-sm-square btn-primary mx-1">
+                  <button
+                    class="btn btn-sm-square btn-primary mx-1"
+                    aria-label="instagram"
+                  >
                     <i class="fab fa-instagram"></i>
                   </button>
                 </div>
               </div>
               <div class="text-center p-4">
-                <h5 class="mb-0">Anh Tanaka</h5>
+                <div class="mb-0 h5">Anh Tanaka</div>
                 <small>Innenarchitektin</small>
               </div>
             </div>
