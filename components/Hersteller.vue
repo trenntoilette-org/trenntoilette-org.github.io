@@ -41,7 +41,7 @@
                     "
                     style="margin: 1px"
                   >
-                    <h5 class="m-0">TROBOLO</h5>
+                    <div class="m-0 h5">TROBOLO</div>
                     <!-- <small class="text-primary">Deutschland</small> -->
                   </div>
                 </NuxtLink>
@@ -75,7 +75,7 @@
                     "
                     style="margin: 1px"
                   >
-                    <h5 class="m-0">Trelino</h5>
+                    <div class="m-0 h5">Trelino</div>
                     <!-- <small class="text-primary">49 Courses</small> -->
                   </div>
                 </NuxtLink>
@@ -108,7 +108,7 @@
                     "
                     style="margin: 1px"
                   >
-                    <h5 class="m-0">Kildwick</h5>
+                    <div class="m-0 h5">Kildwick</div>
                     <!-- <small class="text-primary">49 Courses</small> -->
                   </div>
                 </button>
@@ -140,7 +140,7 @@
                 "
                 style="margin: 1px"
               >
-                <h5 class="m-0">Meine Trenntoilette</h5>
+                <div class="m-0 h5">Meine Trenntoilette</div>
                 <!-- <small class="text-primary">Deutschland</small> -->
               </div>
             </button>
