@@ -80,12 +80,14 @@ export default {
         presets: {
             default: {
                 modifiers: {
-                    format: 'webp'
+                    format: 'webp',
+                    quality: 80,
                 }
             },
             productThumbnail: {
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 407,
                     height: 229
                 }
@@ -93,6 +95,7 @@ export default {
             productHeader: {
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 612,
                     height: 400
                 }
@@ -100,6 +103,7 @@ export default {
             footerThumbnail: {
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 58,
                     height: 58
                 }
@@ -107,6 +111,7 @@ export default {
             seventyFourty: {
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 70,
                     height: 40
                 }
