@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="sidebar-widget schedule-widget mt-5">
-      <h5 class="mb-4">{{ manufacturer.brand }}</h5>
+      <div class="mb-4 h5">{{ manufacturer.brand }}</div>
       <ul class="list-unstyled">
         <li class="d-flex justify-content-between align-items-center">
           <span>Firmensitz</span> <span>{{ manufacturer.location }}</span>

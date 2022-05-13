@@ -53,7 +53,7 @@
           ></small>
           <small>({{ product.reviewCount }})</small>
         </div>
-        <h5 class="mb-4">{{ product.name }}</h5>
+        <div class="mb-4 h5">{{ product.name }}</div>
       </div>
       <div class="d-flex border-top">
         <small class="flex-fill text-center border-end py-2"

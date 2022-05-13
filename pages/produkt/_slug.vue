@@ -14,9 +14,9 @@
             <h2 class="mb-4">{{ product.name }}</h2>
             <div v-if="product.seo && product.seo.texts">
               <div v-for="(text, index) in product.seo.texts" :key="index">
-                <h5 class="mb-3 mt-5">
+                <div class="mb-3 mt-5 h5">
                   {{ text.title }}
-                </h5>
+                </div>
                 <p class="mb-4">
                   {{ text.text }}
                 </p>
