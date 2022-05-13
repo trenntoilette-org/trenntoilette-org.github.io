@@ -15,7 +15,7 @@
                 v-for="(category, index) in footerLinks"
                 :key="index"
                 :to="`/kategorie/${category.key}/`"
-                :title="category.seo.title"
+                :title="category.seo ? category.seo.title : category.key"
                 class="btn btn-link"
                 >{{ category.name }}</nuxt-link
               >
