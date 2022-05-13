@@ -79,40 +79,39 @@ export default {
         staticFilename: '[publicPath]/images/[name][ext]',
         presets: {
             default: {
-                quality: config.imageQuality,
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                 }
             },
             productThumbnail: {
-                quality: config.imageQuality,
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 407,
                     height: 229
                 }
             },
             productHeader: {
-                quality: config.imageQuality,
                 modifiers: {
                     format: 'webp',
-
+                    quality: config.imageQuality,
                     width: 612,
                     height: 400
                 }
             },
             footerThumbnail: {
-                quality: config.imageQuality,
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 58,
                     height: 58
                 }
             },
             seventyFourty: {
-                quality: config.imageQuality,
                 modifiers: {
                     format: 'webp',
+                    quality: config.imageQuality,
                     width: 70,
                     height: 40
                 }
