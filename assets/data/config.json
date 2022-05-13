@@ -11,7 +11,7 @@
     "socialMediaAccounts": [
         { "name": "Twitter", "link": "https://www.twitter.com/campingtoilette", "iconClass": "fab fa-twitter", "published": false }
     ],
-    "imageQuality": 80,
+    "imageQuality": 85,
     "seo": {
         "globalProductRobots": "index, follow",
         "mainKeyword": "Trenntoilette",
