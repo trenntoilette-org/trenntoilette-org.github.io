@@ -25,10 +25,11 @@ export default {
             { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css' }
         ],
         script: [
+            // { type: 'text/javascript', src: '/assets/js/easing/easing.js', body: true },
             // { type: 'text/javascript', src: 'https://code.jquery.com/jquery-3.4.1.min.js', body: true },
             { src: 'https://code.jquery.com/jquery-3.6.0.min.js', integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=", crossorigin: "anonymous", body: false },
             { type: 'text/javascript', src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', body: true },
-            { type: 'text/javascript', src: '/assets/js/main.js', body: true }
+            { type: 'text/javascript', src: '/assets/js/main.js', body: true },
 
         ]
     },

@@ -4,15 +4,15 @@
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0"
     >
-      <nuxt-link
-        to="/"
+      <a
+        href="/"
         :title="config.title"
         class="navbar-brand d-flex align-items-center px-4 px-lg-5"
       >
         <h2 class="m-0 text-primary" style="font-size: 18px">
           <i class="fa fa-toilet me-3"></i>{{ config.logoText }}
         </h2>
-      </nuxt-link>
+      </a>
       <button
         type="button"
         class="navbar-toggler me-4"
@@ -26,11 +26,11 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
           <!-- single link -->
           <div v-for="(link, index) in navigationLinks" :key="index">
-            <nuxt-link
-              :to="link.linkTo"
+            <a
+              :href="link.linkTo"
               :title="link.linkTitle"
               class="nav-item nav-link"
-              >{{ link.title }}</nuxt-link
+              >{{ link.title }}</a
             >
           </div>
 
@@ -50,11 +50,11 @@
             >
             <div class="dropdown-menu fade-down m-0">
               <div v-for="(subLink, index) in link.subLinks" :key="index">
-                <nuxt-link
-                  :to="subLink.linkTo"
+                <a
+                  :href="subLink.linkTo"
                   :title="subLink.linkTitle"
                   class="dropdown-item"
-                  >{{ subLink.title }}</nuxt-link
+                  >{{ subLink.title }}</a
                 >
               </div>
             </div>
