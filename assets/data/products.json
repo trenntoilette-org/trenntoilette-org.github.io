@@ -456,7 +456,7 @@
         "price": "949",
         "reviewCount": 321,
         "shopLink": "https://trobolo.com/de/produkte/tinybloem/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -833,7 +833,7 @@
         "price": 119.9,
         "reviewCount": 114,
         "shopLink": "https://trobolo.com/de/produkte/diy-set/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
@@ -1109,7 +1109,7 @@
         "price": 2199,
         "reviewCount": 231,
         "shopLink": "https://trobolo.com/de/produkte/kersaboem-komposter/",
-        "featured": false,
+        "featured": true,
         "published": true
     },
     {
