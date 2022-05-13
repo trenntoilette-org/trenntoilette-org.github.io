@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/kategorie/campingtoilette", {data:[{_img:{"/_ipx/f_webp,s_407x229/assets/images/products/trobolo-trobolo-wandago-p1xx1403.jpg":"\u002F_nuxt\u002Fimages\u002Ftrobolo-trobolo-wandago-p1xx1403.webp"}}],fetch:{},mutations:void 0});

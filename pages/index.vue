@@ -6,7 +6,8 @@
         <div class="row g-5">
           <div class="col-lg-6 fadeInUp" style="min-height: 400px">
             <div class="position-relative h-100">
-              <img
+              <nuxt-img
+                preset="default"
                 class="img-fluid position-absolute w-100 h-100"
                 src="/assets/images/feature-campingtoilette-trobolo-wandago.webp"
                 :alt="config.seo.mainKeyword"
