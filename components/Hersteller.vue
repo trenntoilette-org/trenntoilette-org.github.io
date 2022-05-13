@@ -81,7 +81,7 @@
                 </NuxtLink>
               </div>
               <div class="col-lg-6 col-md-12 zoomIn">
-                <a
+                <button
                   class="position-relative d-block overflow-hidden"
                   title="Mehr über Kildwick erfahren"
                 >
@@ -111,12 +111,12 @@
                     <h5 class="m-0">Kildwick</h5>
                     <!-- <small class="text-primary">49 Courses</small> -->
                   </div>
-                </a>
+                </button>
               </div>
             </div>
           </div>
           <div class="col-lg-5 col-md-6 zoomIn" style="min-height: 350px">
-            <a class="position-relative d-block h-100 overflow-hidden">
+            <button class="position-relative d-block h-100 overflow-hidden">
               <div class="grayscaleContainer">
                 <nuxt-img
                   preset="default"
@@ -143,7 +143,7 @@
                 <h5 class="m-0">Meine Trenntoilette</h5>
                 <!-- <small class="text-primary">Deutschland</small> -->
               </div>
-            </a>
+            </button>
           </div>
         </div>
       </div>

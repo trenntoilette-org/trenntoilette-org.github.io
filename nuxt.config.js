@@ -8,7 +8,7 @@ export default {
     head: {
         title: config.title,
         htmlAttrs: {
-            lang: config.htmlLang
+            lang: config.seo.htmlLang
         },
         meta: [
             { charset: 'utf-8' },

@@ -57,8 +57,11 @@
                 </p>
               </div>
             </div>
-            <a class="btn btn-primary py-3 px-5 mt-2" href="#testsieger"
-              >Zu den Testsiegern</a
+            <nuxt-link
+              class="btn btn-primary py-3 px-5 mt-2"
+              to="/shop/"
+              title="Trenntoiletten günstig kaufen in unserem Shop"
+              >zum Trenntoiletten Shop</nuxt-link
             >
           </div>
         </div>
@@ -219,15 +222,15 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-instagram"></i>
+                  </button>
                 </div>
               </div>
               <div class="text-center p-4">
@@ -251,15 +254,15 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-instagram"></i>
+                  </button>
                 </div>
               </div>
               <div class="text-center p-4">
@@ -283,15 +286,15 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-instagram"></i>
+                  </button>
                 </div>
               </div>
               <div class="text-center p-4">
@@ -315,15 +318,15 @@
                 style="margin-top: -23px"
               >
                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-sm-square btn-primary mx-1"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                  <button class="btn btn-sm-square btn-primary mx-1">
+                    <i class="fab fa-instagram"></i>
+                  </button>
                 </div>
               </div>
               <div class="text-center p-4">
