@@ -7,6 +7,7 @@
             preset="productThumbnail"
             class="img-fluid"
             :src="`${config.imageFolder}${product.localThumb}`"
+            :alt="product.linkTitle"
           />
         </NuxtLink>
         <div

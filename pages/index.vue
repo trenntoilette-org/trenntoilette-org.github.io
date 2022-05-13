@@ -207,7 +207,8 @@
           <div class="col-lg-3 col-md-6 fadeInUp">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   src="/assets/images/img/team-1.jpg"
                   alt=""
@@ -238,7 +239,8 @@
           <div class="col-lg-3 col-md-6 fadeInUp">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   src="/assets/images/img/team-2.jpg"
                   alt=""
@@ -269,7 +271,8 @@
           <div class="col-lg-3 col-md-6 fadeInUp">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   src="/assets/images/img/team-3.jpg"
                   alt=""
@@ -300,7 +303,8 @@
           <div class="col-lg-3 col-md-6 fadeInUp">
             <div class="team-item bg-light">
               <div class="overflow-hidden">
-                <img
+                <nuxt-img
+                  preset="default"
                   class="img-fluid"
                   src="/assets/images/img/team-4.jpg"
                   alt=""
