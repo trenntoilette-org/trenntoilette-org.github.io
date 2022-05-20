@@ -18,6 +18,7 @@
 <script>
 import products from "~/assets/data/products.json";
 import config from "~/assets/data/config.json";
+console.log(config.seo.shop);
 
 export default {
   name: "categoryComponent",
@@ -31,16 +32,16 @@ export default {
           hid: "description",
           name: "description",
           content:
-            config.seo.shop && config.seo.metaDescription
-              ? config.seo.metaDescription
-              : "todo meta desc",
+            config.seo.shop && config.seo.shop.metaDescription
+              ? config.seo.shop.metaDescription
+              : config.seo.mainKeyword + " Shop",
         },
         {
           hid: "robots",
           name: "robots",
           content:
-            config.seo && config.seo.robots
-              ? config.seo.robots
+            config.seo.shop && config.seo.shop.robots
+              ? config.seo.shop.robots
               : "noindex, follow",
         },
       ],
