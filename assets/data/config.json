@@ -28,6 +28,14 @@
             "robots": "index, follow"
         }
     },
+    "checklist": [
+        "Funktionalität",
+        "Materialien",
+        "Nachhaltigkeit",
+        "Komfort",
+        "Geruchsentwicklung",
+        "Entsorgung & Hygiene"
+    ],
     "brands": [{
             "key": "trobolo",
             "name": "TROBOLO",

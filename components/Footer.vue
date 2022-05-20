@@ -49,53 +49,22 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Gallerie</h4>
             <div class="row g-2 pt-2">
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-terabloem.webp"
-                  alt="TROBOLO TeraBlœm"
-                />
-              </div>
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-kersaboem.webp"
-                  alt="TROBOLO KersaBœm"
-                />
-              </div>
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-indiebloem.webp"
-                  alt="TROBOLO IndieBlœm"
-                />
-              </div>
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trelino-trelino-l.webp"
-                  alt="Trelino L"
-                />
-              </div>
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-kildwick-miniloo.webp"
-                  alt="Kildwick MiniLoo"
-                />
-              </div>
-              <div class="col-4">
-                <nuxt-img
-                  preset="footerThumbnail"
-                  class="img-fluid bg-light p-1"
-                  src="/assets/images/trockentrenntoiletten/trockentrenntoilette-trobolo-kitaboem.webp"
-                  alt="TROBOLO KitaBœm"
-                />
+              <div
+                class="col-4"
+                v-for="(product, index) in footerProducts"
+                :key="index"
+              >
+                <NuxtLink
+                  :to="`/produkt/${product.slug}/`"
+                  :title="product.linkTitle"
+                >
+                  <nuxt-img
+                    preset="footerThumbnail"
+                    class="img-fluid bg-light p-1"
+                    :src="`${config.imageFolder}${product.localThumb}`"
+                    :alt="product.linkTitle"
+                  />
+                </NuxtLink>
               </div>
             </div>
           </div>
@@ -164,15 +133,19 @@
 
 <script>
 import config from "~/assets/data/config.json";
+import products from "~/assets/data/products.json";
 
 const footerLinks = config.categories.filter((x) => x.footerLink);
-
+const footerProducts = products
+  .filter((x) => x.featured && x.published)
+  .slice(0, 6);
 export default {
   name: "footerComponent",
   data() {
     return {
       config,
       footerLinks,
+      footerProducts,
     };
   },
 };

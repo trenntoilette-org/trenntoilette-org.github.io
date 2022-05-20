@@ -23,38 +23,7 @@
               </div>
             </div>
 
-            <div class="row gy-2 gx-4 mb-5 mt-5">
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Funktionalität
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Materialien
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Nachhaltigkeit
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Geruchsentwicklung
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Komfort
-                </p>
-              </div>
-              <div class="col-sm-6">
-                <p class="mb-0">
-                  <i class="fa fa-check text-info me-2"></i>Entsorgung & Hygiene
-                </p>
-              </div>
-            </div>
+            <Checklist />
             <a
               class="btn btn-primary py-3 px-5"
               target="_blank"

@@ -18,7 +18,6 @@
 <script>
 import products from "~/assets/data/products.json";
 import config from "~/assets/data/config.json";
-console.log(config.seo.shop);
 
 export default {
   name: "categoryComponent",
