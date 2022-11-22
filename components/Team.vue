@@ -20,31 +20,6 @@
                   alt=""
                 />
               </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="facebook"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="twitter"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="instagram"
-                  >
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
-              </div>
               <div class="text-center p-4">
                 <div class="mb-0 h5">Ringo Hülsmann</div>
                 <small>Der "Toilettenkönig"</small>
@@ -60,31 +35,6 @@
                   src="/assets/images/img/team-2.jpg"
                   alt=""
                 />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="facebook"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="twitter"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="instagram"
-                  >
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
               </div>
               <div class="text-center p-4">
                 <div class="mb-0 h5">Leonie Meyer</div>
@@ -102,31 +52,6 @@
                   alt=""
                 />
               </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="facebook"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="twitter"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="instagram"
-                  >
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
-              </div>
               <div class="text-center p-4">
                 <div class="mb-0 h5">Markus Baum</div>
                 <small>Ökologe</small>
@@ -142,31 +67,6 @@
                   src="/assets/images/img/team-4.jpg"
                   alt=""
                 />
-              </div>
-              <div
-                class="position-relative d-flex justify-content-center"
-                style="margin-top: -23px"
-              >
-                <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="facebook"
-                  >
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="twitter"
-                  >
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button
-                    class="btn btn-sm-square btn-primary mx-1"
-                    aria-label="instagram"
-                  >
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                </div>
               </div>
               <div class="text-center p-4">
                 <div class="mb-0 h5">Anh Tanaka</div>

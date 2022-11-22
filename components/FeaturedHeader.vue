@@ -9,7 +9,7 @@
               <nuxt-img
                 preset="default"
                 class="img-fluid position-absolute w-100 h-100"
-                src="/assets/images/feature-campingtoilette-trobolo-wandago.webp"
+                src="/assets/images/trenntoilette.jpg"
                 :alt="config.seo.mainKeyword"
                 style="object-fit: cover; object-position: center bottom"
               />

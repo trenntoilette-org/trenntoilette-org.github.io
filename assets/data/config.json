@@ -8,9 +8,12 @@
     "companyAddress": "Steinbrink 28 30966 Hemmingen, Deutschland",
     "imageFolder": "/assets/images/products/",
     "productUrl": "/produkt/",
-    "socialMediaAccounts": [
-        { "name": "Twitter", "link": "https://www.twitter.com/campingtoilette", "iconClass": "fab fa-twitter", "published": false }
-    ],
+    "socialMediaAccounts": [{
+        "name": "Twitter",
+        "link": "https://www.twitter.com/campingtoilette",
+        "iconClass": "fab fa-twitter",
+        "published": false
+    }],
     "imageQuality": 90,
     "seo": {
         "globalProductRobots": "index, follow",
@@ -162,7 +165,6 @@
                     "linkTo": "/hersteller/trelino/",
                     "linkTitle": "Trenntoiletten von Trelino",
                     "publish": true
-
                 },
                 {
                     "title": "Kompotoi",
@@ -186,7 +188,6 @@
                     "linkTo": "/kategorie/gartentoilette/",
                     "linkTitle": "Gartentoiletten",
                     "publish": true
-
                 },
                 {
                     "title": "Campingtoilette",
