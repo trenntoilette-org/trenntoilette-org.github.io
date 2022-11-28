@@ -129,7 +129,7 @@ export default {
 
     googleFonts: {
         display: 'swap',
-        base64: false,
+        base64: true,
         download: true,
         families: {
             Heebo: {
