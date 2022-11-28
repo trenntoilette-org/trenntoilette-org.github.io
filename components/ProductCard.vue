@@ -5,21 +5,18 @@
       <ul class="list-unstyled">
         <li class="d-flex justify-content-between align-items-center">
           <span>Hersteller</span>
-          <span
-            ><nuxt-link :to="`/hersteller/${product.brand.toLowerCase()}/`">{{
-              product.brand
-            }}</nuxt-link></span
-          >
+          <span>
+            <nuxt-link :to="`/hersteller/${product.brand.toLowerCase()}/`">{{
+                product.brand
+            }}</nuxt-link>
+          </span>
         </li>
         <hr />
 
         <li class="d-flex justify-content-between align-items-center">
           <span>Kategorie</span>
-          <nuxt-link
-            :to="`/kategorie/${product.category.toLowerCase()}/`"
-            :title="category ? category.seo.title : false"
-            ><span>{{ product.category }}</span></nuxt-link
-          >
+          <nuxt-link v-if="product.category" :to="`/kategorie/${product.category.toLowerCase()}/`"
+            :title="category ? category.seo.title : false"><span>{{ product.category }}</span></nuxt-link>
         </li>
         <hr />
 
@@ -34,16 +31,8 @@
         <li class="d-flex justify-content-between align-items-center">
           <span>Bewertung</span>
           <div class="mb-1 mt-3">
-            <small
-              v-for="star in product.stars"
-              :key="star"
-              class="pl-3 fa fa-star text-primary"
-            ></small>
-            <small
-              v-for="index in 5 - product.stars"
-              :key="index"
-              class="fa fa-star text-default"
-            ></small>
+            <small v-for="star in product.stars" :key="star" class="pl-3 fa fa-star text-primary"></small>
+            <small v-for="index in 5 - product.stars" :key="index" class="fa fa-star text-default"></small>
           </div>
         </li>
 
