@@ -1,4 +1,5 @@
-[{
+[
+    {
         "brand": "TROBOLO",
         "sku": "CBXX1380",
         "name": "Kinder Toilettenhocker",
@@ -176,7 +177,7 @@
         "slug": "top-flussigkeitsbehalter-buxx1321",
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Liquids_Container-1200x675.jpg",
         "localThumb": "trobolo-flussigkeitsbehalter-buxx1321.jpg",
-        "price": "24.9",
+        "price": "19.9",
         "reviewCount": 47,
         "shopLink": "https://trobolo.com/de/produkte/flussigkeitsbehalter/",
         "featured": false,
@@ -430,7 +431,7 @@
         "slug": "top-trobolo-tinyblm-t2xx1370",
         "image": "https://trobolo.com/wp-content/uploads/2020/12/TROBOLO_TinyBloem_960x640-1200x675.jpg",
         "localThumb": "trobolo-trobolo-tinyblm-t2xx1370.jpg",
-        "price": "949",
+        "price": "879",
         "reviewCount": 321,
         "shopLink": "https://trobolo.com/de/produkte/tinybloem/",
         "featured": true,
@@ -545,7 +546,7 @@
         "slug": "top-trobolo-wandago-p1xx1403",
         "image": "https://trobolo.com/wp-content/uploads/2022/04/campingtoilette-trobolo-wandago-1200x675.jpg",
         "localThumb": "trobolo-trobolo-wandago-p1xx1403.jpg",
-        "price": "199",
+        "price": "249",
         "reviewCount": 287,
         "shopLink": "https://trobolo.com/de/produkte/wandago/",
         "featured": true,
@@ -558,11 +559,21 @@
             "robots": "index, follow"
         },
         "specifications": [
-            { "Material": "Erlenmehrschichtholz" },
-            { "Maße": "Höhe 313 - Tiefe 382 - Breite 341 mm" },
-            { "Gewicht": "4,7 kg" },
-            { "Traglast": "150 kg" },
-            { "Funktion": "Trennsystem" }
+            {
+                "Material": "Erlenmehrschichtholz"
+            },
+            {
+                "Maße": "Höhe 313 - Tiefe 382 - Breite 341 mm"
+            },
+            {
+                "Gewicht": "4,7 kg"
+            },
+            {
+                "Traglast": "150 kg"
+            },
+            {
+                "Funktion": "Trennsystem"
+            }
         ]
     },
     {
@@ -605,7 +616,7 @@
         "slug": "top-trobolo-lunablm-t1xx1401",
         "image": "https://trobolo.com/wp-content/uploads/2021/08/TROBOLO_LunaBloem-1200x675.png",
         "localThumb": "trobolo-trobolo-lunablm-t1xx1401.png",
-        "price": 789,
+        "price": 699,
         "reviewCount": 166,
         "shopLink": "https://trobolo.com/de/produkte/lunabloem/",
         "featured": false,
@@ -720,7 +731,7 @@
         "slug": "top-trenntoiletten-einsatz-wei-u6wxx1359",
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Urine-diverting_toilets_insert_white-1200x675.jpg",
         "localThumb": "trobolo-trenntoiletten-einsatz-wei-u6wxx1359.jpg",
-        "price": "89.9",
+        "price": "69,9",
         "reviewCount": 26,
         "shopLink": "https://trobolo.com/de/produkte/trobolo-trenntoiletten-einsatz-weiss/",
         "featured": false,
@@ -743,7 +754,7 @@
         "slug": "top-trenntoiletten-einsatz-wei-amp-toilettensitz-stwxx1376",
         "image": "https://trobolo.com/wp-content/uploads/2020/12/Urine-diverting_toilets_insert_white__toilet_-seat_960x640-1200x675.jpg",
         "localThumb": "trobolo-trenntoiletten-einsatz-wei-amp-toilettensitz-stwxx1376.jpg",
-        "price": "159.9",
+        "price": "139.9",
         "reviewCount": 189,
         "shopLink": "https://trobolo.com/de/produkte/set-trenntoiletten-einsatz-weiss-toilettensitz/",
         "featured": false,
@@ -812,7 +823,7 @@
         "slug": "top-diy-set-bs1xx1404",
         "image": "https://trobolo.com/wp-content/uploads/2022/02/DIY-Set-grey-small-1-1200x675.jpg",
         "localThumb": "trobolo-diy-set-bs1xx1404.jpg",
-        "price": 119.9,
+        "price": 114.9,
         "reviewCount": 114,
         "shopLink": "https://trobolo.com/de/produkte/diy-set/",
         "featured": true,
@@ -950,7 +961,7 @@
         "slug": "top-diy-set-mit-urinableitung-bs3xx1406",
         "image": "https://trobolo.com/wp-content/uploads/2022/02/DIY-Set-with-external-urine-drainage-grey-small-1-1200x675.jpg",
         "localThumb": "trobolo-diy-set-mit-urinableitung-bs3xx1406.jpg",
-        "price": 109.9,
+        "price": 99.9,
         "reviewCount": 304,
         "shopLink": "https://trobolo.com/de/produkte/diy-set-mit-urinableitung/",
         "featured": false,
@@ -1134,7 +1145,7 @@
         "slug": "top-trobolo-terablm-s5xx1392",
         "image": "https://trobolo.com/wp-content/uploads/2020/12/TROBOLO_TeraBloem_960x640-1200x675.jpg",
         "localThumb": "trobolo-trobolo-terablm-s5xx1392.jpg",
-        "price": 429,
+        "price": 419,
         "reviewCount": 335,
         "shopLink": "https://trobolo.com/de/produkte/terabloem/",
         "featured": true,
