@@ -8,12 +8,24 @@
     "companyAddress": "Steinbrink 28 30966 Hemmingen, Deutschland",
     "imageFolder": "/assets/images/products/",
     "productUrl": "/produkt/",
-    "socialMediaAccounts": [{
-        "name": "Twitter",
-        "link": "https://www.twitter.com/campingtoilette",
-        "iconClass": "fab fa-twitter",
-        "published": false
-    }],
+    "affiliates": [
+        {
+            "name": "TROBOLO",
+            "active": true,
+            "parameter": {
+                "key": "ref",
+                "value": 26
+            }
+        }
+    ],
+    "socialMediaAccounts": [
+        {
+            "name": "Twitter",
+            "link": "https://www.twitter.com/campingtoilette",
+            "iconClass": "fab fa-twitter",
+            "published": false
+        }
+    ],
     "imageQuality": 90,
     "seo": {
         "globalProductRobots": "index, follow",
@@ -39,7 +51,8 @@
         "Geruchsentwicklung",
         "Entsorgung & Hygiene"
     ],
-    "brands": [{
+    "brands": [
+        {
             "key": "trobolo",
             "name": "TROBOLO",
             "productCategory": "TROBOLO",
@@ -84,7 +97,8 @@
             }
         }
     ],
-    "categories": [{
+    "categories": [
+        {
             "key": "campingtoilette",
             "name": "Campingtoiletten",
             "productCategory": "Campingtoilette",
@@ -139,7 +153,8 @@
             "footerLink": true
         }
     ],
-    "navigationLinks": [{
+    "navigationLinks": [
+        {
             "title": "Home",
             "linkTo": "/",
             "linkTitle": "Campingtoiletten",
@@ -154,7 +169,8 @@
         {
             "title": "Hersteller",
             "publish": true,
-            "subLinks": [{
+            "subLinks": [
+                {
                     "title": "TROBOLO",
                     "linkTo": "/hersteller/trobolo/",
                     "linkTitle": "Trenntoiletten von TROBOLO",
@@ -177,7 +193,8 @@
         {
             "title": "Trenntoiletten",
             "publish": true,
-            "subLinks": [{
+            "subLinks": [
+                {
                     "title": "Innenbereich",
                     "linkTo": "/kategorie/innenbereich/",
                     "linkTitle": "Trenntoiletten für den Innenbereich",
@@ -200,7 +217,8 @@
         {
             "title": "Zubehör",
             "publish": true,
-            "subLinks": [{
+            "subLinks": [
+                {
                     "title": "Einstreu",
                     "linkTo": "/kategorie/einstreu/",
                     "linkTitle": "Einstreu für die Campingtoilette",
