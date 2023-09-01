@@ -30,8 +30,23 @@ export default {
             { src: 'https://code.jquery.com/jquery-3.6.0.min.js', integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=", crossorigin: "anonymous", body: false },
             { type: 'text/javascript', src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', body: true },
             { type: 'text/javascript', src: '/assets/js/main.js', body: true },
-
-        ]
+            {
+                src: "https://www.googletagmanager.com/gtag/js?id=G-RPV9TEV5GE",
+                async: true,
+            },
+            {
+                innerHTML: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-RPV9TEV5GE');
+                `,
+            },
+        ],
+        __dangerouslyDisableSanitizersByTagID: {
+            // this is to prevent Nuxt from sanitizing the innerHTML
+            'google-gtag': ['innerHTML'],
+        },
     },
 
     generate: {
